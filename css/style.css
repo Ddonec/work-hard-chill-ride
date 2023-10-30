@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+body,
+footer {
+  width: 1920px;
+}
+
+header {
+  height: 186px;
+}
+
+/* HEEDER */
+.header-top-blue {
+  background-color: #5567ea;
+  height: 91px;
+  align-items: center;
+  display: flex;
+}
+#summer,
+#winter {
+  display: none;
+}
+.year-time-button {
+  margin: 0 70px;
+  width: 164px;
+  height: 54px;
+  background: white;
+  border-radius: 50px;
+  padding: 5px 2px;
+  display: flex;
+}
+#sun-header-button {
+  width: 24px;
+  height: 24px;
+  margin: 9px 10px 10px 20px;
+}
+.button-active-bar-header {
+  background-color: #5567ea;
+  display: flex;
+  padding: 9px 20px 10px 20px;
+  align-items: flex-start;
+  gap: 3px;
+  align-items: center;
+  color: white;
+  border-radius: 40px;
+}
+
+.header-1920-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  color: white;
+}
+.header-1920-list li {
+  padding: 10px;
+}
+
+.logo-header {
+  position: absolute;
+  top: 8px;
+  left: 888px;
+  z-index: 2;
+}
+.number-header-yellow {
+  color: #ffc93a;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  margin-left: 204px;
+  margin-right: 25px;
+}
+#search-header-1920 {
+  display: flex;
+  width: 202px;
+  height: 54px;
+  padding: 15px 20px 15px 30px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  opacity: 0.5;
+  background-color: #5567ea;
+  list-style: none;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+}
+#search-icon-1920 {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.input-zone-1920 {
+  position: relative;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: white;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: white;
+}
+
+.profile-icon-header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 88px;
+
+  /* text */
+
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+}
+.second-line-header {
+  background: rgba(232, 234, 251, 0.8);
+  height: 77px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.under-bike {
+  background: #5567ea;
+  width: 177px;
+  height: 36px;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  left: 872px;
+  top: 0;
+}
+
+.header-second-line-container {
+  display: flex;
+  /* margin: 0 auto; */
+  margin-left: 309px;
+}
+
+.text-second-line-header {
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  padding: 10px;
+}
+
+.left-list ul,
+.right-list ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.spase-between-header {
+  width: 207px;
+}
+
+/* 
+BODY 
+s1
+*/
+
+.first-section {
+  width: 1920px;
+  position: relative;
+}
+
+.text-area-first-section-1920 {
+  margin: 0 auto;
+  margin-top: 44px;
+  width: 1302px;
+  flex-shrink: 0;
+  color: #333;
+  text-align: center;
+  font-family: Montserrat Alternates, "Source Sans Pro";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 84px */
+  position: relative;
+}
+h1 {
+  font-family: Montserrat Alternates, "Source Sans Pro";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 84px */
+}
+
+h2 {
+  z-index: 2;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #fff;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.shadow-moscow {
+  width: 1132px;
+  height: 40px;
+  background: #e8eafb;
+  position: absolute;
+  top: 47px;
+}
+.text-area-moscow {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.last-text-first-section {
+  margin-top: 45px;
+  color: #333;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+}
+
+.to-choice-btn {
+  margin: 30px auto 45px;
+  display: inline-flex;
+  padding: 14px 32px 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #ffc93a;
+  border: none;
+
+  color: #333;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+}
+
+.map-map-s1 {
+  width: 1200px;
+  border-radius: 50px;
+}
+
+/* 
+BODY 
+s2
+*/
+
+.title-of-section {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  width: 618px;
+  gap: 20px;
+}
+
+.second-section {
+  width: 1920px;
+  position: relative;
+}
+.opacity-text-section {
+  z-index: 2;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.shadow-section {
+  width: 331px;
+  height: 40px;
+  background: #e8eafb;
+  position: absolute;
+  top: 47px;
+  z-index: 0;
+  right: 4px;
+}
+
+.nav-shop {
+  width: 1230px;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  border-radius: 30px;
+  border: 1px solid rgba(85, 103, 234, 0.2);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.nav-shop ul {
+  width: 1230px;
+  display: flex;
+  list-style: none;
+  gap: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-shop ul li:not(:last-child) {
+  padding: 14px 32px 16px 32px;
+}
+.nav-shop ul li:last-child {
+  margin-left: 73px;
+  border-radius: 30px;
+  border: 2px solid #ffc93a;
+  padding: 13px 32px 14px 32px;
+  line-height: 90%;
+}
+
+.nav-shop ul li:first-child {
+  border-radius: 30px;
+  border: 2px solid #ffc93a;
+}
+#vector-1 {
+  width: 14px;
+  height: 28px;
+}
+.discription-of-product {
+  padding: 24px 20px;
+  overflow: hidden;
+  color: #333;
+  text-overflow: ellipsis;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 33.6px */
+
+  border-radius: 20px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  background: #f4f4f8;
+}
+.opacity-text-discription-product-card {
+  opacity: 0.5;
+}
+
+.discription-of-product ul {
+  margin-top: 12px;
+  list-style: none;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.add-to-cart-btn {
+  display: flex;
+  padding: 18px 32px 19px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: var(--yellow, #ffc93a);
+}
+.price-of-product {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-of-product {
+  border-radius: 20px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  background: #fafafa;
+  width: 310px;
+  height: 443px;
+}
+.prise-of-rent-1 {
+  padding-right: 32px;
+}
+.img-of-product {
+  border-radius: 20px;
+  width: 309px;
+}
+.shop-take-rent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 1300px;
+  margin: 30px auto 0;
+}
+.go-to-shop-btn {
+  margin: 40px auto 30px;
+  display: inline-flex;
+  padding: 14px 32px 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #ffc93a;
+  border: none;
+}
