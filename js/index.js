@@ -8,14 +8,12 @@ const headerList = document.querySelector(".header-1920-list");
 const header2List = document.querySelector(".icun-list-h");
 const searchZoneHeader = document.getElementById("search-header-1920");
 
+const blueFake = document.querySelector(".blue-line-fake");
+const grayFake = document.querySelector(".gray-line-fake");
+
 checkbox.addEventListener("change", function () {
-  // Определите новый цвет для текста плейсхолдера
   const newPlaceholderColor = this.checked ? "red" : "white";
-
-  // Получите элемент плейсхолдера
   const placeholderElement = searchZoneHeader;
-
-  // Если чекбокс отмечен, установите новый цвет плейсхолдера
   if (this.checked) {
     summerContent.style.display = "none";
     winterContent.style.display = "flex";
@@ -27,8 +25,9 @@ checkbox.addEventListener("change", function () {
     searchZoneHeader.style.border = "2px solid #fff";
     searchZoneHeader.style.background = "#5567ea";
     placeholderElement.style.color = newPlaceholderColor;
+    blueFake.style.background = "#5567ea";
+    grayFake.style.background = "rgba(232, 234, 251, 0.8)";
   } else {
-    // Если чекбокс не отмечен, установите цвет обратно на белый
     winterContent.style.display = "none";
     summerContent.style.display = "flex";
     headerLine.style.background = "#ffc93a";
@@ -39,5 +38,7 @@ checkbox.addEventListener("change", function () {
     searchZoneHeader.style.border = "2px solid black";
     searchZoneHeader.style.background = "#ffdd64";
     placeholderElement.style.color = newPlaceholderColor;
+    blueFake.style.background = "#ffc93a";
+    grayFake.style.background = "#fff9e8";
   }
 });
