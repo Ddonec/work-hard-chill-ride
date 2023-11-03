@@ -21,61 +21,109 @@
 
     <title>Document</title>
   </head>
-  <header>
-    <div class="header-top-blue">
-      <div class="year-time-button">
-        <img src="assets/icon/sun.svg" alt="sun" id="sun-header-button" />
-        <input type="radio" id="summer" name="timeofyear" />
-        <!-- <label id="lsummer" for="summer">Лето</label> -->
-        <div class="button-active-bar-header">
-          <img src="assets/icon/snowflake.svg" alt="snow" />
-          <input type="radio" id="winter" name="timeofyear" checked />
-          <label id="lwinter" for="winter">Зима</label>
+  <body>
+    <header>
+      <div class="heaer-fake-fullscreen">
+        <div class="blue-line-fake"></div>
+        <div class="gray-line-fake"></div>
+      </div>
+      <div class="header-top-blue">
+        <div class="year-time-button">
+          <label class="switch">
+            <input type="checkbox" checked />
+            <span class="slider round pointer">
+              <div class="text-in-slider-buton" id="season-content">
+                <!-- В начальном состоянии отображаем зиму -->
+                <div class="season winter">
+                  <img
+                    src="assets/icon/sun.svg"
+                    alt="sun"
+                    id="sun-header-button"
+                  />
+                  <img
+                    src="assets/icon/snowflake.svg"
+                    alt="snow"
+                    id="snow-header-button"
+                  />
+                  Зима
+                </div>
+                <!-- В скрытом состоянии отображаем лето -->
+                <div class="season summer" style="display: none">
+                  <img
+                    src="assets/icon/sun.svg"
+                    alt="sun"
+                    id="sun-header-button-2"
+                  />
+                  Лето
+                  <img
+                    src="assets/icon/sun.svg"
+                    alt="sun"
+                    id="snow-header-button-2"
+                  />
+                </div>
+              </div>
+            </span>
+          </label>
         </div>
-      </div>
-      <ul class="header-1920-list">
-        <li>Компания <img src="assets/icon/Frame-36.svg" /></li>
-        <li>Сервис <img src="assets/icon/Frame-36.svg" /></li>
-        <li>Сообщества <img src="assets/icon/Frame-36.svg" /></li>
-        <li>Франшиза</li>
-      </ul>
-      <div class="number-header-yellow">8 935 168 04 16</div>
-      <div class="input-zone-1920">
-        <img src="assets/icon/Vector.svg" alt="" id="search-icon-1920" />
-        <input type="text" placeholder="Поиск" id="search-header-1920" />
-      </div>
-      <div class="profile-icon-header">
-        <ul>
-          <li><img src="assets/icon/login.svg" alt="" /></li>
-          <li><img src="assets/icon/heart.svg" alt="" /></li>
-          <li>Рус <img src="assets/icon/Frame-36.svg" alt="" /></li>
+        <ul class="header-1920-list">
+          <li class="pointer">
+            Компания <img src="assets/icon/Frame-36.svg" />
+          </li>
+          <li class="pointer">Сервис <img src="assets/icon/Frame-36.svg" /></li>
+          <li class="pointer">
+            Сообщества <img src="assets/icon/Frame-36.svg" />
+          </li>
+          <li class="pointer">Франшиза</li>
         </ul>
-      </div>
-      <div class="logo-header"><img src="assets/icon/Group3.svg" alt="" /></div>
-    </div>
-    <div class="second-line-header">
-      <div class="header-second-line-container">
-        <div class="left-list">
-          <ul>
-            <li class="text-second-line-header">Найди свой парк</li>
-            <li class="text-second-line-header">Возьми в прокат</li>
-            <li class="text-second-line-header">Развлечения детям</li>
-          </ul>
+        <div>
+          <a class="number-header-yellow" href="tel:89351680416"
+            >8 935 168 04 16</a
+          >
         </div>
-        <div class="spase-between-header"></div>
-        <div class="right-list">
-          <ul>
-            <li class="text-second-line-header">Веревочный парк</li>
-            <li class="text-second-line-header">
-              Организация детских праздников
+        <div class="input-zone-1920">
+          <img src="assets/icon/Vector.svg" alt="" id="search-icon-1920" />
+          <input
+            type="text"
+            placeholder="Поиск"
+            id="search-header-1920"
+            class="search-header-1920"
+          />
+        </div>
+        <div class="profile-icon-header">
+          <ul class="icun-list-h">
+            <li><img class="pointer" src="assets/icon/login.svg" alt="" /></li>
+            <li><img class="pointer" src="assets/icon/heart.svg" alt="" /></li>
+            <li class="pointer">
+              Рус <img src="assets/icon/Frame-36.svg" alt="" />
             </li>
           </ul>
         </div>
+        <div class="logo-header">
+          <img src="assets/icon/Group3.svg" alt="" />
+        </div>
       </div>
-      <div class="under-bike"></div>
-    </div>
-  </header>
-  <body>
+      <div class="second-line-header">
+        <div class="header-second-line-container">
+          <div class="left-list">
+            <ul>
+              <li class="text-second-line-header pointer">Найди свой парк</li>
+              <li class="text-second-line-header pointer">Возьми в прокат</li>
+              <li class="text-second-line-header pointer">Развлечения детям</li>
+            </ul>
+          </div>
+          <div class="spase-between-header"></div>
+          <div class="right-list">
+            <ul>
+              <li class="text-second-line-header pointer">Веревочный парк</li>
+              <li class="text-second-line-header pointer">
+                Организация детских праздников
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="under-bike"></div>
+      </div>
+    </header>
     <section class="first-section">
       <div class="text-area-first-section-1920">
         <h1>Крупнейшая сеть всесезонных прокатов в парках</h1>
@@ -102,14 +150,16 @@
       </div>
       <div class="nav-shop">
         <ul>
-          <li>Всё</li>
-          <li>Велосипеды</li>
-          <li>Веломобили</li>
-          <li>Электро</li>
-          <li>Коньки</li>
-          <li>Катамараны</li>
-          <li>Лодки</li>
-          <li><img id="vector-1" src="assets/icon/Vector-1.svg" alt="" /></li>
+          <li class="pointer">Всё</li>
+          <li class="pointer">Велосипеды</li>
+          <li class="pointer">Веломобили</li>
+          <li class="pointer">Электро</li>
+          <li class="pointer">Коньки</li>
+          <li class="pointer">Катамараны</li>
+          <li class="pointer">Лодки</li>
+          <li class="pointer">
+            <img id="vector-1" src="assets/icon/Vector-1.svg" alt="" />
+          </li>
         </ul>
       </div>
       <div class="shop-take-rent">
@@ -137,7 +187,7 @@
                 >в 3 парках
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -172,7 +222,7 @@
                 >3шт
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -207,7 +257,7 @@
                 >в 3 парках
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -242,7 +292,7 @@
                 >3шт
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -277,7 +327,7 @@
                 >3шт
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -312,7 +362,7 @@
                 >в 3 парках
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -347,7 +397,7 @@
                 >3шт
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -382,7 +432,7 @@
                 >в 3 парках
               </li>
             </ul>
-            <div class="price-of-product">
+            <div class="price-of-product pointer">
               <img
                 class="add-to-cart-btn"
                 src="assets/icon/Vector+.svg"
@@ -396,8 +446,18 @@
         <button class="go-to-shop-btn">Перейти в каталог</button>
       </div>
       <div class="hand-mask-app-banner">
-        <img id="hand-iphone" src="assets/content/iphine_+_hand.png" alt="" />
-        <img id="iphone-screen" src="assets/content/iPhone-scren.png" alt="" />
+        <img
+          class="pointer"
+          id="hand-iphone"
+          src="assets/content/iphine_+_hand.png"
+          alt=""
+        />
+        <img
+          class="pointer"
+          id="iphone-screen"
+          src="assets/content/iPhone-scren.png"
+          alt=""
+        />
         <div class="app-banner">
           <svg
             id="koleso"
@@ -431,7 +491,8 @@
             <div>скидку 15%</div>
           </div>
           <div class="apps-links-app-cart">
-            <img src="assets/content/appstore.png" alt="" /><img
+            <img class="pointer" src="assets/content/appstore.png" alt="" /><img
+              class="pointer"
               src="assets/content/googleplay.png"
               alt=""
             />
@@ -501,39 +562,39 @@
       </button>
     </section>
     <section class="four-section">
-        <div class="images-swipe-four">
-            <img src="assets/content/2.png" alt="">
-            <img src="assets/content/3.png" alt="">
-            <img src="assets/content/4.png" alt="">
-            <img src="assets/content/5.png" alt="">
+      <div class="images-swipe-four">
+        <img src="assets/content/2.png" alt="" />
+        <img src="assets/content/3.png" alt="" />
+        <img src="assets/content/4.png" alt="" />
+        <img src="assets/content/5.png" alt="" />
+      </div>
+      <div class="title-of-section-4">
+        <div class="opacity-text-section">Верёвочный</div>
+        <div class="black-text-section">парк</div>
+        <div class="shadow-section-4"></div>
+      </div>
+      <div class="emotion-card">
+        <div>
+          <p>Испытайте яркие эмоции:</p>
+          <ul>
+            <li>
+              <img src="assets/icon/baby.svg" alt="" />Вместе со своими детьми;
+            </li>
+            <li>
+              <img src="assets/icon/heart-handshake.svg" alt="" /> Опытными
+              инструкторами;
+            </li>
+            <li>
+              <img src="assets/icon/roller-coaster.svg" alt="" /> В поездке на
+              роллглайдере
+            </li>
+          </ul>
         </div>
-        <div class="title-of-section-4">
-            <div class="opacity-text-section">Верёвочный</div>
-            <div class="black-text-section">парк</div>
-            <div class="shadow-section-4"></div>
+        <div class="emotion-card-buttons">
+          <button>Пойти в веревочный парк</button>
+          <button>Узнать больше</button>
         </div>
-        <div class="emotion-card">
-            <div>
-                <p>Испытайте яркие эмоции:</p>
-                <ul>
-                    <li>
-                        <img src="assets/icon/baby.svg" alt="" />Вместе со своими детьми;
-                    </li>
-                    <li>
-                        <img src="assets/icon/heart-handshake.svg" alt="" /> Опытными
-                        инструкторами;
-                    </li>
-                    <li>
-                        <img src="assets/icon/roller-coaster.svg" alt="" /> В поездке на
-                        роллглайдере
-                    </li>
-                </ul>
-            </div>
-            <div class="emotion-card-buttons">
-                <button>Пойти в веревочный парк</button>
-                <button>Узнать больше</button>
-            </div>
-        </div>
+      </div>
     </section>
     <section class="five-section">
       <div class="title-of-section-5">
@@ -711,66 +772,72 @@
         Смотреть все полезные материалы
       </button>
     </section>
-  </body>
-  <footer>
-    <div class="images-footer">
-      <img src="assets/icon/Group3.svg" alt="" />
-      <div>
-        <img src="assets/content/appstore.png" alt="" />
-        <img src="assets/content/googleplay.png" alt="" />
-      </div>
-    </div>
-    <div class="columns-footer">
-      <div class="row-footer-1">
-        <div class="title-list-1">Компания</div>
-        <ul>
-          <li>Техника</li>
-          <li>Мы в парках</li>
-          <li>О нас</li>
-          <li>Новости</li>
-          <li>Пикник Сити</li>
-        </ul>
-      </div>
-
-      <div class="row-footer-1">
-        <div class="title-list-1">Сервис</div>
-        <ul>
-          <li>Ремонт техники</li>
-          <li>Сезонное хранение</li>
-          <li>Велотур</li>
-          <li>Корп. клиентам</li>
-          <li>Франшиза</li>
-        </ul>
-      </div>
-
-      <div class="row-footer-2">
-        <div class="title-list-1">Документация</div>
-        <ul>
-          <li>Правила проката</li>
-          <li>Договор оферта</li>
-          <li>Политика конфиденциальности</li>
-          <li>Пользовательское соглашение для мобильного приложения</li>
-        </ul>
-      </div>
-
-      <div class="row-footer-1">
-        <div class="title-list-1">Контакты</div>
-        <ul>
-          <li><span class="yellow-number-footer">+7(925) 429-70-29</span></li>
-          <li>kuti.katai@mail.ru</li>
-        </ul>
-        <div class="social-media-footer">
-          <img src="assets/icon/socials.svg" alt="" />
-          <img src="assets/icon/tg.svg" alt="" />
+    <footer>
+      <div class="images-footer">
+        <img src="assets/icon/Group3.svg" alt="" />
+        <div>
+          <img class="pointer" src="assets/content/appstore.png" alt="" />
+          <img class="pointer" src="assets/content/googleplay.png" alt="" />
         </div>
       </div>
-    </div>
-    <div class="footer-line"></div>
-    <div class="payments-metod">
-      <img src="assets/icon/mir.svg" alt="" />
-      <img src="assets/icon/mastercard.svg" alt="" />
-      <img src="assets/icon/visa.svg" alt="" />
-    </div>
-  </footer>
+      <div class="columns-footer">
+        <div class="row-footer-1">
+          <div class="title-list-1 poinetr">Компания</div>
+          <ul>
+            <li class="pointer">Техника</li>
+            <li class="pointer">Мы в парках</li>
+            <li class="pointer">О нас</li>
+            <li class="pointer">Новости</li>
+            <li class="pointer">Пикник Сити</li>
+          </ul>
+        </div>
+
+        <div class="row-footer-1">
+          <div class="title-list-1 pointer">Сервис</div>
+          <ul>
+            <li class="pointer">Ремонт техники</li>
+            <li class="pointer">Сезонное хранение</li>
+            <li class="pointer">Велотур</li>
+            <li class="pointer">Корп. клиентам</li>
+            <li class="pointer">Франшиза</li>
+          </ul>
+        </div>
+
+        <div class="row-footer-2">
+          <div class="title-list-1 pointer">Документация</div>
+          <ul>
+            <li class="pointer">Правила проката</li>
+            <li class="pointer">Договор оферта</li>
+            <li class="pointer">Политика конфиденциальности</li>
+            <li class="pointer">
+              Пользовательское соглашение для мобильного приложения
+            </li>
+          </ul>
+        </div>
+
+        <div class="row-footer-1">
+          <div class="title-list-1">Контакты</div>
+          <ul>
+            <li>
+              <span class="yellow-number-footer pointer"
+                >+7(925) 429-70-29</span
+              >
+            </li>
+            <li class="pointer">kuti.katai@mail.ru</li>
+          </ul>
+          <div class="social-media-footer">
+            <img class="pointer" src="assets/icon/socials.svg" alt="" />
+            <img class="pointer" src="assets/icon/tg.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="payments-metod">
+        <img src="assets/icon/mir.svg" alt="" />
+        <img src="assets/icon/mastercard.svg" alt="" />
+        <img src="assets/icon/visa.svg" alt="" />
+      </div>
+    </footer>
+  </body>
   <script src="js/index.js"></script>
 </html>
