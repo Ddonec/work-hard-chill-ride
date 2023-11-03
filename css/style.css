@@ -3,31 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  margin: 0 auto;
-}
 
 footer {
   padding: 68px 0 1px 0;
-  display: block;
   background-color: #222;
   background-image: url(../assets/content/Noise&Texture.png);
+  width: 1920px;
+  position: relative;
+  z-index: 100;
 }
-
-header,
-body,
-footer {
+body {
+  margin: 0 auto;
   width: 1920px;
 }
+
 
 header {
   height: 186px;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* HEEDER */
 .header-top-blue {
   position: relative;
-  background-color: #5567ea;
+  background: #5567ea;
   height: 91px;
   align-items: center;
   display: flex;
@@ -39,17 +41,31 @@ header {
 .year-time-button {
   margin: 0 70px;
   width: 164px;
-  height: 54px;
+  /* height: 54px;
   background: white;
   border-radius: 50px;
   padding: 5px 2px;
-  display: flex;
+  display: flex; */
 }
 #sun-header-button {
   width: 24px;
   height: 24px;
-  margin: 9px 10px 10px 20px;
+  margin-left: 20px;
 }
+#snow-header-button {
+  width: 24px;
+  height: 24px;
+  margin: 0 3px 0 30px;
+}
+#sun-header-button-2 {
+  width: 24px;
+  height: 24px;
+  margin: 0 3px 0 20px;
+}
+#snow-header-button-2 {
+  margin-left: 40px;
+}
+
 .button-active-bar-header {
   background-color: #5567ea;
   display: flex;
@@ -84,6 +100,7 @@ header {
   z-index: 2;
 }
 .number-header-yellow {
+  text-decoration: none;
   color: #ffc93a;
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -104,8 +121,8 @@ header {
   flex-shrink: 0;
   border-radius: 40px;
   border: 2px solid #fff;
+  background: #5567ea;
   opacity: 0.5;
-  background-color: #5567ea;
   list-style: none;
   display: flex;
   font-family: "Lato", sans-serif;
@@ -114,6 +131,9 @@ header {
   font-weight: 500;
   line-height: 140%; /* 25.2px */
 }
+#search-header-1920::placeholder {
+  color: white;
+}
 #search-icon-1920 {
   position: absolute;
   top: 15px;
@@ -121,23 +141,6 @@ header {
 }
 .input-zone-1920 {
   position: relative;
-}
-
-::-webkit-input-placeholder {
-  /* WebKit browsers */
-  color: white;
-}
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: white;
-}
-::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: white;
-}
-:-ms-input-placeholder {
-  /* Internet Explorer 10+ */
-  color: white;
 }
 
 .profile-icon-header ul {
@@ -1336,4 +1339,113 @@ s7
   margin: 20px 0 0 10px;
   display: flex;
   gap: 20px;
+}
+
+/* header-fake */
+
+.heaer-fake-fullscreen {
+  width: 100vw;
+  height: 186px;
+  position: absolute;
+  left: 0;
+}
+.blue-line-fake {
+  height: 91px;
+  background: #5567ea;
+}
+.gray-line-fake {
+  background: rgba(232, 234, 251, 0.8);
+  height: 77px;
+}
+/* Кнопка */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 166px;
+  height: 56px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 54px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 44px;
+  width: 110px;
+  bottom: 5px;
+  left: 6px;
+  background-color: #ffdd64;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider.round:before {
+  background-color: #5567ea;
+}
+
+input:focus + .slider.round:before {
+  box-shadow: 0 0 1px #5567ea;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(44px);
+  -ms-transform: translateX(44px);
+  transform: translateX(44px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 22px;
+}
+
+.text-in-slider-buton {
+  z-index: 2;
+  position: relative;
+}
+
+.season {
+  display: flex;
+  text-align: center; /* Выравниваем текст по центру по горизонтали */
+}
+.winter {
+  color: #fff;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  text-align: center;
+}
+
+.summer {
+  color: black;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
 }
