@@ -47,7 +47,7 @@
                     alt="snow"
                     id="snow-header-button"
                   />
-                  Зима
+                  <span class="time-of-year-text"> Зима </span>
                 </div>
                 <!-- В скрытом состоянии отображаем лето -->
                 <div class="season summer" style="display: none">
@@ -56,7 +56,7 @@
                     alt="sun"
                     id="sun-header-button-2"
                   />
-                  Лето
+                  <span class="time-of-year-text"> Лето </span>
                   <img
                     src="assets/icon/sun.svg"
                     alt="sun"
@@ -152,9 +152,8 @@
           <div class="shadow-moscow"></div>
         </div>
         <div class="last-text-first-section">
-          Крупнейшая сеть по организации активного семейного спорта и досуга.
-          <br />
-          60 локаций
+          Крупнейшая сеть по организации активного семейного спорта и досуга. 60
+          локаций
         </div>
         <button class="to-choice-btn">К выбору ...</button>
         <div class="map-area-first-section">
@@ -163,10 +162,10 @@
       </div>
     </section>
     <section class="second-section take-a-rent">
-      <div class="title-of-section">
+      <div class="title-of-section t-o-s">
         <div class="black-text-section">Возьми</div>
-        <div class="opacity-text-section">в прокат</div>
-        <div class="shadow-section"></div>
+        <div class="opacity-text-section o-t-s-all">в прокат</div>
+        <div class="shadow-section s-s-shadow"></div>
       </div>
       <div class="nav-shop">
         <ul>
@@ -178,7 +177,7 @@
           <li class="pointer">Катамараны</li>
           <li class="pointer">Лодки</li>
         </ul>
-        <div class="arrow-right-list">
+        <div class="arrow-right-list pointer">
           <img id="vector-1" src="assets/icon/Vector-1.svg" alt="" />
         </div>
       </div>
@@ -522,10 +521,10 @@
       </div>
     </section>
     <section class="third-section">
-      <div class="title-of-section-3">
+      <div class="title-of-section-3 t-o-s">
         <div class="black-text-section">Развлечения для</div>
-        <div class="opacity-text-section">детей</div>
-        <div class="shadow-section-3"></div>
+        <div class="opacity-text-section o-t-s-all">детей</div>
+        <div class="shadow-section-3 s-s-shadow"></div>
       </div>
       <div class="kids-chill-container">
         <div class="kids-chill">
@@ -589,13 +588,15 @@
         <img src="assets/content/4.png" alt="" />
         <img src="assets/content/5.png" alt="" />
       </div>
-      <div class="title-of-section-4">
-        <div class="opacity-text-section">Верёвочный</div>
+      <div class="title-of-section-4 t-o-s">
+        <div class="opacity-text-section o-t-s-all">Верёвочный</div>
         <div class="black-text-section">парк</div>
-        <div class="shadow-section-4"></div>
+        <div class="shadow-section-4 s-s-shadow"></div>
       </div>
       <div class="cards-rope-park">
-        <div><img src="assets/content/9(3).png" alt="" /></div>
+        <div class="rope-mag-1-hide less-900-hide">
+          <img src="assets/content/9(3).png" alt="" />
+        </div>
         <div class="emotion-card">
           <div>
             <p>Испытайте яркие эмоции:</p>
@@ -619,21 +620,29 @@
             <button>Узнать больше</button>
           </div>
         </div>
-        <div><img src="assets/content/6.png" alt="" /></div>
+        <div class="more-900-hide">
+          <img src="assets/content/9(3).png" alt="" />
+        </div>
+        <div class="less-900-hide">
+          <img src="assets/content/6.png" alt="" />
+        </div>
       </div>
       <div class="cards-rope-park-2">
+        <div class="more-900-hide">
+          <img src="assets/content/6.png" alt="" />
+        </div>
         <div><img src="assets/content/8.png" alt="" /></div>
         <div><img src="assets/content/7.png" alt="" /></div>
       </div>
     </section>
     <section class="five-section">
-      <div class="title-of-section-5">
+      <div class="title-of-section-5 t-o-s">
         <div class="black-text-section black-text-section-5">Организация</div>
 
-        <div class="opacity-text-section opacity-text-section-5">
+        <div class="opacity-text-section o-t-s-all opacity-text-section-5">
           детских праздников
         </div>
-        <div class="shadow-section-5"></div>
+        <div class="shadow-section-5 s-s-shadow"></div>
       </div>
       <p>С большим вниманием к самым маленьким</p>
 
@@ -677,20 +686,20 @@
       </div>
 
       <div class="slider-five-section-5">
-        <div class="image-bg"></div>
-        <div class="text-5-s-2">
+        <div class="image-bg i-b-el-1"></div>
+        <div class="text-5-s-2 i-b-el-2">
           «КутиКатай» создает новый формат организации Дня рождения. Ваш ребенок
           и его друзья смогут ощутить себя настоящими «Супергероями» или
           «Чемпионами», пройти квест или поучаствовать в соревновании дружной
           командой.
         </div>
-        <div class="image-bg-2"></div>
-        <div class="text-5-s-2">
+        <div class="image-bg-2 i-b-el-3"></div>
+        <div class="text-5-s-2 i-b-el-4">
           Устроить праздник мечты поможет аниматор, который организует
           шоу-программу, проведет мастер-класс и увлечен детей в атмосферу
           веселья и радости.
         </div>
-        <div id="card-reserve">
+        <div id="card-reserve" class="i-b-el-5">
           <p>Кстати, комнату можно забронировать</p>
           <span
             >Зарезервируйте место для себя <br />
@@ -699,9 +708,9 @@
           <button>Забронируйте дату вашего праздника</button>
           <img class="gold-balls-img" src="assets/content/image9.png" alt="" />
         </div>
-        <div class="image-bg-3"></div>
-        <div class="image-bg-4"></div>
-        <div class="image-bg-5"></div>
+        <div class="image-bg-3 i-b-el-6"></div>
+        <div class="image-bg-4 i-b-el-7"></div>
+        <div class="image-bg-5 i-b-el-8"></div>
       </div>
 
       <button class="find-out-more-btn">
@@ -709,45 +718,39 @@
       </button>
     </section>
     <section class="six-section">
-      <div class="title-of-section-6">
+      <div class="title-of-section-6 t-o-s">
         <div class="white-text-section">О</div>
         <div class="opacity-text-section-white">нас</div>
-        <div class="shadow-section-6"></div>
+        <div class="shadow-section-6 s-s-shadow"></div>
       </div>
       <div class="info-area-six-section">
         <div class="text-blocks-6-s">
-          <div>
+          <div class="blue-n-c-1">
             За <span>15 лет</span> мы подарили радость более
             <span>4 миллионов</span> гостей
           </div>
-          <div>
+          <div class="blue-n-c-2">
             Мы — крупнейшая сеть прокатов прогулочной техники <br />
             и спортивного инвентаря во все сезоны
           </div>
-          <div>
+          <div class="blue-n-c-3">
             Вот уже 15 лет мы создаём досуг для гостей парков Москвы
             и Московской области. Мы прошли большой путь от малого бизнеса,
             до федеральной сети прокатов и представлены в более, чем 60 парках.
           </div>
-          <button
-            class="show-more-6-section-btn btn-hide"
-            style="display: none"
-          >
-            Узнать больше о Кути Катай
-          </button>
-        </div>
-        <div class="container-for-6-btn">
-          <button class="show-more-6-section-btn">
-            Узнать больше о Кути Катай
-          </button>
-        </div>
-        <div class="photo-and-discription-six-section">
-          <img src="assets/content/img1.png" alt="" />
-          <div class="yellow-block">
+          <div class="blue-n-c-4">
+            <button class="show-more-6-section-btn">
+              Узнать больше о Кути Катай
+            </button>
+          </div>
+          <div class="img-circle blue-n-c-5">
+            <img src="assets/content/img1.png" alt="" />
+          </div>
+          <div class="yellow-block blue-n-c-6">
             С любовью и заботой мы организуем ценное время для общения
             с близкими и закладываем традиции активного здорового отдыха.
           </div>
-          <div class="last-photo"></div>
+          <div class="last-photo blue-n-c-7"></div>
         </div>
         <div class="roll-park-list-visible">
           <div class="roll-park-list">
@@ -783,10 +786,10 @@
     </section>
 
     <section class="seven-section">
-      <div class="title-of-section-7">
+      <div class="title-of-section-7 t-o-s">
         <div class="black-text-section">Полезные</div>
-        <div class="opacity-text-section">материалы</div>
-        <div class="shadow-section-7"></div>
+        <div class="opacity-text-section o-t-s-all">материалы</div>
+        <div class="shadow-section-7 s-s-shadow"></div>
       </div>
       <div class="six-cards-container">
         <div class="usrful-materials-cards">
@@ -880,7 +883,7 @@
             </li>
           </ul>
         </div>
-        <div class="apps-links-footer-2">
+        <div class="apps-links-footer-">
           <img class="pointer" src="assets/content/appstore.png" alt="" />
           <img class="pointer" src="assets/content/googleplay.png" alt="" />
         </div>
