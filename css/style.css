@@ -1009,7 +1009,6 @@ s5
   padding: 14px 32px 16px 32px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   border-radius: 30px;
   background: #ffc93a;
   border: none;
@@ -1649,6 +1648,20 @@ input:checked + .slider:before {
 .list-under-700 {
   display: none;
 }
+.images-slider-five-section-mobile {
+  display: flex;
+  width: 90%;
+  overflow: auto;
+  margin: 0 auto;
+  gap: 20px;
+}
+.images-slider-five-section-mobile > div {
+  flex: 0 0 auto;
+  height: 430px;
+  width: 70vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* MEDIA */
 
@@ -2171,6 +2184,9 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 700px) {
+  .nav-shop ul li:not(:first-child) {
+    display: none;
+  }
   .switch {
     scale: 0.5455;
     width: 85px;
@@ -2195,9 +2211,9 @@ input:checked + .slider:before {
   }
   .logo-header img {
     scale: 0.4276;
-    top: 0;
+    /* top: 0;
     left: 0;
-    position: absolute;
+    position: absolute; */
   }
   .logo-header {
     width: 62px;
@@ -2232,16 +2248,283 @@ input:checked + .slider:before {
     font-size: 18px;
     padding: 0 20px;
   }
-  #hand-iphone, #iphone-screen, #koleso, #krug{
+  #hand-iphone,
+  #iphone-screen,
+  #koleso,
+  .more-900-hide,
+  #krug {
     display: none;
+  }
+  .hand-mask-app-banner {
+    height: 219px;
+  }
+  .app-banner {
+    display: grid;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .apps-links-app-cart {
+    width: 97%;
+    justify-content: space-evenly;
+  }
+  .discription-app-cart {
+    width: max-content;
+    margin: 14px auto 28px;
+    font-size: 18px;
+  }
+  .main-text-app-cart {
+    font-size: 34px;
+    margin: 0 auto;
+  }
+  .main-text-app-cart span {
+    font-size: 34px;
+  }
+  .discription-app-cart div {
+    width: 115px;
+    height: 30px;
+  }
+  .t-o-s {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  #wide-card-on-chill-kids {
+    font-size: 24px;
+  }
+  .emotion-card {
+    height: 340px;
+    width: 90%;
+  }
+  .cards-rope-park-2 {
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: flex-start;
+  }
+  .slider-five-section-5 {
+    display: none;
+  }
+  .text-5-s-2 {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .gold-balls-img {
+    scale: 0.6;
+    right: -93px;
+    bottom: -64px;
+    z-index: 1;
+  }
+  #card-reserve button {
+    position: relative;
+    z-index: 3;
+  }
+  #card-reserve {
+    width: 90%;
+    margin: 20px auto;
+    align-items: center;
+    display: grid;
+  }
+  #card-reserve p {
+    font-size: 24px;
+  }
+  #card-reserve span {
+    font-size: 18px;
+  }
+  .find-out-more-btn {
+    width: 90%;
+  }
+  .less700hide {
+    display: none;
+  }
+  .text-blocks-6-s div:nth-child(1) {
+    font-size: 24px;
+  }
+  .text-blocks-6-s {
+    font-size: 16px;
+  }
+  .img-circle {
+    width: 40vw;
+  }
+  .img-circle img {
+    width: 100%;
+  }
+  .text-blocks-6-s div:nth-child(2) {
+    width: 45%;
+    margin: 0;
+    margin-right: auto;
+    margin-left: 20px;
+    height: 40vw;
+    /* padding: 5% 0; */
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .blue-n-c-4 {
+    position: unset;
+    margin: 20px auto;
+    padding: 0;
+    height: auto;
+    width: 90%;
+  }
+  .show-more-6-section-btn {
+    margin: 0;
+    width: 100%;
+  }
+  .last-photo {
+    background-size: contain;
+    height: calc((100vw - 60px) / 2);
+  }
+  .title-of-section-7 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .green-samokat {
+    width: 85vw;
+    background-position: right;
+  }
+  .row-footer-1,
+  .row-footer-2 {
+    width: 40vw;
+  }
+  .apps-links-footer- {
+    width: 40vw;
+    row-gap: 20px;
+    display: grid;
+  }
+  .payments-metod {
+    gap: calc(100vw / 6);
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 701px) {
   .list-under-700 {
     display: none;
   }
   #shopping-cart-icon-header {
     display: none;
+  }
+  .slider-five-section-5-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .see-all-usefull-mat-btn {
+    font-size: 16px;
+    padding: 14px 32px 16px 32px;
+  }
+  .yellow-block {
+    font-size: 14px;
+    height: max-content;
+  }
+  .show-more-6-section-btn {
+    font-size: 16px;
+  }
+  .blue-n-c-2 {
+    font-size: 14px;
+  }
+  .reserve-button-less-470px {
+    display: none;
+  }
+  #card-reserve button {
+    font-size: 15px;
+  }
+
+  #card-reserve p {
+    font-size: 22px;
+  }
+  #card-reserve span {
+    font-size: 14px;
+  }
+  .opacity-text-section-5 {
+    font-size: 26px;
+  }
+  .black-text-section {
+    font-size: 26px;
+  }
+  .five-section p {
+    font-size: 18px;
+  }
+  .t-o-s {
+    font-size: 26px;
+  }
+  .kids-chill div {
+    padding: 20px 0;
+  }
+  #wide-card-on-chill-kids {
+    font-size: 20px;
+  }
+  #wide-card-on-chill-kids p {
+    font-size: 15px;
+  }
+  .title-of-section-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-text-app-cart {
+    font-size: 24px;
+  }
+  .main-text-app-cart span {
+    font-size: 24px;
+  }
+  .discription-app-cart {
+    font-size: 14px;
+  }
+  .discription-app-cart div {
+    width: 100px;
+    height: 25px;
+  }
+  .apps-links-app-cart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .app-banner {
+    height: max-content;
+  }
+  .hand-mask-app-banner {
+    height: 250px;
+  }
+  .last-text-first-section {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 19px;
+  }
+  .icun-list-h li:nth-child(4),
+  .icun-list-h li:nth-child(5) {
+    display: none;
+  }
+  .row-footer-2 {
+    width: 60%;
+  }
+  .apps-links-footer- {
+    width: 60%;
+  }
+
+  .logo-header img {
+    scale: 1;
+    /* top: 0;
+    left: 0;
+    position: absolute; */
+  }
+  .logo-header {
+    width: 52px;
+    height: 35px;
+    top: 65px;
+    left: calc((100vw - 52px) / 2);
+    display: flex;
+  }
+  .under-bike {
+    left: calc((100vw - 63px) / 2);
+    width: 60px;
+  }
+}
+@media (max-width: 355px) {
+  .see-all-usefull-mat-btn {
+    scale: 0.7;
   }
 }
