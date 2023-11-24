@@ -235,7 +235,7 @@ s1
 */
 
 .first-section {
-  width: 1920px;
+  width: 100vw;
   position: relative;
 }
 
@@ -344,7 +344,7 @@ s2
 }
 
 .second-section {
-  width: 1920px;
+  width: 100vw;
   position: relative;
 }
 .opacity-text-section {
@@ -380,7 +380,7 @@ s2
   display: flex;
   align-items: center;
   white-space: nowrap; /* Запрет переноса строк */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   position: relative;
 }
 .nav-shop ul {
@@ -1366,10 +1366,10 @@ s7
 .cur-pointer {
   display: flex;
   flex-direction: column;
-  margin-left: 1650px;
   gap: 16px;
   position: absolute;
   left: inherit;
+  right: 100px;
 }
 .cur-pointer button {
   border-radius: 30px;
@@ -1644,6 +1644,10 @@ input:checked + .slider:before {
 
 .pointer {
   cursor: pointer;
+}
+
+.list-under-700 {
+  display: none;
 }
 
 /* MEDIA */
@@ -2163,5 +2167,81 @@ input:checked + .slider:before {
   .apps-links-footer- {
     order: 1;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .switch {
+    scale: 0.5455;
+    width: 85px;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    transform: translateX(40px);
+  }
+
+  #snow-header-button {
+    width: 24px;
+    height: 24px;
+    margin: 0 3px 0 16px;
+  }
+  #snow-header-button-2 {
+    margin-left: 14px;
+  }
+  .number-headr-yellow {
+    display: none;
+  }
+  .logo-header img {
+    scale: 0.4276;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .logo-header {
+    width: 62px;
+    height: 35px;
+    top: 26px;
+    left: -22px;
+  }
+  .under-bike {
+    background: #5567ea;
+    width: 76px;
+    height: 16px;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    bottom: -15px;
+    left: 12px;
+  }
+  .header-top-blue {
+    align-items: bottom;
+  }
+  .year-time-button {
+    height: 24px;
+    margin-bottom: 40px;
+    margin-left: 6px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .profile-icon-header ul {
+    margin: 0 20px 0 0px;
+  }
+  .last-text-first-section {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  #hand-iphone, #iphone-screen, #koleso, #krug{
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .list-under-700 {
+    display: none;
+  }
+  #shopping-cart-icon-header {
+    display: none;
   }
 }
