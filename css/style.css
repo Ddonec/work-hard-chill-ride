@@ -3,7 +3,10 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+a {
+   text-decoration: none;
+   color: #333;
+}
 footer {
    padding: 68px 0 1px 0;
    background-color: #222;
@@ -1659,6 +1662,23 @@ input:checked + .slider:before {
    background-size: cover;
 }
 
+.bread-crumbs {
+   display: flex;
+   gap: 10px;
+   margin-top: 40px;
+}
+.bread-crumbs p:last-child {
+   color: #333;
+   text-align: center;
+   font-family: Lato;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 19.6px */
+}
+.bread-crumbs p:last-child {
+   color: #ccccd0;
+}
 /* MEDIA */
 
 @media (min-width: 1920px) {
@@ -1826,6 +1846,12 @@ input:checked + .slider:before {
    }
    .shadow-section-5 {
       right: calc((100vw - 806px) / 2);
+   }
+}
+
+@media (min-width: 1341px) {
+   .apps-links-footer- {
+      display: none;
    }
 }
 

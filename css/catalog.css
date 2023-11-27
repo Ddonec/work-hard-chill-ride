@@ -1,0 +1,130 @@
+.text-18-500 {
+   color: #333;
+   font-family: Montserrat;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-align: center;
+   vertical-align: center;
+}
+
+.text-24-700 {
+   color: #333;
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%; /* 33.6px */
+}
+
+.main-content-catalog {
+   width: 100vw;
+   max-width: 1300px;
+}
+
+.t-o-s {
+   margin-left: 0;
+   margin-top: 30px;
+   margin-bottom: 54px;
+}
+.nav-catalog {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   list-style: none;
+   color: #333;
+   text-align: center;
+   font-family: Lato;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 25.2px */
+}
+
+.nav-catalog li {
+   padding: 14px 32px 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.active-category {
+   border-radius: 30px;
+   border: 2px solid #ffc93a;
+}
+
+.hide-filters-cat {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.hide-filter-btn {
+   display: flex;
+   padding: 14px 32px 16px 32px;
+   align-items: center;
+   border: 2px solid #ffc93a;
+   border-radius: 40px;
+   gap: 8px;
+   text-align: center;
+}
+.hide-filter-btn img {
+   width: 24px;
+}
+.popular-filter-btn {
+   display: flex;
+   justify-content: space-between;
+   width: 310px;
+   padding: 1px 1px 1px 20px;
+   align-items: center;
+   border-radius: 30px;
+   border: 1px solid #ccccd0;
+   background: #fff;
+}
+.popular-filter-btn div {
+   display: flex;
+   padding: 23px 32px 23px 32px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   background: #ffc93a;
+}
+
+.catalog-container {
+   margin-top: 20px;
+   display: flex;
+   gap: 20px;
+}
+
+.cpoduct-zone-cat {
+   display: grid;
+   gap: 10px;
+   margin-bottom: 15px;
+}
+.in-stock-discription {
+   background: #ffc93a;
+   width: 970px;
+   padding: 14px 32px 16px 32px;
+   align-items: center;
+   border-radius: 20px;
+}
+.in-stock-catalog {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.show-more-btn-catalog {
+   display: flex;
+   width: 310px;
+   padding: 14px 32px 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 30px;
+   background: #ffc93a;
+   margin: 45px auto 20px;
+}
+.filters-container-catalog {
+   width: 310px;
+}
