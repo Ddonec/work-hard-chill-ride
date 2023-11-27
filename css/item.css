@@ -1,0 +1,48 @@
+.text-18-500 {
+   color: #333;
+   font-family: Montserrat;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-align: center;
+   vertical-align: center;
+}
+
+.text-24-700 {
+   color: #333;
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%; /* 33.6px */
+}
+
+.main-content-item {
+   width: 100vw;
+   max-width: 1300px;
+}
+
+.item-shadow-section {
+   width: 368px;
+
+   right: -137px;
+}
+
+.main-info-info-page {
+   margin-top: 40px;
+   display: flex;
+}
+.photo-item-i-p {
+   width: 492px;
+   height: 363px;
+   border-radius: 20px;
+   background-image: url(../assets/content/img-bike-2.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.right-section-info-page {
+   display: grid;
+   gap: 40px;
+}
