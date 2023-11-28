@@ -5,7 +5,6 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   text-align: center;
    vertical-align: center;
 }
 
@@ -17,7 +16,18 @@
    font-weight: 700;
    line-height: 140%; /* 33.6px */
 }
+.text-24-600 {
+   color: #333;
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 140%; /* 33.6px */
+}
 
+.t-o-s {
+   margin: 0;
+}
 .main-content-item {
    width: 100vw;
    max-width: 1300px;
@@ -32,17 +42,168 @@
 .main-info-info-page {
    margin-top: 40px;
    display: flex;
+   justify-content: space-between;
 }
 .photo-item-i-p {
-   width: 492px;
+   max-width: 492px;
    height: 363px;
    border-radius: 20px;
    background-image: url(../assets/content/img-bike-2.png);
    background-repeat: no-repeat;
    background-size: 100%;
+   width: 50vw;
 }
 
 .right-section-info-page {
-   display: grid;
+   display: flex;
+   flex-direction: column;
    gap: 40px;
+   width: 750px;
+}
+
+.discription-of-item-i-p {
+   display: flex;
+   gap: 4px;
+   list-style: none;
+}
+
+.i-p-d {
+   display: flex;
+   padding: 14px 32px 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 30px;
+}
+.i-p-d-active {
+   border: 2px solid #ffc93a;
+}
+.buttons-abd-discription-i-p p {
+   text-align: left;
+}
+.buttons-abd-discription-i-p {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.price-cards-i-p {
+   display: flex;
+   gap: 20px;
+}
+.price-card-i-p {
+   display: flex;
+   padding: 30px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 16px;
+   border-radius: 30px;
+   background: #e8eafb;
+}
+.avalibale-card-i-p {
+   display: flex;
+   padding: 30px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 12px;
+   flex: 1 0 0;
+   align-self: stretch;
+   border-radius: 30px;
+   border: 2px solid #e8eafb;
+}
+.prices-area-i-p-flex {
+   display: flex;
+   /* gap: 40px; */
+   gap: 20px;
+}
+.hours-area-i-p-flex,
+.prices-area-i-p-flex-in-card {
+   display: flex;
+   gap: 10px;
+}
+.hours-area-i-p-flex p,
+.prices-area-i-p-flex-in-card p {
+   width: 55px;
+}
+
+.grey-i-p {
+   color: #8d8e96;
+}
+.blue-i-p {
+   color: #5567ea;
+}
+.text-14 {
+   font-size: 14px;
+}
+.div-dics-right-card-i-p {
+   margin-top: 4px;
+}
+.item-page-map-block {
+   width: 100vw;
+   max-width: 1300px;
+   height: 260px;
+   background-image: url(../assets/content/map-k-k.png);
+   background-position: center;
+   background-size: 130%;
+   background-repeat: no-repeat;
+   position: relative;
+   border-radius: 60px;
+
+   margin-top: 40px;
+   margin-bottom: 120px;
+   transition: 0.8s;
+}
+.item-page-map-block:hover {
+   background-size: 110%;
+}
+
+.button-on-map-item-page {
+   display: flex;
+   padding: 14px 32px 16px 32px;
+   gap: 10px;
+   border-radius: 50px;
+   background: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.title-of-section {
+   width: max-content;
+   margin: 0 auto;
+}
+.item-shadow-section-i-p-2 {
+   width: 627px;
+   right: 0px;
+   height: 40px;
+   background: #e8eafb;
+   position: absolute;
+   top: 47px;
+   z-index: 0;
+}
+.last-section-of-i-p {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.last-section-area-i-p {
+   display: flex;
+   gap: 40px;
+   align-items: center;
+   max-width: 1540px;
+   margin: 90px auto;
+   width: 100vw;
+}
+.slider-area-item-page {
+   display: flex;
+   gap: 20px;
+   overflow: auto;
+}
+.arrows-i-p {
+   display: flex;
+   padding: 13px 32px 14px 32px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   border: 2px solid #ffc93a;
 }

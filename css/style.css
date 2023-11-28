@@ -466,6 +466,11 @@ s2
    background: #fafafa;
    width: 310px;
    height: 443px;
+   overflow: hidden;
+   transition: 0.6s ease;
+}
+.card-of-product:hover > a > .img-of-product {
+   scale: 1.1;
 }
 .prise-of-rent-1 {
    padding-right: 32px;
@@ -473,6 +478,7 @@ s2
 .img-of-product {
    border-radius: 20px;
    width: 309px;
+   transition: 0.6s ease;
 }
 .shop-take-rent {
    display: flex;
