@@ -36,7 +36,7 @@
 .item-shadow-section {
    width: 368px;
 
-   right: -137px;
+   right: 4px;
 }
 
 .main-info-info-page {
@@ -206,4 +206,228 @@
    align-items: center;
    border-radius: 30px;
    border: 2px solid #ffc93a;
+}
+.item-shadow-section-news-p-1 {
+   width: 424px;
+   right: 4px;
+   height: 40px;
+   background: #e8eafb;
+   position: absolute;
+   top: 47px;
+   z-index: 0;
+}
+.main-content-news-page {
+   width: 100%;
+   max-width: 1300px;
+   margin: 0 auto;
+}
+.news-second-page-main-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 32px;
+}
+.title-of-section-news-page {
+   position: relative;
+   margin: 40px 0 50px;
+   text-align: center;
+   font-family: "Montserrat Alternates", sans-serif;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   display: flex;
+   gap: 20px;
+   width: max-content;
+}
+.all-material-cards {
+   position: relative;
+   gap: 20px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.sick-cart-news {
+   overflow: hidden;
+   width: 310px;
+   height: 500px;
+   border-radius: 20px;
+   position: relative;
+}
+
+.show-more-btn-catalog {
+   display: flex;
+   width: 310px;
+   padding: 14px 32px 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 30px;
+   background: #ffc93a;
+   margin: 45px auto 20px;
+}
+.subscribe-for-our-news-container {
+   display: flex;
+   max-width: 1300px;
+   padding: 40px 40px 50px 40px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 24px;
+   border-radius: 40px;
+   background: #e8eafb;
+   margin: 160px auto 90px;
+   position: relative;
+   overflow: hidden;
+}
+.text-sub-block-news-inside {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+.main-text-sub-block-news-p-cont {
+   color: #333;
+   font-family: Montserrat Alternates;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 120%; /* 48px */
+}
+.main-text-sub-block-news-p-cont span {
+   color: #5567ea;
+}
+
+.input-zone-news-p-cont {
+   display: flex;
+   gap: 12px;
+   max-width: 1040px;
+}
+.input-in-news-p-cont {
+   border-radius: 50px;
+   border: 1.5px solid #333;
+   opacity: 0.5;
+   background: #fff;
+}
+.i-n-p-c-name {
+   display: flex;
+   width: 310px;
+   padding: 14px 20px 16px 30px;
+   align-items: flex-start;
+   gap: 8px;
+}
+.i-n-p-c-email {
+   display: flex;
+   width: 539px;
+   padding: 14px 20px 16px 30px;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+.send-btn-news-sub {
+   display: flex;
+   padding: 14px 32px 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 30px;
+   background: #ffc93a;
+}
+
+.convert-img-news-sub {
+   height: 410px;
+   position: absolute;
+   right: -219px;
+   bottom: -110px;
+}
+
+.social-left-block-news-2-page {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-top: 178px;
+}
+.social-left-block-news-2-page a:nth-last-child(1) div {
+   width: 48px;
+   height: 48px;
+   background: #333;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.social-left-block-news-2-page > a > div {
+   width: 48px;
+   height: 48px;
+   border-radius: 50%;
+}
+
+.telegramm-bg-image-mews-2-page {
+   background-image: url(../assets/icon/tg-black.svg);
+   background-size: 120%;
+   background-position: top;
+   mix-blend-mode: color-burn;
+}
+.whatsapp-bg-image-mews-2-page {
+   background-image: url(../assets/icon/whatsapp-black.svg);
+   background-size: 120%;
+   background-position: top;
+   mix-blend-mode: color-burn;
+}
+
+.news-1-center-block-info {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   align-items: left;
+   max-width: 818px;
+   width: 60vw;
+   position: relative;
+}
+.main-photo-of-news-1-page {
+   height: 462px;
+   border-radius: 40px;
+   background-image: url(../assets/content/state-main-photo.png);
+}
+.full-text-news-1-area {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   align-items: left;
+   max-width: 748px;
+}
+.h1-news-1-page {
+   color: #333;
+   font-family: Montserrat Alternates;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 130%; /* 46.8px */
+}
+.full-text-news-1-area p a {
+   color: #5567ea;
+}
+.autor-of-state-news-1-page {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+.image-user-news-1 {
+   text-align: center;
+   text-justify: center;
+   align-items: center;
+   display: flex;
+   gap: 8px;
+}
+
+.aside-right-block-news-1-page {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-top: 110px;
+}
+
+.main-content-news-1-page {
+   width: 100%;
+   max-width: 1300px;
+   margin: 0 auto 32px;
 }
