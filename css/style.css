@@ -1402,6 +1402,10 @@ s7
    margin: 40px auto 90px;
 }
 
+.button-news-container-main-page {
+   margin: 0 auto;
+}
+
 .images-footer {
    width: 1300px;
    margin: 0 auto;
@@ -1439,6 +1443,9 @@ s7
    font-weight: 500;
    line-height: 140%; /* 25.2px */
    padding: 10px;
+}
+.row-footer-1 ul li a {
+   color: #fff;
 }
 
 .row-footer-2 {
