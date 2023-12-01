@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet"
+      />
+
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/item.css" />
+
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+         <div class="heaer-fake-fullscreen">
+            <div class="blue-line-fake"></div>
+            <div class="gray-line-fake"></div>
+         </div>
+
+         <div class="header-top-blue">
+            <div class="under-bike"></div>
+
+            <div class="year-time-button">
+               <label class="switch">
+                  <input type="checkbox" checked />
+                  <span class="slider round pointer">
+                     <div class="text-in-slider-buton" id="season-content">
+                        <!-- В начальном состоянии отображаем зиму -->
+                        <div class="season winter">
+                           <img src="assets/icon/sun.svg" alt="sun" id="sun-header-button" />
+                           <img src="assets/icon/snowflake.svg" alt="snow" id="snow-header-button" />
+                           <span class="time-of-year-text"> Зима </span>
+                        </div>
+                        <!-- В скрытом состоянии отображаем лето -->
+                        <div class="season summer" style="display: none">
+                           <img src="assets/icon/sun.svg" alt="sun" id="sun-header-button-2" />
+                           <span class="time-of-year-text"> Лето </span>
+                           <img src="assets/icon/sun.svg" alt="sun" id="snow-header-button-2" />
+                        </div>
+                     </div>
+                  </span>
+               </label>
+
+               <a class="number-headr-yellow number-header-yellow" href="tel:89351`680416">8 935 168 04 16</a>
+            </div>
+
+            <ul class="header-1920-list">
+               <li class="pointer">Компания <img class="winter-status" src="assets/icon/Frame-36.svg" /> <img class="summer-status none" src="assets/icon/Vector-black.svg" alt="" /></li>
+               <li class="pointer">Сервис <img class="winter-status" src="assets/icon/Frame-36.svg" /><img class="summer-status none" src="assets/icon/Vector-black.svg" alt="" /></li>
+               <li class="pointer">Сообщества <img class="winter-status" src="assets/icon/Frame-36.svg" /><img class="summer-status none" src="assets/icon/Vector-black.svg" alt="" /></li>
+               <li class="pointer">Франшиза</li>
+            </ul>
+            <div class="number-h-y-container">
+               <a class="number-header-yellow n-h-y" href="tel:89351680416">8 935 168 04 16</a>
+            </div>
+            <div class="input-zone-1920">
+               <img src="assets/icon/Vector.svg" alt="" id="search-icon-1920" />
+               <input type="text" placeholder="Поиск" id="search-header-1920" class="search-header-1920" />
+            </div>
+            <div class="profile-icon-header">
+               <ul class="icun-list-h">
+                  <li class="pointer list-under-700" id="shopping-cart-icon-header">
+                     <a href="tel:89351680416"><img src="assets/icon/phone-call.svg" alt="" /></a>
+                  </li>
+                  <li class="search-icon-list-h">
+                     <img src="assets/icon/Vector.svg" alt="" />
+                  </li>
+                  <li><img class="pointer winter-status" src="assets/icon/login.svg" alt="" /> <img class="summer-status none" src="assets/icon/login-black.svg" alt="" /></li>
+                  <li><img class="pointer winter-status" src="assets/icon/heart.svg" alt="" /> <img class="summer-status none" src="assets/icon/heart-black.svg" alt="" /></li>
+                  <li class="pointer reserve-button-less-470px">
+                     Рус <img class="winter-status" src="assets/icon/Frame-36.svg" alt="" /> <img class="summer-status none" src="assets/icon/Vector-black.svg" alt="" />
+                  </li>
+                  <li class="pointer list-under-700" id="shopping-cart-icon-header">
+                     <img src="assets/icon/shopping-cart.svg" alt="" />
+                  </li>
+                  <li>
+                     <div class="burger">
+                        <span class="burgers"></span>
+                        <span class="burgers"></span>
+                        <span class="burgers"></span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="logo-header">
+               <a href="index.html">
+                  <img class="winter-status" src="assets/icon/Group3.svg" alt="" />
+                  <img class="summer-status none" src="assets/icon/bike-logo-black.svg" alt="" />
+               </a>
+            </div>
+         </div>
+         <div class="second-line-header">
+            <div class="header-second-line-container">
+               <div class="left-list">
+                  <ul>
+                     <li class="text-second-line-header pointer">Найди свой парк</li>
+                     <li class="text-second-line-header pointer">Возьми в прокат</li>
+                     <li class="text-second-line-header pointer">Развлечения детям</li>
+                  </ul>
+               </div>
+               <div class="spase-between-header"></div>
+               <div class="right-list">
+                  <ul>
+                     <li class="text-second-line-header pointer">Веревочный парк</li>
+                     <li class="text-second-line-header pointer">Организация детских праздников</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="main-content-news-page">
+         <div class="bread-crumbs">
+            <p><a href="index.html">Главная</a></p>
+            <p>/</p>
+            <p><a href="#">Лето</a></p>
+            <p>/</p>
+            <p class="grey-bread-crumbs">Ремонт техники</p>
+         </div>
+         <h1 class="h1-no-main-page text-gradient">Ремонт техники</h1>
+
+         <div class="text-blicks-repair-page">
+            <div>Оказываем услуги по обслуживанию и ремонту</div>
+            <p>У нас Вы сможете провести профессиональное обслуживание, настройку или ремонт велосипедов. Мы работаем с отечественными и зарубежными производителями.​</p>
+            <p>Самые распространенные запчасти мы храним в мастерской, полный же перечень позиций есть на нашем центральном складе, откуда мы привезем практически любую запчасть.</p>
+         </div>
+
+         <div class="nav-repair-page">
+            <ul>
+               <li class="pointer">Всё</li>
+               <li class="pointer">Велосипеды</li>
+               <li class="pointer">Веломобили</li>
+               <li class="pointer">Электро</li>
+               <li class="pointer">Коньки</li>
+               <li class="pointer">Катамараны</li>
+               <li class="pointer">Лодки</li>
+            </ul>
+            <div class="arrow-right-list pointer">
+               <img id="vector-1" src="assets/icon/Vector-1.svg" alt="" />
+            </div>
+         </div>
+         <div><img class="photo-repair-page" src="/assets/content/repair-page-photo.png" alt="" /></div>
+
+         <div class="price-repair-page-container">
+            <h5>Распространенные поломки и стоимость их ремонта</h5>
+            <div>
+               <div>Диагностика электрики и электроники</div>
+               <p>1 500₽</p>
+            </div>
+            <div>
+               <div>Регулировка тормозов</div>
+               <p>400 — 600₽</p>
+            </div>
+            <div>
+               <div>Замена камеры на приводном колесе</div>
+               <p>700 — 1400₽</p>
+            </div>
+            <div>
+               <div>Замена камеры на ведомом колесе</div>
+               <p>500 — 1 200₽</p>
+            </div>
+
+            <div>
+               <div>Замена подшипников в колесах</div>
+               <p>300₽</p>
+            </div>
+            <div>
+               <div>Аргонная сварка рамы</div>
+               <p>1500 — 4 000₽</p>
+            </div>
+            <div>
+               <div>Обслуживание/замена рулевой колонки</div>
+               <p>400 — 800₽</p>
+            </div>
+            <div>
+               <div>Ремонт амортизатора переднего колеса</div>
+               <p>1 500 — 3 500₽</p>
+            </div>
+            <div>
+               <div>Напрессовка литой покрышки в термопрессе на диск (не считая стоимости демонтажа)</div>
+               <p>300-1200₽</p>
+            </div>
+         </div>
+         <p class="example-text-repair-page">Примеры наших работ</p>
+         <div class="phopos-container-example-repair-page">
+            <div><p>Сборка из коробки</p></div>
+            <div><p>Замена подшипников в колесах</p></div>
+            <div><p>Ремонт рулевого штока</p></div>
+            <div><p>Ремонт блока управления электромотором</p></div>
+            <div><p>Ремонт блока управления электромотором</p></div>
+         </div>
+
+         <div class="call-back-form-container-repair-page">
+            <div class="text-sub-block-news-inside">
+               <h4 class="main-text-sub-block-news-p-cont text-gradient">Давайте созвонимся!</h4>
+               <p class="second-text-sub-block-news-p-cont text-24-600">Наши специалисты ответят на все ваши вопросы</p>
+            </div>
+            <div class="input-zone-news-p-cont">
+               <input class="input-in-news-p-cont i-n-p-c-name" type="text" placeholder="Ваше имя" />
+               <input class="input-in-news-p-cont i-n-p-c-email" type="email" placeholder="Электронная почта" />
+               <div class="send-btn-news-sub text-18-500 pointer">Отправить</div>
+               <img class="convert-img-call-back-sub" src="assets/content/phone-big-yellow.png" alt="mail" />
+            </div>
+            <p class="input-zone-discription-politic-provicy">Нажимая кнопку вы принимаете <a href="">Соглашение об обработке персональных данных</a></p>
+         </div>
+      </section>
+
+      <footer>
+         <div class="images-footer">
+            <img src="assets/icon/Group3.svg" alt="" />
+            <div class="apps-links-footer-1">
+               <img class="pointer" src="assets/content/appstore.png" alt="" />
+               <img class="pointer" src="assets/content/googleplay.png" alt="" />
+            </div>
+         </div>
+         <div class="columns-footer">
+            <div class="row-footer-1">
+               <div class="title-list-1 poinetr">Компания</div>
+               <ul>
+                  <li class="pointer">Техника</li>
+                  <li class="pointer">Мы в парках</li>
+                  <li class="pointer">О нас</li>
+                  <li class="pointer">Новости</li>
+                  <li class="pointer">Пикник Сити</li>
+               </ul>
+            </div>
+
+            <div class="row-footer-1">
+               <div class="title-list-1 pointer">Сервис</div>
+               <ul>
+                  <li class="pointer">Ремонт техники</li>
+                  <li class="pointer">Сезонное хранение</li>
+                  <li class="pointer">Велотур</li>
+                  <li class="pointer">Корп. клиентам</li>
+                  <li class="pointer">Франшиза</li>
+               </ul>
+            </div>
+
+            <div class="row-footer-2">
+               <div class="title-list-1 pointer">Документация</div>
+               <ul>
+                  <li class="pointer">Правила проката</li>
+                  <li class="pointer">Договор оферта</li>
+                  <li class="pointer">Политика конфиденциальности</li>
+                  <li class="pointer">Пользовательское соглашение для мобильного приложения</li>
+               </ul>
+            </div>
+            <div class="apps-links-footer-">
+               <img class="pointer" src="assets/content/appstore.png" alt="" />
+               <img class="pointer" src="assets/content/googleplay.png" alt="" />
+            </div>
+            <div class="row-footer-1">
+               <div class="title-list-1">Контакты</div>
+               <ul>
+                  <li>
+                     <span class="yellow-number-footer pointer">+7(925) 429-70-29</span>
+                  </li>
+                  <li class="pointer">kuti.katai@mail.ru</li>
+               </ul>
+               <div class="social-media-footer">
+                  <img class="pointer" src="assets/icon/socials.svg" alt="" />
+                  <img class="pointer" src="assets/icon/tg.svg" alt="" />
+               </div>
+            </div>
+         </div>
+         <div class="footer-line"></div>
+         <div class="payments-metod">
+            <img src="assets/icon/mir.svg" alt="" />
+            <img src="assets/icon/mastercard.svg" alt="" />
+            <img src="assets/icon/visa.svg" alt="" />
+         </div>
+      </footer>
+   </body>
+   <script src="/js/index.js"></script>
+   <script src="js/item.js"></script>
+</html>
