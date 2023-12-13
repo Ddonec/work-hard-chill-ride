@@ -63,7 +63,7 @@
       display: none;
    }
    .nav-shop {
-      width: calc(100vw - 100px);
+      width: calc(100vw - 65px);
       white-space: nowrap; /* Запрет переноса строк */
       overflow-x: hidden;
       margin: 40px auto 0;
@@ -354,6 +354,9 @@
    .text-area-first-section-1920 h1 {
       font-size: 40px;
    }
+   .number-headr-yellow.number-header-yellow {
+      display: none;
+   }
    /* .main-text-app-cart {
       margin: 0;
       font-size: 36px;
@@ -475,13 +478,11 @@
       /* top: 7px; */
       scale: 0.7;
       bottom: -30px;
-
    }
    #hand-iphone {
       right: -100px;
       scale: 0.7;
       bottom: -70px;
-
    }
    #koleso {
       right: -278px;
@@ -565,7 +566,7 @@
 }
 
 @media (max-width: 976px) {
-   .yellow-block {
+   /* .yellow-block {
       width: 94vw;
    }
    .blue-n-c-1 {
@@ -574,15 +575,14 @@
    .blue-n-c-2 {
       order: 4;
       height: 120px;
-      align-self: flex-start; /* Вертикальное выравнивание для 4 элемента */
+      align-self: flex-start; /* Вертикальное выравнивание для 4 элемента 
    }
-   .blue-n-c-3 {
+ .blue-n-c-3 {
       order: 2;
    }
    .blue-n-c-4 {
       height: 120px;
       order: 5;
-      align-self: flex-start; /* Вертикальное выравнивание для 4 элемента */
       position: absolute;
       top: 450px;
       right: calc(20px + 5vw);
@@ -595,68 +595,197 @@
    }
    .blue-n-c-7 {
       order: 7;
-   }
+   }  */
    .apps-links-footer- {
       order: 1;
       margin: 0 auto;
    }
 }
-
-@media (max-width: 700px) {
-   .nav-shop ul li:not(:first-child) {
+@media (max-width: 800px) {
+   .up-to-768px-hidden-text-home-page {
+      display: unset;
+   }
+   .text-blocks-6-s div:nth-child(2) {
+      /* display: block; */
+      width: 100%;
+      margin-left: 0;
+      height: unset;
+   }
+   .blue-n-c-3 {
       display: none;
    }
-   .switch {
-      scale: 0.5455;
-      width: 85px;
+   .show-more-6-section-btn {
+      width: calc(100vw - 40px);
+   }
+   .img-circle {
+      width: 24%;
+   }
+   .img-circle img {
+      width: 100%;
+   }
+   .yellow-block {
+      border-radius: 0 110px 0 0;
+      padding: 12px 57px 20px 20px;
+      font-size: 18px;
+      color: black;
+      width: 43%;
+      height: 167px;
+      font-weight: 400;
+   }
+   .last-photo {
+      width: 30%;
+      height: 167px;
+      background-size: cover;
+   }
+   /* .yellow-block {
+      display: none;
+   } */
+
+   .blue-n-c-4 {
+      order: 10;
+   }
+   .show-more-6-section-btn {
+      display: none;
+   }
+}
+
+@media (min-width: 801px) {
+   .up-to-768px-hidden-text-home-page {
+      display: none;
+   }
+   .show-more-6-section-btn-2 {
+      display: none;
+   }
+}
+
+@media (min-width: 701px) {
+   .third-section {
+      display: none;
+   }
+}
+@media (max-width: 700px) {
+   .img-circle {
+      width: 232px;
+   }
+   .img-circle img {
+      width: 232px;
+   }
+   .yellow-block {
+      display: none;
+   }
+   .go-to-all-chill-btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 80px;
+   }
+   .kids-chill {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: flex-start;
+   }
+   .third-section {
+      display: block;
+   }
+   /* .nav-shop ul li:not(:first-child) {
+      display: none;
+   } */
+   .bacground-image-main-page-first-section {
+      height: 800px;
+   }
+   .absolute-peoples-container-f-s div {
+      width: 47%;
+   }
+   .absolute-peoples-container-f-s {
+      top: 50px;
+      bottom: unset;
+   }
+   .to-choice-btn {
+      margin: 30px auto 40px;
    }
 
-   input:checked + .slider:before {
+   .bacground-image-main-page-first-section {
+      justify-content: flex-end;
+   }
+   .text-area-first-section-1920 h1 {
+      font-size: 35px;
+   }
+   .to-choice-btn {
+      width: calc(100vw - 40px);
+   }
+   .card-of-product {
+      width: 210px;
+   }
+   .prise-of-rent-1 {
+      padding-right: 5px;
+   }
+   .map-map-s1 {
+      display: none;
+   }
+   .map-area-first-section {
+      border-radius: 0;
+      width: 100vw;
+      height: 500px;
+      border-radius: 0;
+      background-image: url(../assets/content/map1.png);
+      background-size: cover;
+      background-position: center;
+   }
+
+   /* .switch {
+      scale: 0.5455;
+      width: 85px;
+   } */
+
+   /* input:checked + .slider:before {
       -webkit-transform: translateX(40px);
       -ms-transform: translateX(40px);
       transform: translateX(40px);
-   }
+   } */
 
-   #snow-header-button {
+   /* #snow-header-button {
       width: 24px;
       height: 24px;
       margin: 0 3px 0 16px;
    }
    #snow-header-button-2 {
       margin-left: 14px;
-   }
+   } */
    .number-headr-yellow {
       display: none;
    }
+   .icun-list-h li:not(:last-child) {
+      display: none;
+   }
    .logo-header img {
-      scale: 0.4276;
+      /* scale: 0.4276; */
       /* top: 0;
      left: 0;
      position: absolute; */
    }
    .logo-header {
-      width: 62px;
+      /* width: 62px;
       height: 35px;
       top: 26px;
-      left: 10px;
+      left: 10px; */
    }
    .under-bike {
-      background: #5567ea;
+      /* background: #5567ea;
       width: 76px;
       height: 16px;
       border-radius: 0 0 50px 50px;
       position: absolute;
       bottom: -15px;
-      left: 52px;
+      left: 52px; */
    }
    .header-top-blue {
       align-items: bottom;
    }
-   .year-time-button {
+   /* .year-time-button {
       height: 24px;
       margin-bottom: 40px;
       margin-left: 6px;
-   }
+   } */
    h1 {
       font-size: 26px;
    }
@@ -664,41 +793,63 @@
       margin: 0 20px 0 0px;
    }
 
-   #hand-iphone,
+   /* #hand-iphone,
    #iphone-screen,
    #koleso,
    .more-900-hide,
    #krug {
       display: none;
-   }
+   } */
    .hand-mask-app-banner {
-      height: 219px;
+      height: 310px;
    }
    .app-banner {
       display: grid;
       align-items: center;
       padding: 20px 0;
       margin: 0;
+      width: 100vw;
+   }
+   .hand-mask-app-banner {
+      width: 100vw;
+      margin: 0;
+      margin-bottom: 80px;
    }
    .apps-links-app-cart {
-      width: 97%;
-      justify-content: space-evenly;
+      width: 100%;
+      justify-content: start;
+      margin-left: 20px;
+      z-index: 5;
+      margin-top: 0;
    }
    .discription-app-cart {
       width: max-content;
-      margin: 14px auto 28px;
+      margin: 8px 0 15px 20px;
       font-size: 18px;
+      z-index: 5;
+   }
+   #iphone-screen {
+      right: -51px;
+      transform: rotate(-5deg);
+      scale: 0.54;
+      bottom: 36px;
+   }
+   #hand-iphone {
+      right: -154px;
+      transform: rotate(-20deg);
+      bottom: -96px;
    }
    .main-text-app-cart {
-      font-size: 34px;
-      margin: 0 auto;
+      font-size: 28px;
+      margin: 0 auto 0 20px;
+      z-index: 5;
    }
    .main-text-app-cart span {
       font-size: 34px;
    }
    .discription-app-cart div {
-      width: 115px;
-      height: 30px;
+      /* width: 115px;
+      height: 30px; */
    }
    .t-o-s {
       display: flex;
@@ -761,20 +912,15 @@
    .text-blocks-6-s {
       font-size: 16px;
    }
-   .img-circle {
-      width: 40vw;
-   }
-   .img-circle img {
-      width: 100%;
-   }
+
    .text-blocks-6-s div:nth-child(2) {
-      width: 45%;
+      width: 100%;
       margin: 0;
       margin-right: auto;
       margin-left: 20px;
-      height: 40vw;
+      /* height: 40vw; */
       /* padding: 5% 0; */
-      display: flex;
+      /* display: flex; */
       align-items: center;
       text-align: left;
    }
@@ -789,9 +935,17 @@
       margin: 0;
       width: 100%;
    }
+   .blue-n-c-4 {
+      display: none;
+   }
+   .roll-park-list-visible {
+      margin: 30px 0 40px;
+   }
    .last-photo {
-      background-size: contain;
-      height: calc((100vw - 60px) / 2);
+      background-size: cover;
+      background-position: center;
+      width: calc((100vw - 75px) / 2);
+      height: 232px;
    }
    .title-of-section-7 {
       display: flex;
@@ -824,6 +978,11 @@
       display: none;
    }
    .slider-five-section-5-mobile {
+      display: none;
+   }
+}
+@media (max-width: 742px) {
+   .shop-take-rent > div:nth-last-child(-n + 6) {
       display: none;
    }
 }
@@ -922,21 +1081,17 @@
    }
 
    .logo-header img {
-      scale: 1;
+      scale: 0.73;
       /* top: 0;
      left: 0;
      position: absolute; */
    }
    .logo-header {
-      width: 52px;
-      height: 35px;
-      top: 65px;
-      left: calc((100vw - 52px) / 2);
+      top: 20px;
       display: flex;
    }
    .under-bike {
-      left: calc((100vw - 63px) / 2);
-      width: 60px;
+      width: 140px;
    }
 }
 @media (max-width: 355px) {

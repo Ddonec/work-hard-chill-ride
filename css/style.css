@@ -319,10 +319,11 @@ s1
    aspect-ratio: 1/1;
    width: calc(100vw / 3.6);
    background-size: cover;
+   max-width: 533px;
 }
 .absolute-fs-container-left {
    background-position-y: bottom;
-   background-image: url(../assets/content/left-snow-peoples.png);
+   background-image: url(../assets/content/left-snow-peoples-3.png);
 }
 .absolute-fs-container-right {
    width: 578px;
@@ -668,6 +669,7 @@ s2
    z-index: 2;
    right: 0;
    bottom: -100px;
+   width: 300px;
 }
 #iphone-screen {
    position: absolute;
@@ -729,12 +731,13 @@ s2
    margin: 0 auto;
    text-align: center;
    font-family: "Montserrat Alternates", sans-serif;
-   font-size: 64px;
+   font-size: 32px;
    font-style: normal;
    font-weight: 700;
    line-height: normal;
    display: flex;
-   width: 860px;
+   /* width: 860px; */
+   width: max-content;
    gap: 20px;
 }
 .shadow-section-3 {
@@ -757,7 +760,7 @@ s2
    margin: 0 auto;
 }
 .kids-chill-container {
-   margin: 50px auto 40px;
+   margin: 20px auto 40px;
    max-width: 1300px;
    position: relative;
 }
@@ -768,6 +771,16 @@ s2
    background: #f4f4f8;
    box-sizing: border-box;
    padding: 30px;
+}
+#wide-card-on-chill-kids {
+   width: calc(100vw - 50px);
+   height: 230px;
+   border-radius: 20px;
+   background: #f4f4f8;
+   box-sizing: border-box;
+   padding: 30px;
+   margin: 0 auto;
+   margin-bottom: 20px;
 }
 .text-in-chill-for-kids-card {
    color: #333;
@@ -1319,6 +1332,27 @@ s6
    background-color: transparent;
    /* float: right; */
    margin: 10px 0 60px;
+}
+.show-more-6-section-btn-2 {
+   border-radius: 160px;
+   border: 2px solid var(--yellow, #ffc93a);
+   display: flex;
+   height: 54.973px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   flex-shrink: 0;
+   color: var(--white, #fff);
+   text-align: center;
+   font-family: Lato, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 25.2px */
+   background-color: transparent;
+   /* float: right; */
+   margin: 10px auto 60px;
+   width: calc(100% - 40px);
 }
 .container-for-6-btn {
    display: flex;
