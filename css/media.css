@@ -66,7 +66,7 @@
       width: calc(100vw - 100px);
       white-space: nowrap; /* Запрет переноса строк */
       overflow-x: hidden;
-      margin: 40px 20px 0;
+      margin: 40px auto 0;
    }
    .shop-take-rent {
       width: 100vw;
@@ -124,9 +124,9 @@
    .search-header-1920 {
       display: none !important;
    }
-   .gray-line-fake,
-   .second-line-header,
-   .blue-line-fake,
+   /* .gray-line-fake, */
+   /* .second-line-header, */
+   /* .blue-line-fake, */
    h2,
    .shadow-moscow,
    #search-icon-1920 {
@@ -156,6 +156,27 @@
       width: none;
    }
 }
+
+@media (max-width: 1400px) {
+   .text-area-first-section-1920 h1 {
+      font-size: 60px;
+   }
+   .app-banner {
+      width: 100%;
+   }
+}
+
+@media (max-width: 1299px) {
+   .gray-line-fake,
+   .second-line-header,
+   .blue-line-fake {
+      display: none;
+   }
+   header {
+      height: unset;
+   }
+}
+
 @media (max-width: 1299px) {
    .six-cards-container {
       width: calc(100vw - 20px);
@@ -163,6 +184,11 @@
    }
    .shadow-section-5 {
       right: calc((100vw - 806px) / 2);
+   }
+}
+@media (max-width: 1230px) {
+   .shop-take-rent > div:nth-last-child(-n + 2) {
+      display: none;
    }
 }
 
@@ -243,10 +269,12 @@
       justify-content: space-between;
       align-content: flex-start; /* Вертикальное выравнивание для 2 и 4 элементов */
    }
-   .app-banner,
    .hand-mask-app-banner {
       width: calc((100vw - 40px));
-      margin: 0 20px;
+      margin: 0 20px 80px;
+   }
+   .app-banner {
+      width: 100%;
    }
    #iphone-screen {
       right: 83px;
@@ -259,6 +287,27 @@
    }
    #krug {
       right: -30px;
+   }
+   .app-banner {
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+   }
+   .apps-links-app-cart {
+      margin-left: 0;
+   }
+
+   #iphone-screen {
+      right: 216px;
+   }
+   #hand-iphone {
+      right: 83px;
+   }
+   #koleso {
+      right: 0;
+   }
+   #krug {
+      right: 0;
    }
    .kids-chill {
       justify-content: space-evenly;
@@ -282,6 +331,12 @@
       display: none;
    }
 }
+@media (max-width: 1000px) {
+   .text-area-first-section-1920 h1 {
+      font-size: 48px;
+   }
+}
+
 @media (max-width: 900px) {
    .main-text-app-cart {
       margin: 0;
