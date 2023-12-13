@@ -400,6 +400,7 @@ h2 {
 .absolute-on-map-home-page-text-comtainer {
    position: absolute;
    z-index: 4;
+   width: max-content;
    padding: 7.115px 14.229px 9.96px 14.229px;
    align-items: flex-start;
    border-radius: 14.229px;

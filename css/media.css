@@ -164,6 +164,11 @@
    .app-banner {
       width: 100%;
    }
+   .last-text-first-section {
+      font-size: 18px;
+      padding: 0 20px;
+      width: 440px;
+   }
 }
 
 @media (max-width: 1299px) {
@@ -188,6 +193,11 @@
 }
 @media (max-width: 1230px) {
    .shop-take-rent > div:nth-last-child(-n + 2) {
+      display: none;
+   }
+}
+@media (max-width: 986px) {
+   .shop-take-rent > div:nth-last-child(-n + 4) {
       display: none;
    }
 }
@@ -335,10 +345,16 @@
    .text-area-first-section-1920 h1 {
       font-size: 48px;
    }
+   .absolute-on-map-home-page-text-comtainer h3 {
+      font-size: 40px;
+   }
 }
 
 @media (max-width: 900px) {
-   .main-text-app-cart {
+   .text-area-first-section-1920 h1 {
+      font-size: 40px;
+   }
+   /* .main-text-app-cart {
       margin: 0;
       font-size: 36px;
    }
@@ -352,7 +368,7 @@
    .discription-app-cart div {
       width: 138px;
       height: 34px;
-   }
+   } */
    .shop-take-rent {
       max-height: 910px;
       overflow: auto;
@@ -455,13 +471,17 @@
       -webkit-text-stroke: 1px black;
    }
    #iphone-screen {
-      right: 20px;
-      top: 7px;
+      right: 21px;
+      /* top: 7px; */
       scale: 0.7;
+      bottom: -30px;
+
    }
    #hand-iphone {
       right: -100px;
       scale: 0.7;
+      bottom: -70px;
+
    }
    #koleso {
       right: -278px;
@@ -643,10 +663,7 @@
    .profile-icon-header ul {
       margin: 0 20px 0 0px;
    }
-   .last-text-first-section {
-      font-size: 18px;
-      padding: 0 20px;
-   }
+
    #hand-iphone,
    #iphone-screen,
    #koleso,
