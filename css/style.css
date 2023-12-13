@@ -254,12 +254,29 @@ s1
 .first-section {
    width: 100vw;
    position: relative;
+
+   border-top: 1px solid white;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.bacground-image-main-page-first-section {
+   width: 100%;
+   background-image: url(../assets/content/header-bg-without-noize.png);
+   background-repeat: no-repeat;
+   border-right-width: 100%;
+   background-position: center top;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
 }
 
 .text-area-first-section-1920 {
    margin: 0 auto;
-   margin-top: 44px;
-   width: 1302px;
+   /* margin-top: 44px; */
    color: #333;
    text-align: center;
    font-family: Montserrat Alternates, "Source Sans Pro";
@@ -268,14 +285,48 @@ s1
    font-weight: 800;
    line-height: 120%; /* 84px */
    position: relative;
+   display: flex;
+   flex-direction: column;
    align-items: center;
+   /* border-top: 1px solid white; */
+   position: relative;
 }
-h1 {
+.text-area-first-section-1920 h1 {
+   width: 100%;
+   max-width: 1302px;
+
    font-family: Montserrat Alternates, "Source Sans Pro";
    font-size: 70px;
    font-style: normal;
    font-weight: 800;
    line-height: 120%; /* 84px */
+   margin-top: 81px;
+}
+
+.absolute-peoples-container-f-s {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 1793px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.absolute-peoples-container-f-s div {
+   max-width: 1793px;
+   aspect-ratio: 1/1;
+   width: 503px;
+   background-size: cover;
+}
+.absolute-fs-container-left {
+   background-position-y: bottom;
+   background-image: url(../assets/content/left-snow-peoples.png);
+}
+.absolute-fs-container-right {
+   width: 578px;
+   background-image: url(../assets/content/right-snow-peoples.png);
 }
 
 h2 {
@@ -315,10 +366,11 @@ h2 {
    font-style: normal;
    font-weight: 400;
    line-height: 140%; /* 33.6px */
+   max-width: 618px;
 }
 
 .to-choice-btn {
-   margin: 30px auto 45px;
+   margin: 30px auto 185px;
    display: inline-flex;
    padding: 14px 32px 16px 32px;
    justify-content: center;
@@ -335,10 +387,33 @@ h2 {
    font-weight: 500;
    line-height: 140%; /* 25.2px */
 }
-
+.map-area-first-section {
+   position: relative;
+}
 .map-map-s1 {
    width: 1200px;
    border-radius: 50px;
+   position: relative;
+}
+
+.absolute-on-map-home-page-text-comtainer {
+   position: absolute;
+   z-index: 4;
+   padding: 7.115px 14.229px 9.96px 14.229px;
+   align-items: flex-start;
+   border-radius: 14.229px;
+   background: #fff;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 35px;
+}
+.absolute-on-map-home-page-text-comtainer h3 {
+   text-align: center;
+   font-family: Montserrat Alternates;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
 }
 
 /* 
@@ -346,9 +421,9 @@ BODY
 s2
 */
 
-.title-of-section {
+.title-of-section-1 {
    position: relative;
-   margin: 0 auto;
+   margin: 100px auto 40px;
    text-align: center;
    font-family: "Montserrat Alternates", sans-serif;
    font-size: 64px;
@@ -356,8 +431,22 @@ s2
    font-weight: 700;
    line-height: normal;
    display: flex;
-   width: 618px;
-   gap: 20px;
+   /* width: 618px; */
+   /* gap: 20px; */
+   width: max-content;
+}
+.title-of-section-gradient {
+   text-align: center;
+   font-family: Montserrat Alternates;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+
+   background: linear-gradient(269deg, #455cff 0.35%, #4559ed 47.28%, #333 101.37%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .second-section {
@@ -383,7 +472,7 @@ s2
 }
 
 .nav-shop {
-   width: 1280px;
+   width: 1200px;
    text-align: center;
    font-family: "Lato", sans-serif;
    font-size: 18px;
@@ -405,16 +494,18 @@ s2
    list-style: none;
    gap: 21px;
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
+   width: calc(100% - 65px);
 }
-.nav-shop ul li:not(:last-child) {
+/* .nav-shop ul li:not(:last-child)  */
+.nav-shop ul li {
    padding: 14px 32px 16px 32px;
 }
 .arrow-right-list {
-   border-radius: 30px;
-   border: 2px solid #ffc93a;
-   padding: 13px 32px 14px 32px;
+   border-radius: 35px;
+   border: 1.423px solid var(--yellow, #ffc93a);
+   padding: 11px 24px;
    line-height: 90%;
    position: absolute;
    right: 0;
@@ -424,26 +515,32 @@ s2
 
 .nav-shop ul li:first-child {
    border-radius: 30px;
-   border: 2px solid #ffc93a;
+   border: 1.423px solid var(--yellow, #ffc93a);
+   padding: 10px 24px 12px 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 #vector-1 {
    width: 14px;
    height: 28px;
 }
 .discription-of-product {
-   padding: 24px 20px;
+   padding: 17px 14px;
    overflow: hidden;
    color: #333;
    text-overflow: ellipsis;
-   font-family: "Lato", sans-serif;
-   font-size: 24px;
+   font-family: Lato;
+   font-size: 18px;
    font-style: normal;
    font-weight: 600;
-   line-height: 140%; /* 33.6px */
+   line-height: 140%; /* 25.2px */
 
    border-radius: 20px;
    border: 1px solid rgba(34, 34, 34, 0.1);
    background: #f4f4f8;
+   z-index: 5;
+   position: relative;
 }
 .opacity-text-discription-product-card {
    opacity: 0.5;
@@ -460,7 +557,7 @@ s2
 }
 .add-to-cart-btn {
    display: flex;
-   padding: 18px 32px 19px 32px;
+   padding: 13px 23px 14px 23px;
    justify-content: center;
    align-items: center;
    gap: 10px;
@@ -478,8 +575,8 @@ s2
    border-radius: 20px;
    border: 1px solid rgba(34, 34, 34, 0.1);
    background: #fafafa;
-   width: 310px;
-   height: 443px;
+   /* width: 310px; */
+   /* height: 443px; */
    overflow: hidden;
    transition: 0.6s ease;
 }
@@ -487,18 +584,18 @@ s2
    scale: 1.1;
 }
 .prise-of-rent-1 {
-   padding-right: 32px;
+   padding-right: 20px;
 }
 .img-of-product {
    border-radius: 20px;
-   width: 309px;
+   width: 222px;
    transition: 0.6s ease;
 }
 .shop-take-rent {
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
-   width: 1300px;
+   width: 1200px;
    margin: 30px auto 0;
 }
 .boo {
@@ -537,6 +634,7 @@ s2
    overflow: hidden;
    position: absolute;
    bottom: 0;
+   display: flex;
 }
 .hand-mask-app-banner {
    overflow: hidden;
@@ -1506,8 +1604,10 @@ s7
 }
 
 .map-area-first-section {
+   margin-top: 130px;
    overflow: hidden;
    border-radius: 60px;
+   height: 570px;
 }
 .map-area-first-section a img {
    transition: 0.6s ease;

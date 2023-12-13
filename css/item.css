@@ -639,12 +639,7 @@
    /* letter-spacing: .4px; */
 }
 
-.first-section {
-   background-image: url(../assets/content/head-gacground.png);
-   background-repeat: no-repeat;
-   border-right-width: 100%;
-   background-position: center top;
-}
+
 .k-k-about-us-2-cont {
    color: #333;
    text-align: right;
