@@ -124,7 +124,141 @@
    border-radius: 30px;
    background: #ffc93a;
    margin: 45px auto 20px;
+
+   border-radius: 14.229px;
+   border: 0.711px solid #ccccd0;
 }
 .filters-container-catalog {
    width: 310px;
+}
+
+.catalog-filter-section {
+   display: flex;
+   width: 228px;
+   padding: 14px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 25.612px;
+   margin: 0;
+
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 19.6px */
+
+   border-radius: 14.229px;
+   border: 1px solid #ccccd0;
+   margin-top: 24px;
+}
+.catalog-filter-section p {
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%; /* 19.6px */
+}
+.catalog-input-container p {
+   margin-bottom: 15px;
+}
+.filter-container-catalog {
+   margin: 0;
+   gap: 20px;
+
+   color: #000;
+   font-family: Montserrat;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.checkbox-container_catalog {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 15px;
+}
+.checkbox-container_catalog label {
+   margin-left: 10px;
+}
+
+#price-slider {
+   width: 90%;
+   margin: 0 auto;
+}
+
+#price-values {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   width: 200px;
+}
+#price-min,
+#price-max {
+   /* display: none; */
+}
+#input-max {
+   background: #f4f4f8;
+   border-radius: 0px 7.115px 7.115px 0px;
+   border-top: 0.711px solid #ccccd0;
+
+   border-right: 0.711px solid #ccccd0;
+
+   border-bottom: 0.711px solid #ccccd0;
+   border-left: none;
+   width: 49%;
+   padding: 7px 15px;
+}
+#input-min {
+   background: #f4f4f8;
+   border-radius: 7.115px 0 0 7.115px;
+   border-top: 0.711px solid #ccccd0;
+
+   border-left: 0.711px solid #ccccd0;
+
+   border-bottom: 0.711px solid #ccccd0;
+   border-right: none;
+   width: 49%;
+   padding: 7px 15px;
+}
+
+/* Добавленные стили для кружочков */
+.noUi-horizontal .noUi-handle {
+   width: 12px;
+   height: 12px;
+   border: 1px solid #000;
+   border-radius: 50%;
+   background-color: #fff;
+   cursor: grab;
+   z-index: 2;
+   overflow: hidden;
+   right: -3px;
+}
+.noUi-horizontal {
+   height: 1px;
+}
+.noUi-connect {
+   background: #000;
+}
+.noUi-target {
+   border: none;
+   background: gray;
+}
+
+/* Удаление before и after у .noUi-handle */
+.noUi-handle::before,
+.noUi-handle::after {
+   content: none;
+}
+
+.noUi-active {
+   cursor: grabbing;
+}
+.noUi-touch-area {
+   background-color: #fff;
+   z-index: 1;
 }

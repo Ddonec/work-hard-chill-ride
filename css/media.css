@@ -588,7 +588,7 @@
    }  */
    .apps-links-footer- {
       order: 1;
-      margin: 0;
+      margin: 0 auto;
    }
 }
 @media (max-width: 800px) {
@@ -968,6 +968,9 @@
    }
    .payments-metod {
       gap: calc(100vw / 6);
+   }
+   .shop-take-rent {
+      max-height: unset;
    }
 }
 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.1/nouislider.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.1/nouislider.min.js"></script>
+      <style>
+         #price-slider {
+            width: 200px;
+            margin: 50px;
+         }
+
+         #price-values {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            width: 200px;
+         }
+         #price-min,
+         #price-max {
+            display: none;
+         }
+
+         /* Добавленные стили для кружочков */
+         .noUi-horizontal .noUi-handle {
+            width: 12px;
+            height: 12px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            background-color: #fff;
+            cursor: grab;
+            z-index: 2;
+            overflow: hidden;
+            right: -6px;
+         }
+         .noUi-horizontal {
+            height: 1px;
+         }
+         .noUi-connect{
+            background: #000;
+         }
+         .noUi-target {
+            border: none;
+            background: gray;
+         }
+
+         /* Удаление before и after у .noUi-handle */
+         .noUi-handle::before,
+         .noUi-handle::after {
+            content: none;
+         }
+
+         .noUi-active {
+            cursor: grabbing;
+         }
+         .noUi-touch-area {
+            background-color: #fff;
+            z-index: 1;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="price-slider"></div>
+      <div id="price-values">
+         <span id="price-min"></span>
+         <span id="price-max"></span>
+      </div>
+
+      <label for="input-min">Минимальная цена:</label>
+      <input type="number" id="input-min" min="300" max="50000" step="1" />
+
+      <label for="input-max">Максимальная цена:</label>
+      <input type="number" id="input-max" min="300" max="50000" step="1" />
+
+      <script>
+         const priceSlider = document.getElementById("price-slider");
+         const priceMin = document.getElementById("price-min");
+         const priceMax = document.getElementById("price-max");
+         const inputMin = document.getElementById("input-min");
+         const inputMax = document.getElementById("input-max");
+
+         noUiSlider.create(priceSlider, {
+            start: [300, 50000],
+            connect: true,
+            range: {
+               min: 300,
+               max: 50000,
+            },
+            handles: true, // Добавлено для отображения кружочков
+         });
+
+         priceSlider.noUiSlider.on("update", function (values, handle) {
+            if (handle === 0) {
+               priceMin.textContent = Math.round(values[0]);
+               inputMin.value = Math.round(values[0]);
+            }
+            if (handle === 1) {
+               priceMax.textContent = Math.round(values[1]);
+               inputMax.value = Math.round(values[1]);
+            }
+         });
+
+         // Обновление значений ползунков при вводе в поля
+         inputMin.addEventListener("change", function () {
+            priceSlider.noUiSlider.set([this.value, null]);
+         });
+
+         inputMax.addEventListener("change", function () {
+            priceSlider.noUiSlider.set([null, this.value]);
+         });
+      </script>
+   </body>
+</html>
