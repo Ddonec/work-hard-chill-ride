@@ -243,7 +243,7 @@
       background-image: url(../assets/content/img2\(1\).png);
       background-repeat: no-repeat;
       width: calc(100vw - 50px);
-      height: 466px;
+      height: 310px;
       border-radius: 20px;
    }
    /* .photo-and-discription-six-section {
@@ -286,18 +286,7 @@
    .app-banner {
       width: 100%;
    }
-   #iphone-screen {
-      right: 83px;
-   }
-   #hand-iphone {
-      right: -50px;
-   }
-   #koleso {
-      right: -30px;
-   }
-   #krug {
-      right: -30px;
-   }
+
    .app-banner {
       display: flex;
       flex-direction: column;
@@ -311,7 +300,7 @@
       right: 216px;
    }
    #hand-iphone {
-      right: 83px;
+      right: 35px;
    }
    #koleso {
       right: 0;
@@ -480,9 +469,10 @@
       bottom: -30px;
    }
    #hand-iphone {
-      right: -100px;
+      right: -138px;
       scale: 0.7;
-      bottom: -70px;
+      bottom: -260px;
+      width: 390px;
    }
    #koleso {
       right: -278px;
@@ -598,7 +588,7 @@
    }  */
    .apps-links-footer- {
       order: 1;
-      margin: 0 auto;
+      margin: 0;
    }
 }
 @media (max-width: 800px) {
@@ -617,11 +607,9 @@
    .show-more-6-section-btn {
       width: calc(100vw - 40px);
    }
-   .img-circle {
-      width: 24%;
-   }
    .img-circle img {
-      width: 100%;
+      /* width: 100%; */
+      max-width: 225px;
    }
    .yellow-block {
       border-radius: 0 110px 0 0;
@@ -634,7 +622,7 @@
    }
    .last-photo {
       width: 30%;
-      height: 167px;
+      height: 235px;
       background-size: cover;
    }
    /* .yellow-block {
@@ -664,6 +652,9 @@
    }
 }
 @media (max-width: 700px) {
+   .seven-section {
+      padding: 10px;
+   }
    .img-circle {
       width: 232px;
    }
@@ -672,6 +663,15 @@
    }
    .yellow-block {
       display: none;
+   }
+
+   .three-elemrnts-container-home-page-blue-block {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: flex-start;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
    }
    .go-to-all-chill-btn-container {
       display: flex;
@@ -835,9 +835,10 @@
       bottom: 36px;
    }
    #hand-iphone {
-      right: -154px;
+      right: -200px;
       transform: rotate(-20deg);
-      bottom: -96px;
+      bottom: -170px;
+      scale: 0.55;
    }
    .main-text-app-cart {
       font-size: 28px;
@@ -917,7 +918,7 @@
       width: 100%;
       margin: 0;
       margin-right: auto;
-      margin-left: 20px;
+      /* margin-left: 20px; */
       /* height: 40vw; */
       /* padding: 5% 0; */
       /* display: flex; */
@@ -988,9 +989,40 @@
 }
 
 @media (max-width: 470px) {
+   .map-area-first-section {
+      margin-top: 50px;
+   }
+   .bacground-image-main-page-first-section {
+      height: 620px;
+   }
+   footer {
+      padding: 60px 10px 10px 10px;
+   }
+   .payments-metod {
+      gap: 10px;
+   }
    .see-all-usefull-mat-btn {
-      font-size: 16px;
-      padding: 14px 32px 16px 32px;
+      display: flex;
+      width: unset;
+      padding: 10px 24px 12px 24px;
+      justify-content: center;
+      align-items: center;
+      scale: 1;
+   }
+   .last-text-first-section {
+      width: 90%;
+   }
+   .title-of-section-gradient,
+   .title-of-section-3,
+   .title-of-section-gradient-yellow {
+      font-size: 32px;
+      width: 90%;
+   }
+   .absolute-on-map-home-page-text-comtainer h3 {
+      font-size: 24px;
+   }
+   .text-area-first-section-1920 h1 {
+      font-size: 24px;
    }
    .yellow-block {
       font-size: 14px;
@@ -1014,6 +1046,12 @@
    }
    #card-reserve span {
       font-size: 14px;
+   }
+   #hand-iphone {
+      right: -155px;
+   }
+   #iphone-screen {
+      right: -6px;
    }
    .opacity-text-section-5 {
       font-size: 26px;
@@ -1042,16 +1080,21 @@
    }
    .main-text-app-cart {
       font-size: 24px;
+      width: 60%;
    }
    .main-text-app-cart span {
       font-size: 24px;
    }
    .discription-app-cart {
       font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      z-index: 5;
    }
    .discription-app-cart div {
       width: 100px;
       height: 25px;
+      z-index: 5;
    }
    .apps-links-app-cart {
       display: flex;
@@ -1061,14 +1104,9 @@
       height: max-content;
    }
    .hand-mask-app-banner {
-      height: 250px;
+      height: 350px;
    }
-   .last-text-first-section {
-      font-size: 13px;
-   }
-   h1 {
-      font-size: 19px;
-   }
+
    .icun-list-h li:nth-child(4),
    .icun-list-h li:nth-child(5) {
       display: none;
@@ -1094,7 +1132,7 @@
       width: 140px;
    }
 }
-@media (max-width: 355px) {
+@media (max-width: 365px) {
    .see-all-usefull-mat-btn {
       scale: 0.7;
    }
