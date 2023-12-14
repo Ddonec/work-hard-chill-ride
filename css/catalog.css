@@ -59,6 +59,20 @@
    justify-content: space-between;
    margin-top: 30px;
 }
+.title-of-section-catalog-page {
+   color: #333;
+   text-align: left;
+   font-family: Montserrat Alternates;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   width: max-content;
+}
+.title-of-section-catalog-page h1 {
+   width: max-content;
+   font-size: 48px;
+}
 .hide-filter-btn {
    display: flex;
    padding: 14px 32px 16px 32px;
