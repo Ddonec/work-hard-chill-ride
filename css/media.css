@@ -757,27 +757,8 @@
    .icun-list-h li:not(:last-child) {
       display: none;
    }
-   .logo-header img {
-      /* scale: 0.4276; */
-      /* top: 0;
-     left: 0;
-     position: absolute; */
-   }
-   .logo-header {
-      /* width: 62px;
-      height: 35px;
-      top: 26px;
-      left: 10px; */
-   }
-   .under-bike {
-      /* background: #5567ea;
-      width: 76px;
-      height: 16px;
-      border-radius: 0 0 50px 50px;
-      position: absolute;
-      bottom: -15px;
-      left: 52px; */
-   }
+
+
    .header-top-blue {
       align-items: bottom;
    }
@@ -848,10 +829,7 @@
    .main-text-app-cart span {
       font-size: 34px;
    }
-   .discription-app-cart div {
-      /* width: 115px;
-      height: 30px; */
-   }
+
    .t-o-s {
       display: flex;
       flex-wrap: wrap;

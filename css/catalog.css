@@ -211,10 +211,7 @@
    margin-bottom: 15px;
    width: 200px;
 }
-#price-min,
-#price-max {
-   /* display: none; */
-}
+
 #input-max {
    background: #f4f4f8;
    border-radius: 0px 7.115px 7.115px 0px;
