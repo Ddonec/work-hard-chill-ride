@@ -169,6 +169,18 @@
       padding: 0 20px;
       width: 440px;
    }
+   .main-content-item {
+      padding: 20px;
+   }
+   .photo-item-i-p {
+      width: calc(100vw - 68%);
+   }
+   .main-info-info-page {
+      position: relative;
+   }
+   .right-section-info-page {
+      width: 60%;
+   }
 }
 
 @media (max-width: 1299px) {
@@ -336,6 +348,24 @@
    }
    .absolute-on-map-home-page-text-comtainer h3 {
       font-size: 40px;
+   }
+   .photo-item-i-p {
+      width: 36%;
+   }
+   .right-section-info-page {
+      width: 56%;
+   }
+   .main-info-info-page {
+      flex-direction: column;
+   }
+   .photo-item-i-p {
+      width: unset;
+   }
+   .right-section-info-page {
+      width: unset;
+   }
+   .photo-item-i-p {
+      aspect-ratio: 728/400;
    }
 }
 
@@ -556,36 +586,6 @@
 }
 
 @media (max-width: 976px) {
-   /* .yellow-block {
-      width: 94vw;
-   }
-   .blue-n-c-1 {
-      order: 1;
-   }
-   .blue-n-c-2 {
-      order: 4;
-      height: 120px;
-      align-self: flex-start; /* Вертикальное выравнивание для 4 элемента 
-   }
- .blue-n-c-3 {
-      order: 2;
-   }
-   .blue-n-c-4 {
-      height: 120px;
-      order: 5;
-      position: absolute;
-      top: 450px;
-      right: calc(20px + 5vw);
-   }
-   .blue-n-c-5 {
-      order: 3;
-   }
-   .blue-n-c-6 {
-      order: 6;
-   }
-   .blue-n-c-7 {
-      order: 7;
-   }  */
    .apps-links-footer- {
       order: 1;
       margin: 0 auto;
@@ -757,7 +757,6 @@
    .icun-list-h li:not(:last-child) {
       display: none;
    }
-
 
    .header-top-blue {
       align-items: bottom;
@@ -949,6 +948,31 @@
    }
    .shop-take-rent {
       max-height: unset;
+   }
+
+   .price-cards-i-p {
+      flex-direction: column;
+   }
+   .main-content-item h1 {
+      display: unset;
+   }
+   .title-of-section-item-page.text-gradient {
+      display: none;
+   }
+   .main-info-info-page {
+      gap: 30px;
+   }
+   .item-page-map-block {
+      margin: 0;
+      height: 150px;
+      border-radius: 20px;
+      margin-top: 30px;
+   }
+   .i-p-d {
+      padding: 15px 20px;
+   }
+   .last-section-area-i-p {
+      margin-top: 30px;
    }
 }
 

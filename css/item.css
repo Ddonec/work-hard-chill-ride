@@ -7,6 +7,28 @@
    line-height: 150%; /* 27px */
    vertical-align: center;
 }
+.main-content-item h1 {
+   font-family: Montserrat Alternates;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   display: none;
+}
+.text-16-500-left {
+   color: #333;
+   font-family: Montserrat;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%; /* 27px */
+   vertical-align: center;
+}
+.text-10 {
+   color: #333;
+   font-family: Montserrat;
+   font-size: 10px;
+}
 
 .text-24-700 {
    color: #333;
@@ -61,20 +83,22 @@
    justify-content: space-between;
 }
 .photo-item-i-p {
-   max-width: 492px;
-   height: 363px;
+   width: 49%;
    border-radius: 20px;
    background-image: url(../assets/content/img-bike-2.png);
    background-repeat: no-repeat;
-   background-size: 100%;
-   width: 50vw;
+   background-size: cover;
+   background-position: center;
+   aspect-ratio: 590/442;
+   border: 0.711px solid rgba(34, 34, 34, 0.1);
+   height: fit-content;
 }
 
 .right-section-info-page {
    display: flex;
    flex-direction: column;
    gap: 40px;
-   width: 750px;
+   width: 47%;
 }
 
 .discription-of-item-i-p {
@@ -108,7 +132,7 @@
 }
 .price-card-i-p {
    display: flex;
-   padding: 30px;
+   padding: 15px;
    flex-direction: column;
    align-items: flex-start;
    gap: 16px;
@@ -117,7 +141,7 @@
 }
 .avalibale-card-i-p {
    display: flex;
-   padding: 30px;
+   padding: 20px;
    flex-direction: column;
    align-items: flex-start;
    gap: 12px;
@@ -154,7 +178,7 @@
    margin-top: 4px;
 }
 .item-page-map-block {
-   width: 100vw;
+   width: 100%;
    max-width: 1300px;
    height: 260px;
    background-image: url(../assets/content/map-k-k.png);
@@ -209,11 +233,12 @@
    max-width: 1540px;
    margin: 90px auto;
    width: 100vw;
+   overflow-x: auto;
 }
 .slider-area-item-page {
    display: flex;
    gap: 20px;
-   overflow: auto;
+   overflow-x: auto;
 }
 .arrows-i-p {
    display: flex;
@@ -638,7 +663,6 @@
    line-height: 150%; /* 27px */
    /* letter-spacing: .4px; */
 }
-
 
 .k-k-about-us-2-cont {
    color: #333;
