@@ -974,6 +974,19 @@
    .last-section-area-i-p {
       margin-top: 30px;
    }
+   .left-arrow-i-p,
+   .right-arrow-i-p {
+      display: none;
+   }
+   .last-section-area-i-p {
+      padding: 0 20px;
+   }
+   .last-section-of-i-p {
+      gap: 0;
+   }
+   .second-title-item-page {
+      font-size: 32px;
+   }
 }
 
 @media (min-width: 701px) {
