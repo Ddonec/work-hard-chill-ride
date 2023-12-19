@@ -29,6 +29,8 @@ const borderColorSwitch = document.querySelectorAll(".border-switch-status-blue"
 const sixSectionTitle = document.querySelector(".title-of-section-gradient-yellow");
 const fourSectionContainerHide = document.querySelector(".four-section");
 const fiveSectionContainerHide = document.querySelector(".five-section");
+const showHideBlueWheel = document.querySelectorAll(".show-hide-blue-wheel");
+const showHideYellowWheel = document.querySelectorAll(".show-hide-yellow-wheel");
 
 const blueFake = document.querySelector(".blue-line-fake");
 const grayFake = document.querySelector(".gray-line-fake");
@@ -60,6 +62,12 @@ checkbox.addEventListener("change", function () {
       });
       borderColorSwitch.forEach(function (element) {
          element.classList.remove("border-blue");
+      });
+      showHideBlueWheel.forEach(function (element) {
+         element.classList.add("none");
+      });
+      showHideYellowWheel.forEach(function (element) {
+         element.classList.remove("none");
       });
       summerContent.style.display = "none";
       winterContent.style.display = "flex";
@@ -113,6 +121,12 @@ checkbox.addEventListener("change", function () {
       });
       borderColorSwitch.forEach(function (element) {
          element.classList.add("border-blue");
+      });
+      showHideBlueWheel.forEach(function (element) {
+         element.classList.remove("none");
+      });
+      showHideYellowWheel.forEach(function (element) {
+         element.classList.add("none");
       });
       winterContent.style.display = "none";
       summerContent.style.display = "flex";

@@ -1015,6 +1015,9 @@
       margin-right: 20%;
       display: flex;
    }
+   .social-media-footer {
+      display: none;
+   }
 }
 
 @media (min-width: 701px) {

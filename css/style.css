@@ -1706,12 +1706,21 @@ s7
    right: -85px;
 }
 .cur-pointer button {
+   display: flex;
    border-radius: 30px;
    border: 2px solid #ffc93a;
-   padding: 11px 24px;
    justify-content: center;
    align-items: center;
    background: #fff;
+   width: 58px;
+   height: 42px;
+}
+.cur-pointer button img {
+   width: 10px;
+   height: 20px;
+}
+.opacity {
+   opacity: 0.5;
 }
 .see-all-usefull-mat-btn {
    display: inline-flex;
