@@ -456,7 +456,7 @@
    flex-direction: column;
    gap: 20px;
 }
-.asside-area-news-1-cards > div:nth-last-child(-n+3) {
+.asside-area-news-1-cards > div:nth-last-child(-n + 3) {
    display: none;
 }
 .main-photo-of-news-1-page {
@@ -521,6 +521,7 @@
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
+   justify-content: space-evenly;
 }
 .child-game-card-cataloc-child-page {
    width: 200px;
