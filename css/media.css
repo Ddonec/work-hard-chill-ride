@@ -600,6 +600,9 @@
       background-position: center;
       background-size: cover;
    }
+   .asside-area-news-1-cards > div:nth-last-child(-n + 5) {
+      display: block;
+   }
 }
 
 @media (max-width: 976px) {
@@ -968,7 +971,6 @@
    }
 
    .input-zone-news-p-cont,
- 
    .text-inside-cart-blog,
    .sick-cart-news {
       width: 100%;
@@ -991,6 +993,9 @@
    }
    .main-content-news-page {
       margin: 0;
+   }
+   .asside-area-news-1-cards  {
+      flex-direction: row-reverse;
    }
 }
 

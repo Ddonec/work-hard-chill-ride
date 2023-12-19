@@ -451,6 +451,14 @@
 .news-1-center-block-info h1 {
    width: 100%;
 }
+.asside-area-news-1-cards {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.asside-area-news-1-cards > div:nth-last-child(-n+3) {
+   display: none;
+}
 .main-photo-of-news-1-page {
    height: 462px;
    border-radius: 40px;
