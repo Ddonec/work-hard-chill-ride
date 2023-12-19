@@ -1,6 +1,6 @@
 .text-18-500-left {
    color: #333;
-   font-family: Montserrat;
+   font-family: "Montserrat", sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
@@ -17,7 +17,7 @@
 }
 .text-16-500-left {
    color: #333;
-   font-family: Montserrat;
+   font-family: "Montserrat", sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
@@ -30,7 +30,7 @@
 }
 .text-10 {
    color: #333;
-   font-family: Montserrat;
+   font-family: "Montserrat", sans-serif;
    font-size: 10px;
 }
 
