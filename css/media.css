@@ -64,7 +64,7 @@
    }
    .nav-shop {
       width: calc(100vw - 65px);
-      white-space: nowrap; /* Запрет переноса строк */
+      white-space: nowrap; 
       overflow-x: hidden;
       margin: 40px auto 0;
    }
@@ -129,9 +129,7 @@
    .search-header-1920 {
       display: none !important;
    }
-   /* .gray-line-fake, */
-   /* .second-line-header, */
-   /* .blue-line-fake, */
+
    h2,
    .shadow-moscow,
    #search-icon-1920 {
@@ -141,12 +139,7 @@
       width: 100%;
       justify-content: space-between;
    }
-   /* .logo-header {
-       left: calc((100vw - 145px) / 2);
-    }
-    .under-bike {
-       left: calc((100vw - 177px) / 2);
-    } */
+
    .year-time-button {
       margin: 0 20px;
       width: 360px;
@@ -263,9 +256,7 @@
       height: 310px;
       border-radius: 20px;
    }
-   /* .photo-and-discription-six-section {
-     width: 100vw;
-   } */
+
    .yellow-block {
       width: calc(100vw - 380px);
       height: 310px;
@@ -294,7 +285,7 @@
       width: calc(100vw - 40px);
       margin: 0 auto;
       justify-content: space-between;
-      align-content: flex-start; /* Вертикальное выравнивание для 2 и 4 элементов */
+      align-content: flex-start;
    }
    .hand-mask-app-banner {
       width: calc((100vw - 40px));
@@ -381,21 +372,7 @@
    .number-headr-yellow.number-header-yellow {
       display: none;
    }
-   /* .main-text-app-cart {
-      margin: 0;
-      font-size: 36px;
-   }
-   .apps-links-app-cart {
-      margin: 0;
-   }
-   .discription-app-cart {
-      font-size: 20px;
-      margin: 14px 0 28px;
-   }
-   .discription-app-cart div {
-      width: 138px;
-      height: 34px;
-   } */
+
    .shop-take-rent {
       max-height: 910px;
       overflow: auto;
@@ -411,9 +388,7 @@
       box-shadow: 0px -30px 0px 0px rgba(232, 234, 251, 1) inset;
       -webkit-box-shadow: 0px -30px 0px 0px rgba(232, 234, 251, 1) inset;
       -moz-box-shadow: 0px -30px 0px 0px rgba(232, 234, 251, 1) inset;
-      /* box-shadow: 0px 10px 0px 0px rgba(232, 234, 251, 0.63);
-     -webkit-box-shadow: 0px 10px 0px 0px rgba(232, 234, 251, 0.63);
-     -moz-box-shadow: 0px 10px 0px 0px rgba(232, 234, 251, 0.63); */
+
    }
 
    .opacity-text-section-white {
@@ -638,9 +613,7 @@
       height: 235px;
       background-size: cover;
    }
-   /* .yellow-block {
-      display: none;
-   } */
+
 
    .blue-n-c-4 {
       order: 10;
@@ -700,9 +673,7 @@
    .third-section {
       display: block;
    }
-   /* .nav-shop ul li:not(:first-child) {
-      display: none;
-   } */
+
    .bacground-image-main-page-first-section {
       height: 800px;
    }
@@ -745,25 +716,7 @@
       background-position: center;
    }
 
-   /* .switch {
-      scale: 0.5455;
-      width: 85px;
-   } */
 
-   /* input:checked + .slider:before {
-      -webkit-transform: translateX(40px);
-      -ms-transform: translateX(40px);
-      transform: translateX(40px);
-   } */
-
-   /* #snow-header-button {
-      width: 24px;
-      height: 24px;
-      margin: 0 3px 0 16px;
-   }
-   #snow-header-button-2 {
-      margin-left: 14px;
-   } */
    .number-headr-yellow {
       display: none;
    }
@@ -774,11 +727,7 @@
    .header-top-blue {
       align-items: bottom;
    }
-   /* .year-time-button {
-      height: 24px;
-      margin-bottom: 40px;
-      margin-left: 6px;
-   } */
+
    h1 {
       font-size: 26px;
    }
@@ -786,13 +735,7 @@
       margin: 0 20px 0 0px;
    }
 
-   /* #hand-iphone,
-   #iphone-screen,
-   #koleso,
-   .more-900-hide,
-   #krug {
-      display: none;
-   } */
+
    .hand-mask-app-banner {
       height: 310px;
    }
@@ -908,10 +851,7 @@
       width: 100%;
       margin: 0;
       margin-right: auto;
-      /* margin-left: 20px; */
-      /* height: 40vw; */
-      /* padding: 5% 0; */
-      /* display: flex; */
+
       align-items: center;
       text-align: left;
    }
@@ -1177,9 +1117,7 @@
 
    .logo-header img {
       scale: 0.73;
-      /* top: 0;
-     left: 0;
-     position: absolute; */
+
    }
    .logo-header {
       top: 20px;
