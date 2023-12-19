@@ -124,10 +124,13 @@
       display: none;
    }
    .number-header-yellow {
-      margin-left: 30px;
+      margin: 0;
    }
    .search-header-1920 {
       display: none !important;
+   }
+   .zero-block-header {
+      width: 0px;
    }
 
    h2,
@@ -137,16 +140,16 @@
    }
    .header-top-blue {
       width: 100%;
-      justify-content: space-between;
+      padding: 0 20px;
    }
-
-   .year-time-button {
+   .number-h-y-container {
+      margin-left: auto;
+   }
+   b .year-time-button {
       margin: 0 20px;
       width: 360px;
    }
-   .number-h-y-container {
-      display: none;
-   }
+
    .text-area-first-section-1920 {
       width: 100%;
    }
@@ -197,6 +200,9 @@
       width: calc(100vw - 20px);
       overflow: auto;
    }
+   .six-cards-container::-webkit-scrollbar {
+      display: none;
+   }
    .shadow-section-5 {
       right: calc((100vw - 806px) / 2);
    }
@@ -221,6 +227,14 @@
 @media (max-width: 1340px) {
    .footer-line {
       width: 95vw;
+   }
+   .second-line-header,
+   .gray-line-fake {
+      display: none;
+   }
+   .heaer-fake-fullscreen,
+   header {
+      height: unset;
    }
    .blue-n-c-4 {
       width: max-content;
@@ -368,9 +382,6 @@
 @media (max-width: 900px) {
    .text-area-first-section-1920 h1 {
       font-size: 40px;
-   }
-   .number-headr-yellow.number-header-yellow {
-      display: none;
    }
 
    .shop-take-rent {
@@ -701,6 +712,9 @@
       overflow-x: auto;
       justify-content: flex-start;
    }
+   .kids-chill::-webkit-scrollbar {
+      display: none;
+   }
    .third-section {
       display: block;
    }
@@ -971,7 +985,6 @@
    }
 
    .input-zone-news-p-cont,
-   .text-inside-cart-blog,
    .sick-cart-news {
       width: 100%;
    }
