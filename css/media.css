@@ -64,7 +64,7 @@
    }
    .nav-shop {
       width: calc(100vw - 65px);
-      white-space: nowrap; 
+      white-space: nowrap;
       overflow-x: hidden;
       margin: 40px auto 0;
    }
@@ -388,7 +388,6 @@
       box-shadow: 0px -30px 0px 0px rgba(232, 234, 251, 1) inset;
       -webkit-box-shadow: 0px -30px 0px 0px rgba(232, 234, 251, 1) inset;
       -moz-box-shadow: 0px -30px 0px 0px rgba(232, 234, 251, 1) inset;
-
    }
 
    .opacity-text-section-white {
@@ -571,6 +570,36 @@
    .i-n-p-c-email {
       width: 47%;
    }
+
+   .news-second-page-main-container {
+      flex-direction: column;
+   }
+   .asside-area-news-1-cards {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      width: fit-content;
+   }
+   .overflow-x-auto-container {
+      overflow-x: auto;
+   }
+   .social-left-block-news-2-page {
+      display: none;
+   }
+   .news-1-center-block-info {
+      max-width: unset;
+      width: unset;
+   }
+   .full-text-news-1-area {
+      max-width: unset;
+   }
+   .main-photo-of-news-1-page {
+      width: 100%;
+      height: unset;
+      aspect-ratio: 2/1;
+      background-position: center;
+      background-size: cover;
+   }
 }
 
 @media (max-width: 976px) {
@@ -613,7 +642,6 @@
       height: 235px;
       background-size: cover;
    }
-
 
    .blue-n-c-4 {
       order: 10;
@@ -716,7 +744,6 @@
       background-position: center;
    }
 
-
    .number-headr-yellow {
       display: none;
    }
@@ -734,7 +761,6 @@
    .profile-icon-header ul {
       margin: 0 20px 0 0px;
    }
-
 
    .hand-mask-app-banner {
       height: 310px;
@@ -942,7 +968,7 @@
    }
 
    .input-zone-news-p-cont,
-   .green-samokat,
+ 
    .text-inside-cart-blog,
    .sick-cart-news {
       width: 100%;
@@ -1117,7 +1143,6 @@
 
    .logo-header img {
       scale: 0.73;
-
    }
    .logo-header {
       top: 20px;
@@ -1125,6 +1150,9 @@
    }
    .under-bike {
       width: 140px;
+   }
+   .h1-news-1-page {
+      font-size: 26px;
    }
 }
 @media (max-width: 365px) {

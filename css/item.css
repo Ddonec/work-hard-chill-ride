@@ -25,7 +25,7 @@
    vertical-align: center;
 }
 .text-20- {
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 20px;
 }
 .text-10 {
@@ -36,7 +36,7 @@
 
 .text-24-700 {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -44,14 +44,14 @@
 }
 .text-24-600-blue {
    color: #5567ea;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    line-height: 130%; /* 31.2px */
 }
 .text-24-600 {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 600;
@@ -312,6 +312,14 @@
    position: relative;
    height: 365px;
 }
+.sick-cart-news-1 {
+   overflow: hidden;
+   width: 224px;
+   height: 400px;
+   border-radius: 20px;
+   position: relative;
+   height: 365px;
+}
 
 .show-more-btn-catalog {
    display: flex;
@@ -440,6 +448,9 @@
    width: 60vw;
    position: relative;
 }
+.news-1-center-block-info h1 {
+   width: 100%;
+}
 .main-photo-of-news-1-page {
    height: 462px;
    border-radius: 40px;
@@ -487,6 +498,7 @@
    width: 100%;
    max-width: 1300px;
    margin: 0 auto 32px;
+   padding: 20px;
 }
 .item-shadow-section-catalog-child-page {
    width: 239px;
@@ -706,7 +718,7 @@
 .k-k-about-us-1-cont {
    width: 530px;
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -717,7 +729,7 @@
 .k-k-about-us-2-cont {
    color: #333;
    text-align: right;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -778,7 +790,7 @@
 }
 .t-18-50-about {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -790,7 +802,7 @@
 }
 .h4-about-us-cont {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -798,7 +810,7 @@
 }
 .p-about-us-cont {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -831,7 +843,7 @@
 .p-disc-our-history-about-page {
    width: 1077px;
    color: #fff;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 400;
@@ -864,7 +876,7 @@
 
 .p-disc-history-card-a-u-p {
    color: #fff;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -934,7 +946,7 @@
 .contact-info-area-contacts-page li:nth-child(odd) {
    color: #333;
    text-align: left;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -973,7 +985,7 @@
 }
 .k-k-about-rope-park-page {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -982,7 +994,7 @@
 
 .k-k-div-530w-disc-rope-park-page {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1011,7 +1023,7 @@
 }
 .k-k-about-rope-park-page {
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -1021,7 +1033,7 @@
 .k-k-div-510w-vacancies {
    width: 510px;
    color: #333;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1063,7 +1075,7 @@
 }
 .discr-table-vacancies-page {
    color: var(--black, #333);
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1107,7 +1119,7 @@
    align-self: stretch;
 
    color: #000;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1115,7 +1127,7 @@
 }
 .requirements-vacancie-work-page {
    color: var(--purple, #5567ea);
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 600;
@@ -1201,7 +1213,7 @@
 
    color: var(--white, #fff);
    text-align: center;
-   font-family: Lato;
+   font-family: Lato, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1244,7 +1256,7 @@
 
 .faq-page-first-text {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    line-height: 140%; /* 33.6px */
@@ -1265,7 +1277,7 @@
 
 .text-question-faq-page {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    line-height: 140%; /* 33.6px */
@@ -1273,7 +1285,7 @@
 }
 .input-zone-discription-politic-provicy {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1303,7 +1315,7 @@
 .main-text-area-rules-page h6 {
    color: #333;
 
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    line-height: 140%; /* 33.6px */
@@ -1313,7 +1325,7 @@
 .main-text-area-rules-page p {
    color: #333;
 
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1330,7 +1342,7 @@
    width: 420px;
 
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -1340,7 +1352,7 @@
    width: 420px;
 
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1350,7 +1362,7 @@
 .nav-repair-page {
    width: 100%;
    text-align: center;
-   font-family: "Lato", sans-serif;
+   font-family: "Lato, sans-serif", sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1387,7 +1399,7 @@
 }
 .price-repair-page-container h5 {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -1405,7 +1417,7 @@
 
 .price-repair-page-container > div div {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1423,7 +1435,7 @@
 
 .example-text-repair-page {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
@@ -1455,7 +1467,7 @@
    background: #fff;
 
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1532,7 +1544,7 @@
 
 .top-discription-private-page p {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1541,7 +1553,7 @@
 
 .top-discription-private-page h3 {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 32px;
    font-style: normal;
    font-weight: 700;
@@ -1553,7 +1565,7 @@
    gap: 40px;
 
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
@@ -1562,7 +1574,7 @@
 
 .annex-1-oferta-page h5 {
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 32px;
    font-style: normal;
    font-weight: 700;
@@ -1573,7 +1585,7 @@
    width: 70%;
 
    color: #333;
-   font-family: Lato, sans-serif;
+   font-family: Lato, sans-serif, sans-serif;
    font-size: 24px;
    font-style: normal;
    line-height: 140%; /* 33.6px */
