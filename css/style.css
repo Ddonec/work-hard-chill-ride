@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 * {
    margin: 0;
    padding: 0;
@@ -7,7 +7,7 @@
 }
 a {
    text-decoration: none;
-   color: #333;
+   color: unset;
 }
 footer {
    padding: 68px 0 1px 0;
@@ -172,10 +172,18 @@ button {
    font-weight: 500;
    line-height: 140%; /* 25.2px */
 }
-#search-header-1920::placeholder {
+.search-header-1920::placeholder {
    color: white;
 }
+.custom-placeholder-style::placeholder {
+   color: #222;
+}
 #search-icon-1920 {
+   position: absolute;
+   top: 15px;
+   right: 20px;
+}
+#search-icon-1920-black {
    position: absolute;
    top: 15px;
    right: 20px;
@@ -276,6 +284,7 @@ s1
 .bacground-image-main-page-first-section {
    width: 100%;
    background-image: url(../assets/content/header-bg-without-noize.png);
+
    background-repeat: no-repeat;
    border-right-width: 100%;
    background-position: center top;
@@ -332,6 +341,9 @@ s1
    width: calc(100vw / 3.6);
    background-size: cover;
    max-width: 533px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 .absolute-fs-container-left {
    background-position-y: bottom;
@@ -567,10 +579,10 @@ s2
    font-size: 18px;
    font-style: normal;
    font-weight: 600;
-   line-height: 140%; /* 25.2px */
+   line-height: 140%;
 
    border-radius: 20px;
-   border: 1px solid rgba(34, 34, 34, 0.1);
+   border-top: 1px solid rgba(34, 34, 34, 0.1);
    background: #f4f4f8;
    z-index: 5;
    position: relative;
@@ -607,6 +619,8 @@ s2
 .card-of-product {
    border-radius: 20px;
    border: 1px solid rgba(34, 34, 34, 0.1);
+   box-shadow: inset 0 0 0 1px solid rgba(34, 34, 34, 0.1);
+
    background: #fafafa;
    /* width: 310px; */
    /* height: 443px; */
@@ -627,9 +641,10 @@ s2
 .shop-take-rent {
    display: flex;
    flex-wrap: wrap;
-   gap: 20px;
+   row-gap: 20px;
    width: 1200px;
    margin: 30px auto 0;
+   justify-content: space-between;
 }
 .boo {
    width: max-content;
@@ -645,6 +660,8 @@ s2
    border-radius: 30px;
    background: #ffc93a;
    border: none;
+   font-family: "Lato", sans-serif;
+   font-size: 14px;
 }
 #koleso {
    position: absolute;
@@ -872,8 +889,8 @@ s4
    font-weight: 700;
    line-height: normal;
    display: flex;
-   width: 630px;
    gap: 20px;
+   width: fit-content;
 }
 .shadow-section-4 {
    width: 430px;
@@ -962,6 +979,7 @@ s4
    align-self: stretch;
    border-radius: 30px;
    background: #ffc93a;
+   color: black;
 }
 .emotion-card-buttons > div:nth-child(2) {
    border: none;
@@ -982,7 +1000,7 @@ s5
 
 .title-of-section-5 {
    position: relative;
-   margin: 0 auto;
+   margin: 100px auto 40px;
    text-align: center;
    font-family: "Montserrat Alternates", sans-serif;
    font-size: 64px;
@@ -1113,6 +1131,7 @@ s5
 }
 
 .right-side-slider div {
+   height: 323px;
    height: fit-content;
    width: 310px;
    padding: 40px 30px;
@@ -1126,6 +1145,16 @@ s5
    font-weight: 500;
    line-height: 150%; /* 27px */
    text-align: left;
+}
+.right-side-slider .big-attention-for-kids {
+   color: #333;
+   font-family: Montserrat Alternates, sans-serif;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 120%; /* 33.6px */
+
+   height: 323px;
 }
 .right-side-slider img:nth-child(2) {
    height: 323px;
@@ -1246,6 +1275,7 @@ s6
    display: grid;
    align-items: center;
    margin-bottom: 64px;
+   background-size: cover;
 }
 
 .info-area-six-section {
@@ -1270,7 +1300,8 @@ s6
 }
 
 .white-text-section {
-   color: white;
+   color: unset;
+   text-decoration: none;
 }
 .opacity-text-section-white {
    z-index: 2;
@@ -1453,6 +1484,9 @@ s6
    background-clip: text;
    gap: 20px;
 }
+.switch-color-text-black {
+   color: black;
+}
 
 @keyframes marquee {
    0% {
@@ -1499,7 +1533,12 @@ s6
 .roll-park-list2 img {
    width: 61px;
 }
-
+.roll-park-list-black {
+   -webkit-text-stroke: 2px black;
+}
+.border-blue {
+   border: 1.5px solid #4559ed;
+}
 /* 
 BODY 
 s7
@@ -1704,6 +1743,7 @@ s7
    display: flex;
    justify-content: space-between;
    align-items: center;
+   max-width: 1200px;
 }
 
 .images-footer div {
@@ -1712,13 +1752,14 @@ s7
 }
 .images-footer > img {
    width: 73px;
+   margin-left: 8px;
 }
 
 .title-list-1 {
    padding: 0 10px 10px 10px;
    color: #fff;
    font-family: Lato, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    font-weight: 600;
    line-height: 130%; /* 31.2px */
@@ -1733,7 +1774,7 @@ s7
    color: #fff;
    text-align: left;
    font-family: "Lato", sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%; /* 25.2px */
@@ -1754,7 +1795,7 @@ s7
    color: #fff;
    text-align: left;
    font-family: "Lato", sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%; /* 25.2px */
@@ -1763,15 +1804,19 @@ s7
 
 .columns-footer {
    display: flex;
-   width: 1300px;
+   width: 1200px;
    margin: 58px auto 60px;
    justify-content: space-between;
 }
+
 .footer-line {
    background: rgba(255, 255, 255, 0.1);
-   width: 1300px;
+   width: 1200px;
    height: 1px;
    margin: 0 auto;
+}
+.apps-links-footer-1 img {
+   width: 128px;
 }
 .payments-metod {
    margin: 40px auto 80px;

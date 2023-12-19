@@ -1253,6 +1253,15 @@
    background: linear-gradient(270deg, rgba(69, 92, 255, 1) 0%, rgba(69, 89, 237, 1) 50%, rgba(51, 51, 51, 1) 100%);
    -webkit-background-clip: text;
 }
+
+.text-gradient-summer {
+   color: #131212;
+   background-image: -webkit-linear-gradient(0deg, #131212 10%, #7d380f 54%, #fec43e 99%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   text-fill-color: transparent;
+   -webkit-text-fill-color: transparent;
+}
 .h1-no-main-page {
    color: transparent;
    font-family: Montserrat Alternates;
@@ -1611,4 +1620,8 @@
 }
 .blue-i-p {
    color: #5567ea;
+}
+.blue-b-g {
+   background: #5567ea;
+   color: white;
 }
