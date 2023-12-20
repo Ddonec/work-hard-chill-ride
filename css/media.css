@@ -1167,9 +1167,9 @@
    .icun-list-h li:nth-child(5) {
       display: none;
    }
-   .row-footer-2 {
+   /* .row-footer-2 {
       width: 60%;
-   }
+   } */
 
    .logo-header img {
       scale: 0.73;

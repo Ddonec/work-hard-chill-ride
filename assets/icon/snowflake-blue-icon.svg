@@ -1,0 +1,15 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="snowflake" clip-path="url(#clip0_2151_50843)">
+<path id="Vector" d="M1.33301 8H14.6663" stroke="#5567EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8 1.33276V14.6661" stroke="#5567EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M13.3337 10.6661L10.667 7.99943L13.3337 5.33276" stroke="#5567EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M2.66699 5.33276L5.33366 7.99943L2.66699 10.6661" stroke="#5567EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M10.6663 2.66675L7.99967 5.33341L5.33301 2.66675" stroke="#5567EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M5.33301 13.3334L7.99967 10.6667L10.6663 13.3334" stroke="#5567EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2151_50843">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
