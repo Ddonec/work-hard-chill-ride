@@ -27,6 +27,7 @@ const runStringSecond = document.querySelector(".roll-park-list2");
 const yellowBlock = document.querySelector(".yellow-block");
 const borderColorSwitch = document.querySelectorAll(".border-switch-status-blue");
 const sixSectionTitle = document.querySelector(".title-of-section-gradient-yellow");
+const thirdSectionContainerHide = document.querySelector(".third-section-container");
 const fourSectionContainerHide = document.querySelector(".four-section");
 const fiveSectionContainerHide = document.querySelector(".five-section");
 const showHideBlueWheel = document.querySelectorAll(".show-hide-blue-wheel");
@@ -97,6 +98,7 @@ checkbox.addEventListener("change", function () {
       sixSectionTitle.classList.remove("text-gradient");
       fourSectionContainerHide.classList.add("none");
       fiveSectionContainerHide.classList.add("none");
+      thirdSectionContainerHide.classList.add("none");
    } else {
       summerStatus.forEach(function (element) {
          element.classList.remove("none");
@@ -158,6 +160,7 @@ checkbox.addEventListener("change", function () {
       sixSectionTitle.classList.add("text-gradient");
       fourSectionContainerHide.classList.remove("none");
       fiveSectionContainerHide.classList.remove("none");
+      thirdSectionContainerHide.classList.remove("none");
    }
 });
 
