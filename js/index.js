@@ -84,12 +84,12 @@ checkbox.addEventListener("change", function () {
       blueFake.style.background = "#5567ea";
       grayFake.style.background = "rgba(232, 234, 251, 0.8)";
       numberHeader.style.color = "#FFC93A";
-      backgroundHeaderRightPhoto.style.backgroundImage = "url(../assets/content/right-snow-peoples.png)";
-      backgroundHeaderLeftPhoto.style.backgroundImage = "url(../assets/content/left-snow-peoples-3.png)";
-      backgroundHeader.style.backgroundImage = "url(../assets/content/header-bg-without-noize.png)";
-      searchIconSwitchB.classList.add("none");
-      searchIconSwitchW.classList.remove("none");
-      bgSixSection.style.backgroundImage = "url(../assets/content/Noise&Texture.png)";
+      backgroundHeaderRightPhoto.classList.remove("summer");
+      backgroundHeaderLeftPhoto.classList.remove("summer");
+      backgroundHeader.classList.remove("summer");
+      // searchIconSwitchB.classList.add("none");
+      // searchIconSwitchW.classList.remove("none");
+      bgSixSection.classList.remove("summer");
       bgSixSection.style.backgroundColor = "#5567ea";
 
       runStringFirst.classList.remove("roll-park-list-black");
@@ -146,12 +146,12 @@ checkbox.addEventListener("change", function () {
       blueFake.style.background = "#ffc93a";
       grayFake.style.background = "#fff9e8";
       numberHeader.style.color = "#5567EA";
-      backgroundHeaderRightPhoto.style.backgroundImage = "url(../assets/content/samokat-rider-summer.png)";
-      backgroundHeaderLeftPhoto.style.backgroundImage = "url(../assets/content/bike-riders-summer.png)";
-      backgroundHeader.style.backgroundImage = "url(../assets/content/head-bg-summer.png)";
-      searchIconSwitchB.classList.remove("none");
-      searchIconSwitchW.classList.add("none");
-      bgSixSection.style.backgroundImage = "url(../assets/content/bg-6-section-summer.png)";
+      backgroundHeaderRightPhoto.classList.add("summer");
+      backgroundHeaderLeftPhoto.classList.add("summer");
+      backgroundHeader.classList.add("summer");
+      // // searchIconSwitchB.classList.remove("none");
+      // // searchIconSwitchW.classList.add("none");
+      bgSixSection.classList.add("summer");
       bgSixSection.style.backgroundColor = "unset";
 
       runStringFirst.classList.add("roll-park-list-black");
@@ -166,38 +166,38 @@ checkbox.addEventListener("change", function () {
 
 // Фильтр в каталоге
 
-const priceSlider = document.getElementById("price-slider");
-const priceMin = document.getElementById("price-min");
-const priceMax = document.getElementById("price-max");
-const inputMin = document.getElementById("input-min");
-const inputMax = document.getElementById("input-max");
+// const priceSlider = document.getElementById("price-slider");
+// const priceMin = document.getElementById("price-min");
+// const priceMax = document.getElementById("price-max");
+// const inputMin = document.getElementById("input-min");
+// const inputMax = document.getElementById("input-max");
 
-noUiSlider.create(priceSlider, {
-   start: [300, 50000],
-   connect: true,
-   range: {
-      min: 300,
-      max: 50000,
-   },
-   handles: true, // Добавлено для отображения кружочков
-});
+// noUiSlider.create(priceSlider, {
+//    start: [300, 50000],
+//    connect: true,
+//    range: {
+//       min: 300,
+//       max: 50000,
+//    },
+//    handles: true, // Добавлено для отображения кружочков
+// });
 
-priceSlider.noUiSlider.on("update", function (values, handle) {
-   if (handle === 0) {
-      priceMin.textContent = "от " + Math.round(values[0]);
-      inputMin.value = Math.round(values[0]);
-   }
-   if (handle === 1) {
-      priceMax.textContent = "до " + Math.round(values[1]);
-      inputMax.value = Math.round(values[1]);
-   }
-});
+// priceSlider.noUiSlider.on("update", function (values, handle) {
+//    if (handle === 0) {
+//       priceMin.textContent = "от " + Math.round(values[0]);
+//       inputMin.value = Math.round(values[0]);
+//    }
+//    if (handle === 1) {
+//       priceMax.textContent = "до " + Math.round(values[1]);
+//       inputMax.value = Math.round(values[1]);
+//    }
+// });
 
-// Обновление значений ползунков при вводе в поля
-inputMin.addEventListener("change", function () {
-   priceSlider.noUiSlider.set([this.value, null]);
-});
+// // Обновление значений ползунков при вводе в поля
+// inputMin.addEventListener("change", function () {
+//    priceSlider.noUiSlider.set([this.value, null]);
+// });
 
-inputMax.addEventListener("change", function () {
-   priceSlider.noUiSlider.set([null, this.value]);
-});
+// inputMax.addEventListener("change", function () {
+//    priceSlider.noUiSlider.set([null, this.value]);
+// });

@@ -304,6 +304,9 @@ s1
    align-items: center;
    position: relative;
 }
+.bacground-image-main-page-first-section.summer {
+   background-image: url(../assets/content/head-bg-summer.png);
+}
 
 .text-area-first-section-1920 {
    margin: 0 auto;
@@ -359,9 +362,17 @@ s1
    background-position-y: bottom;
    background-image: url(../assets/content/left-snow-peoples-3.png);
 }
+.absolute-fs-container-left.summer {
+   background-image: url(../assets/content/bike-riders-summer.png);
+}
+
 .absolute-fs-container-right {
    width: 578px;
    background-image: url(../assets/content/right-snow-peoples.png);
+}
+.absolute-fs-container-right.summer {
+   width: 578px;
+   background-image: url(../assets/content/samokat-rider-summer.png);
 }
 
 h2 {
@@ -1333,6 +1344,10 @@ s6
    margin-bottom: 60px;
    background-size: cover;
 }
+.six-section.summer {
+   background-image: url(../assets/content/bg-6-section-summer.png);
+   background-color: unset;
+}
 
 .info-area-six-section {
    display: grid;
@@ -2080,3 +2095,4 @@ input:checked + .slider:before {
    font-weight: 700;
    line-height: normal;
 }
+
