@@ -96,9 +96,9 @@ checkbox.addEventListener("change", function () {
       runStringSecond.classList.remove("roll-park-list-black");
       yellowBlock.style.background = "#ffc93a";
       sixSectionTitle.classList.remove("text-gradient");
-      fourSectionContainerHide.classList.add("none");
-      fiveSectionContainerHide.classList.add("none");
-      thirdSectionContainerHide.classList.add("none");
+      // fourSectionContainerHide.classList.add("none");
+      // fiveSectionContainerHide.classList.add("none");
+      // thirdSectionContainerHide.classList.add("none");
    } else {
       summerStatus.forEach(function (element) {
          element.classList.remove("none");
@@ -158,9 +158,9 @@ checkbox.addEventListener("change", function () {
       runStringSecond.classList.add("roll-park-list-black");
       yellowBlock.style.background = "white";
       sixSectionTitle.classList.add("text-gradient");
-      fourSectionContainerHide.classList.remove("none");
-      fiveSectionContainerHide.classList.remove("none");
-      thirdSectionContainerHide.classList.remove("none");
+      // fourSectionContainerHide.classList.remove("none");
+      // fiveSectionContainerHide.classList.remove("none");
+      // thirdSectionContainerHide.classList.remove("none");
    }
 });
 
