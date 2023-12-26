@@ -373,6 +373,17 @@
    .btn-hide {
       display: block !important;
    }
+   .contact-info-area-contacts-page {
+      flex-direction: column;
+      margin-left: 20px;
+      gap: 20px;
+   }
+   .line-contact-zone-contacts-page {
+      display: none;
+   }
+   .call-back-form-contact-p {
+      margin: 60px 20px 80px;
+   }
 }
 @media (max-width: 1240px) {
    .blue-bacground-section-about-us {
@@ -1129,11 +1140,18 @@
    .h2-find-page {
       font-size: 30px;
    }
+
    .map-area-find-page {
       height: 260px;
       width: 100vw;
       transform: translateX(-20px);
       border-radius: 20px;
+   }
+   .call-back-form-contact-p {
+      margin-bottom: 0;
+      width: 100vw;
+      transform: translateX(-20px);
+      border-radius: 20px 20px 0 0;
    }
 }
 
