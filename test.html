@@ -37,7 +37,7 @@
          .noUi-horizontal {
             height: 1px;
          }
-         .noUi-connect{
+         .noUi-connect {
             background: #000;
          }
          .noUi-target {
@@ -58,57 +58,41 @@
             background-color: #fff;
             z-index: 1;
          }
+         .container {
+            display: grid;
+            height: 200px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+         }
+         .item {
+            border: 2px solid;
+         }
+         .sec {
+            font-size: 1rem;
+         }
+         .di {
+            font-size: 0.8rem;
+         }
+         .di p {
+            font-size: 0.5rem;
+         }
+         @media (max-width: 1000px) {
+            .Di {
+               background: #000;
+            }
+         }
       </style>
    </head>
+
    <body>
-      <div id="price-slider"></div>
-      <div id="price-values">
-         <span id="price-min"></span>
-         <span id="price-max"></span>
+      <div>
+         start
+         <ul>
+            <li class="dkfnb"><b>info 1</b></li>
+            <li><b>info 2</b></li>
+         </ul>
       </div>
-
-      <label for="input-min">Минимальная цена:</label>
-      <input type="number" id="input-min" min="300" max="50000" step="1" />
-
-      <label for="input-max">Максимальная цена:</label>
-      <input type="number" id="input-max" min="300" max="50000" step="1" />
-
-      <script>
-         const priceSlider = document.getElementById("price-slider");
-         const priceMin = document.getElementById("price-min");
-         const priceMax = document.getElementById("price-max");
-         const inputMin = document.getElementById("input-min");
-         const inputMax = document.getElementById("input-max");
-
-         noUiSlider.create(priceSlider, {
-            start: [300, 50000],
-            connect: true,
-            range: {
-               min: 300,
-               max: 50000,
-            },
-            handles: true, // Добавлено для отображения кружочков
-         });
-
-         priceSlider.noUiSlider.on("update", function (values, handle) {
-            if (handle === 0) {
-               priceMin.textContent = Math.round(values[0]);
-               inputMin.value = Math.round(values[0]);
-            }
-            if (handle === 1) {
-               priceMax.textContent = Math.round(values[1]);
-               inputMax.value = Math.round(values[1]);
-            }
-         });
-
-         // Обновление значений ползунков при вводе в поля
-         inputMin.addEventListener("change", function () {
-            priceSlider.noUiSlider.set([this.value, null]);
-         });
-
-         inputMax.addEventListener("change", function () {
-            priceSlider.noUiSlider.set([null, this.value]);
-         });
-      </script>
    </body>
+   <script src="test.js"></script>
+   <div>;skjlfkb 230584086903dh</div>
 </html>
