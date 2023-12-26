@@ -592,6 +592,7 @@ s2
    height: 14px;
 }
 .discription-of-product {
+   height: 100%;
    padding: 8px 14px;
    overflow: hidden;
    color: #333;
@@ -1685,7 +1686,7 @@ s7
    border-radius: 20px 0px 20px 20px;
    border: 1px solid rgba(34, 34, 34, 0.1);
    background: #f4f4f8;
-   width: 224px;
+   width: 100%;
    height: 204px;
    bottom: 0px;
    display: flex;
@@ -2095,4 +2096,3 @@ input:checked + .slider:before {
    font-weight: 700;
    line-height: normal;
 }
-

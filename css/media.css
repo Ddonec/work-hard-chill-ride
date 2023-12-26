@@ -463,6 +463,9 @@
    .cards-rope-park-2 {
       display: none;
    }
+   .map-area-find-page {
+      height: 430px;
+   }
 }
 
 @media (max-width: 900px) {
@@ -726,6 +729,15 @@
    .payments-metod {
       margin: 70px auto 80px;
       scale: 0.8;
+   }
+   .parks-area-find-page-overflow-container {
+      overflow-x: auto;
+   }
+   .parks-area-find-page {
+      width: max-content;
+   }
+   .parks-area-find-page-overflow-container::-webkit-scrollbar {
+      display: none;
    }
 }
 
@@ -1001,6 +1013,7 @@
    }
    .apps-links-footer- img {
       width: 45%;
+      max-width: 200px;
    }
 
    .shop-take-rent {
@@ -1090,6 +1103,24 @@
    }
    .kids-chill div:nth-last-child(-n + 5) {
       display: block;
+   }
+   .parks-area-find-page-overflow-container::-webkit-scrollbar,
+   .table-info-find-page,
+   .search-container-find-page {
+      display: none;
+   }
+   .title-of-section-news-page {
+      font-size: 36px;
+   }
+
+   .h2-find-page {
+      font-size: 30px;
+   }
+   .map-area-find-page {
+      height: 260px;
+      width: 100vw;
+      transform: translateX(-20px);
+      border-radius: 20px;
    }
 }
 
@@ -1637,8 +1668,4 @@
    .absolute-peoples-container-f-s div {
       height: 230px;
    }
-
-
 }
-
-

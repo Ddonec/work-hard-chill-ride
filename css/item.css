@@ -7,6 +7,16 @@
    line-height: 150%; /* 27px */
    vertical-align: center;
 }
+.text-14-500-left {
+   color: #333;
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%; /* 27px */
+   vertical-align: center;
+}
+
 .main-content-item h1 {
    font-family: Montserrat Alternates;
    font-size: 32px;
@@ -278,24 +288,22 @@
 .title-of-section-news-page {
    position: relative;
    margin: 40px 0 50px;
-   text-align: center;
    font-family: "Montserrat Alternates", sans-serif;
-   font-size: 64px;
+   font-size: 48px;
    font-style: normal;
    font-weight: 700;
    line-height: normal;
    display: flex;
    gap: 20px;
-   width: max-content;
 }
 
-.title-of-section-news-page h1 {
+/* .title-of-section-news-page h1 {
    font-family: Montserrat Alternates;
    font-size: 48px;
    font-style: normal;
    font-weight: 700;
    line-height: normal;
-}
+} */
 .all-material-cards {
    position: relative;
    margin: 0 auto;
@@ -579,7 +587,7 @@
 }
 .map-area-find-page {
    max-width: 1300px;
-   height: 800px;
+   height: 570px;
    background-image: url(../assets/content/map-k-k.png);
    background-position: center;
    background-size: 130%;
@@ -1624,4 +1632,29 @@
 .blue-b-g {
    background: #5567ea;
    color: white;
+}
+
+.table-find-page-for-768less {
+}
+.block-of-768less-table {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   padding: 20px 0;
+
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%; /* 24px */
+}
+.element-of-768less-table {
+   display: flex;
+   gap: 12px;
+}
+.element-of-768less-table > p:nth-child(1),
+.last-element-of-768less-table > p:nth-child(1) {
+   opacity: 0.5;
+   width: 116px;
 }
