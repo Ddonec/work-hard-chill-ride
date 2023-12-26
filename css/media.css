@@ -374,7 +374,20 @@
       display: block !important;
    }
 }
-
+@media (max-width: 1240px) {
+   .blue-bacground-section-about-us {
+      padding: 80px 20px 0;
+   }
+   .left-margin-container {
+      margin: 0;
+   }
+   .p-disc-our-history-about-page {
+      width: 100%;
+   }
+   .main-content-news-page {
+      padding: 0 20px;
+   }
+}
 @media (min-width: 900px) {
    .more-900-hide {
       display: none;
@@ -1144,6 +1157,47 @@
 @media (max-width: 742px) {
    .shop-take-rent > div:nth-last-child(-n + 6) {
       display: none;
+   }
+   .history-cards-container-about-page {
+      margin-left: 0;
+   }
+   .blue-yellow-dot-about-page-1 {
+      left: 15px;
+   }
+   .blue-yellow-dot-about-page-2 {
+      left: 790px;
+   }
+   .photo-area-about-us-page {
+      height: 300px;
+      order: 1;
+      margin: 20px 0;
+   }
+   .first-2-blocks-about-us-page {
+      order: 2;
+      flex-direction: column;
+      gap: 20px;
+   }
+   .our-values-about-us-page-container > div,
+   .first-2-blocks-about-us-page > div {
+      width: 100%;
+      text-align: left;
+   }
+   .our-values-about-us-page-container {
+      order: 3;
+      margin: 80px 0;
+      flex-direction: column;
+   }
+   .p-disc-our-history-about-page {
+      font-size: 16px;
+   }
+   .title-of-section-news-page {
+      margin: 30px 0 0px;
+   }
+   .call-back-form-container-f-p {
+      width: 100vw;
+      transform: translateX(-20px);
+      margin-bottom: 0;
+      border-radius: 20px 20px 0 0;
    }
 }
 

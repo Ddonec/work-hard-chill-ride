@@ -278,8 +278,10 @@
    width: 100%;
    max-width: 1200px;
    margin: 0 auto 80px;
-   padding: 20px;
+   display: flex;
+   flex-direction: column;
 }
+
 .news-second-page-main-container {
    display: flex;
    justify-content: space-between;
@@ -709,7 +711,7 @@
 
 .call-back-form-container-f-p {
    display: flex;
-   max-width: 1300px;
+   max-width: 1200px;
    padding: 40px 40px 50px 40px;
    flex-direction: column;
    align-items: flex-start;
@@ -733,10 +735,10 @@
    cursor: default;
 }
 .k-k-about-us-1-cont {
-   width: 530px;
+   width: 45%;
    color: #333;
    font-family: Lato, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 150%; /* 27px */
@@ -745,14 +747,15 @@
 
 .k-k-about-us-2-cont {
    color: #333;
+
    text-align: right;
    font-family: Lato, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 150%; /* 27px */
    text-transform: uppercase;
-   width: 640px;
+   width: 45%;
 }
 .first-2-blocks-about-us-page {
    display: flex;
@@ -760,30 +763,28 @@
    align-items: center;
 }
 .photo-area-about-us-page {
-   max-width: 1300px;
-   height: 600px;
+   max-width: 1200px;
+   height: 420px;
    background-image: url(../assets/content/bike-center-k-k.png);
    background-position: center;
-   background-size: 110%;
+   background-size: cover;
    transition: 0.6s ease;
    border-radius: 20px;
-   margin: 40px auto 160px;
-}
-
-.photo-area-about-us-page:hover {
-   background-size: 100%;
+   margin: 40px auto 80px;
+   width: 100%;
 }
 
 .our-values-about-us-page-container {
    display: flex;
    flex-wrap: wrap;
-   gap: 20px;
+   justify-content: space-between;
+   gap: 10px;
    row-gap: 20px;
 }
 .our-values-about-us-page-container > div {
-   width: 32%;
+   width: 31%;
    max-width: 420px;
-   padding: 30px;
+   padding: 20px;
    display: flex;
    flex-direction: column;
    gap: 10px;
@@ -797,7 +798,7 @@
 .main-text-in-card-about-page {
    color: #333;
    font-family: Montserrat Alternates;
-   font-size: 40px;
+   font-size: 28px;
    font-style: normal;
    font-weight: 700;
    line-height: 120%; /* 48px */
@@ -814,13 +815,22 @@
    line-height: 150%; /* 27px */
    align-self: stretch;
 }
+.t-14-50-about {
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%; /* 27px */
+   align-self: stretch;
+}
 .image-frame-about-card-p {
    width: 80px;
 }
 .h4-about-us-cont {
    color: #333;
    font-family: Lato, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    font-weight: 700;
    line-height: 140%; /* 33.6px */
@@ -828,7 +838,7 @@
 .p-about-us-cont {
    color: #333;
    font-family: Lato, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%; /* 25.2px */
@@ -846,22 +856,28 @@
 }
 
 .left-margin-container {
-   margin-left: calc((100vw - 1300px) / 2);
+   margin-left: calc((100vw - 1200px) / 2);
 }
 .h-3-our-history {
-   color: #fff;
+   color: white;
    font-family: Montserrat Alternates;
    font-size: 40px;
    font-style: normal;
    font-weight: 700;
    line-height: 120%; /* 48px */
 }
-
+.text-yellow-gradient {
+   background: linear-gradient(269deg, #ffc93a 3.38%, #fff 101.37%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   width: fit-content;
+}
 .p-disc-our-history-about-page {
    width: 1077px;
    color: #fff;
    font-family: Lato, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    font-weight: 400;
    line-height: 140%; /* 33.6px */
@@ -875,6 +891,14 @@
    height: 4px;
    flex-shrink: 0;
    position: relative;
+}
+.overflow-container-for-blue-section-about-us-page {
+   padding-top: 35px;
+   overflow-x: auto;
+   /* width: calc(100vw - 20px); */
+}
+.overflow-container-for-blue-section-about-us-page::-webkit-scrollbar {
+   display: none;
 }
 .blue-yellow-dot-about-page-1 {
    position: absolute;
@@ -979,7 +1003,7 @@
 
 .call-back-form-contact-p {
    display: flex;
-   max-width: 1300px;
+   max-width: 1200px;
    padding: 40px 40px 50px 40px;
    flex-direction: column;
    align-items: flex-start;
@@ -1024,7 +1048,7 @@
    justify-content: space-between;
 }
 .photo-area-about-rope-park-page {
-   max-width: 1300px;
+   max-width: 1200px;
    height: 520px;
    background-image: url(../assets/content/rope-park-slider-1-image.jpeg);
    background-position: center;
@@ -1165,7 +1189,7 @@
 
 .call-back-form-container-work-in-page {
    display: flex;
-   width: 1300px;
+   width: 1200px;
    padding: 40px 40px 50px 40px;
    flex-direction: column;
    align-items: flex-start;
@@ -1540,7 +1564,7 @@
 
 .call-back-form-container-repair-page {
    display: flex;
-   max-width: 1300px;
+   max-width: 1200px;
    padding: 40px 40px 50px 40px;
    flex-direction: column;
    align-items: flex-start;
