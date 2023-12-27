@@ -163,6 +163,9 @@
    .profile-icon-header ul {
       margin-right: 0;
    }
+   .h1-no-main-page.text-gradient {
+      width: 100%;
+   }
 }
 
 @media (max-width: 1400px) {
@@ -397,6 +400,19 @@
    }
    .main-content-news-page {
       padding: 0 20px;
+   }
+   .text-charity-pahe-switch-pseudo {
+      display: none;
+   }
+   .pseudo-sspan-charity-page {
+      display: contents;
+   }
+   .text-blicks-repair-page div,
+   .text-blicks-repair-page p {
+      width: 100%;
+   }
+   .text-blicks-repair-page {
+      flex-direction: column;
    }
 }
 @media (min-width: 900px) {
@@ -1196,6 +1212,25 @@
    .discription-area-of-vacancier-work-page {
       border-radius: 0 0 20px 20px;
    }
+   .faq-page-first-text {
+      width: 100%;
+      padding-right: 20px;
+   }
+   .main-content-news-page > div > img {
+      width: 100%;
+   }
+   .text-blicks-repair-page {
+      flex-direction: column;
+   }
+   .main-text-in-card-about-page {
+      width: 90%;
+   }
+   .text-blicks-repair-page div {
+      width: 100%;
+   }
+   .text-blicks-repair-page p {
+      width: 100%;
+   }
 }
 
 @media (min-width: 701px) {
@@ -1396,6 +1431,22 @@
       width: 100%;
       justify-content: space-between;
    }
+   .h1-no-main-page {
+      font-size: 34px;
+   }
+   .main-text-area-rules-page div,
+   .main-text-area-rules-page p {
+      font-size: 16px;
+   }
+   .text-charity-pahe-switch-pseudo {
+      display: contents;
+   }
+   .pseudo-sspan-charity-page {
+      display: none;
+   }
+   .our-values-about-us-page-container > div:nth-child(1) {
+      padding: 0;
+   }
 }
 
 @media (max-width: 470px) {
@@ -1468,6 +1519,23 @@
    }
    .year-time-button {
       height: 44px;
+   }
+   .h1-no-main-page {
+      font-size: 24px;
+   }
+   .div-pseudo-h1-no-main-page {
+      display: block;
+
+      color: transparent;
+      font-family: Montserrat Alternates;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin: 40px 0;
+   }
+   .h1-no-main-page {
+      display: none;
    }
 }
 

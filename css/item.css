@@ -828,9 +828,7 @@
    font-weight: 700;
    line-height: 120%; /* 48px */
 }
-.main-text-in-card-about-page span {
-   color: #5567ea;
-}
+
 .t-18-50-about {
    color: #333;
    font-family: Lato, sans-serif;
@@ -1323,7 +1321,7 @@
 .h1-no-main-page {
    color: transparent;
    font-family: Montserrat Alternates;
-   font-size: 64px;
+   font-size: 34px;
    font-style: normal;
    font-weight: 700;
    line-height: normal;
@@ -1333,7 +1331,7 @@
 .faq-page-first-text {
    color: #333;
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    line-height: 140%; /* 33.6px */
    width: 643px;
@@ -1392,7 +1390,7 @@
    color: #333;
 
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    line-height: 140%; /* 33.6px */
 }
@@ -1402,34 +1400,38 @@
    color: #333;
 
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 160%; /* 28.8px */
 }
 
+.main-content-news-page {
+   position: relative;
+}
 .text-blicks-repair-page {
    display: flex;
    justify-content: space-between;
    width: 100%;
+   gap: 10px;
 }
 
 .text-blicks-repair-page div {
-   width: 420px;
+   width: 17%;
 
    color: #333;
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    font-weight: 700;
    line-height: 140%; /* 33.6px */
 }
 .text-blicks-repair-page p {
-   width: 420px;
+   width: 41%;
 
    color: #333;
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 160%; /* 28.8px */
@@ -1621,7 +1623,7 @@
 .top-discription-private-page p {
    color: #333;
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 18px;
+   font-size: 16px;
    font-style: normal;
    font-weight: 500;
    line-height: 160%; /* 28.8px */
