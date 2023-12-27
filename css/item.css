@@ -302,6 +302,23 @@
    display: flex;
    gap: 20px;
 }
+.title-of-section-news {
+   position: relative;
+   margin: 40px 0 50px;
+   font-family: "Montserrat Alternates", sans-serif;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   display: flex;
+   gap: 20px;
+}
+.overflow-nav-vacancies-container {
+   overflow-x: auto;
+}
+.overflow-nav-vacancies-container::-webkit-scrollbar {
+   display: none;
+}
 
 /* .title-of-section-news-page h1 {
    font-family: Montserrat Alternates;
@@ -537,6 +554,9 @@
    gap: 20px;
    justify-content: space-evenly;
 }
+.kids-dosug-catalog-child-page-container > div:nth-last-child(-n + 4) {
+   display: none;
+}
 .child-game-card-cataloc-child-page {
    width: 200px;
    height: 230px;
@@ -550,6 +570,7 @@
 }
 
 .call-back-form-container {
+   width: 100%;
    display: flex;
    max-width: 1300px;
    padding: 40px 40px 50px 40px;
@@ -1033,7 +1054,7 @@
    font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
-   font-weight: 700;
+   font-weight: 500;
    line-height: 140%; /* 33.6px */
 }
 
@@ -1071,7 +1092,7 @@
    font-family: Lato, sans-serif;
    font-size: 24px;
    font-style: normal;
-   font-weight: 700;
+   font-weight: 500;
    line-height: 140%; /* 33.6px */
    width: 240px;
 }
@@ -1193,7 +1214,8 @@
 
 .call-back-form-container-work-in-page {
    display: flex;
-   width: 1200px;
+   width: 100%;
+   max-width: 1200px;
    padding: 40px 40px 50px 40px;
    flex-direction: column;
    align-items: flex-start;

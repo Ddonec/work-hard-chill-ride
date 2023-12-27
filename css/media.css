@@ -452,6 +452,17 @@
       margin-left: -20px;
    }
 }
+@media (max-width: 1100px) {
+   .first-2-blocks-rope-park-page {
+      flex-direction: column;
+   }
+   .first-2-blocks-rope-park-page > div {
+      width: 100%;
+   }
+   .first-2-blocks-rope-park-page > div:nth-last-child(1) {
+      display: none;
+   }
+}
 @media (max-width: 1000px) {
    .text-area-first-section-1920 h1 {
       font-size: 48px;
@@ -489,6 +500,12 @@
    }
    .map-area-find-page {
       height: 430px;
+   }
+   .input-zone-news-work-page-cont {
+      width: 100%;
+   }
+   .input-small-vacancies {
+      width: 49%;
    }
 }
 
@@ -660,6 +677,9 @@
    .columns-footer {
       justify-content: space-between;
    }
+   .kids-dosug-catalog-child-page-container > div:nth-last-child(-n + 6) {
+      display: none;
+   }
 }
 
 @media (max-width: 976px) {
@@ -773,7 +793,21 @@
       display: none;
    }
 }
-
+@media (max-width: 720px) {
+   .input-small-vacancies {
+      width: 100%;
+      max-width: unset;
+   }
+   .send-btn-news-sub,
+   .grey-btd-add-resume {
+      width: 100%;
+      opacity: 1;
+      z-index: 5;
+   }
+   .call-back-form-container-work-in-page {
+      gap: 20px;
+   }
+}
 @media (max-width: 700px) {
    .absolute-peoples-container-f-s div {
       height: 270px;
@@ -851,9 +885,9 @@
    .to-choice-btn {
       width: calc(100vw - 40px);
    }
-   .card-of-product {
+   /* .card-of-product {
       width: 210px;
-   }
+   } */
    .prise-of-rent-1 {
       padding-right: 5px;
    }
@@ -1023,7 +1057,7 @@
       gap: 0;
    }
    .green-samokat {
-      width: 85vw;
+      width: 100%;
       background-position: right;
    }
    .row-footer-1,
@@ -1111,6 +1145,9 @@
    }
    .call-back-form-container {
       margin-bottom: 0;
+      width: 100vw;
+      transform: translateX(-20px);
+      border-radius: 20px 20px 0 0;
    }
    .images-footer > img {
       width: 102px;
@@ -1152,6 +1189,12 @@
       width: 100vw;
       transform: translateX(-20px);
       border-radius: 20px 20px 0 0;
+   }
+   .respond-btn-work-in-page {
+      width: 100%;
+   }
+   .discription-area-of-vacancier-work-page {
+      border-radius: 0 0 20px 20px;
    }
 }
 
@@ -1204,12 +1247,16 @@
       order: 3;
       margin: 80px 0;
       flex-direction: column;
+      align-items: center;
+   }
+   .our-values-about-us-page-container > div {
+      max-width: 500px;
    }
    .p-disc-our-history-about-page {
       font-size: 16px;
    }
    .title-of-section-news-page {
-      margin: 30px 0 0px;
+      margin: 30px 0 30px;
    }
    .call-back-form-container-f-p {
       width: 100vw;
@@ -1329,7 +1376,7 @@
       height: 484px;
    }
    .green-samokat {
-      width: 83vw;
+      /* width: 83vw; */
       height: 484px;
    }
    .usrful-materials-cards > div:not(:first-child) > img {
@@ -1574,6 +1621,9 @@
    .title-of-section-news-page h1 {
       font-size: 36px;
    }
+   .kids-dosug-catalog-child-page-container > div:nth-last-child(-n + 12) {
+      display: none;
+   }
 }
 
 @media (max-width: 400px) {
@@ -1717,7 +1767,7 @@
       margin-bottom: 18px;
    }
    .green-samokat {
-      width: 78vw;
+      /* width: 78vw; */
       height: 360px;
    }
    .usrful-materials-cards > div:not(:first-child) > img {
