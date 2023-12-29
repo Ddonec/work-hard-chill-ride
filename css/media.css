@@ -387,6 +387,11 @@
    .call-back-form-contact-p {
       margin: 60px 20px 80px;
    }
+   /* catalog */
+
+   .catalog-container {
+      flex-direction: column;
+   }
 }
 @media (max-width: 1240px) {
    .blue-bacground-section-about-us {
@@ -414,6 +419,8 @@
    .text-blicks-repair-page {
       flex-direction: column;
    }
+
+   /* catalog */
 }
 @media (min-width: 900px) {
    .more-900-hide {
@@ -1447,6 +1454,20 @@
    .our-values-about-us-page-container > div:nth-child(1) {
       padding: 0;
    }
+   .card-of-product {
+      width: calc(100%);
+      height: 352px;
+   }
+   .img-of-product {
+      display: block;
+      margin: 0 auto;
+   }
+   .buton-show-more-favorite-page {
+      width: 100%;
+   }
+   .favorite-and-switch {
+      margin: 20px 0 0;
+   }
 }
 
 @media (max-width: 470px) {
@@ -1533,9 +1554,6 @@
       font-weight: 700;
       line-height: normal;
       margin: 40px 0;
-   }
-   .h1-no-main-page {
-      display: none;
    }
 }
 

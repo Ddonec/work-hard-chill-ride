@@ -1325,7 +1325,7 @@
    font-style: normal;
    font-weight: 700;
    line-height: normal;
-   margin: 40px 0;
+   margin: 0;
 }
 
 .faq-page-first-text {
@@ -1445,7 +1445,7 @@
    font-style: normal;
    font-weight: 500;
    line-height: 140%;
-   margin: 40px auto;
+   margin: 20px auto;
    display: flex;
    align-items: center;
    white-space: nowrap;
@@ -1454,14 +1454,19 @@
 }
 .nav-repair-page ul {
    display: flex;
+
    list-style: none;
    gap: 21px;
    display: flex;
-   justify-content: center;
    align-items: center;
+   overflow-x: auto;
 }
+.nav-repair-page ul::-webkit-scrollbar {
+   display: none;
+}
+
 .nav-repair-page ul li:not(:last-child) {
-   padding: 14px 32px 16px 32px;
+   padding: 10px 24px 12px 24px;
 }
 
 .nav-repair-page ul li:first-child {
@@ -1612,6 +1617,37 @@
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
+   justify-content: space-evenly;
+}
+.favorite-and-switch {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 30px 0;
+}
+.switch-double-container {
+   border-radius: 50px;
+   border: 1px solid rgba(85, 103, 234, 0.2);
+   background: #fff;
+}
+.buton-show-more-favorite-page {
+   display: inline-flex;
+   padding: 9px 24px 11px 24px;
+   justify-content: center;
+   align-items: center;
+   gap: 7px;
+   border-radius: 20px;
+   background: #ffc93a;
+   width: fit-content;
+   margin: 40px auto 80px;
+   color: #333;
+
+   text-align: center;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 19.6px */
 }
 
 .top-discription-private-page {

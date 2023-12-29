@@ -576,7 +576,7 @@ s2
    position: absolute;
    right: 0;
    background: #fff;
-   box-shadow: -18px 0px 18px -2px rgba(255, 255, 255, 1);
+   box-shadow: 0 0px 17px 55px rgba(255, 255, 255, 1);
 }
 
 .nav-shop ul li:first-child {
