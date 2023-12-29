@@ -1681,8 +1681,9 @@ s7
 .usrful-materials-cards div:not(:first-child):not(.text-inside-cart-blog, .image-user-zone, .date-in-material-card) {
    overflow: hidden;
    width: 224px;
-   height: 265px;
+   /* height: 265px; */
    border-radius: 20px;
+   position: relative;
 }
 
 .text-inside-cart-blog {

@@ -1128,7 +1128,7 @@
       gap: 0;
    }
    .green-samokat {
-      width: 100%;
+      /* width: 100%; */
       background-position: right;
    }
    .row-footer-1,
@@ -1139,6 +1139,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
+      margin-bottom: 30px;
    }
    .apps-links-footer- img {
       width: 45%;
@@ -1529,7 +1530,7 @@
       margin: 40px auto 20px;
    }
    .three-elemrnts-container-home-page-blue-block {
-      margin-left: -20px;
+      margin-left: 0px;
    }
    .roll-park-list-visible {
       margin: 30px 0 20px;
@@ -1552,9 +1553,9 @@
    .usrful-materials-cards > div:not(:first-child) > img {
       height: 310px;
    }
-   .usrful-materials-cards div:not(:first-child):not(.text-inside-cart-blog, .image-user-zone, .date-in-material-card) {
+   /* .usrful-materials-cards div:not(:first-child):not(.text-inside-cart-blog, .image-user-zone, .date-in-material-card) {
       height: 310px;
-   }
+   } */
    .see-all-usefull-mat-btn {
       padding: 10px 24px 12px 24px;
       font-size: 16px;
@@ -2002,11 +2003,11 @@
       height: 360px;
    }
    .usrful-materials-cards > div:not(:first-child) > img {
-      height: 310px;
+      height: 100%;
    }
-   .usrful-materials-cards div:not(:first-child):not(.text-inside-cart-blog, .image-user-zone, .date-in-material-card) {
+   /* .usrful-materials-cards div:not(:first-child):not(.text-inside-cart-blog, .image-user-zone, .date-in-material-card) {
       height: 310px;
-   }
+   } */
    .see-all-usefull-mat-btn {
       width: calc(100vw - 40px);
       margin: 20px auto 50px;
