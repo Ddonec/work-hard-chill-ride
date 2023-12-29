@@ -1132,7 +1132,8 @@ s5
    height: 743px;
    position: absolute;
    display: flex;
-   left: -440px;
+   left: -720px;
+   scale: 0.75;
 }
 .slider-five-section-5 {
    width: 100vw;
@@ -1236,8 +1237,10 @@ s5
    /* height: 400px; */
    flex-shrink: 0;
    border-radius: 20px;
-   background: #e8eafb;
+   /* background: #e8eafb; */
+   background: #FFEFC4;
    position: relative;
+   overflow: hidden;
 }
 #card-reserve p {
    margin: 0 0 16px 0;
@@ -1265,7 +1268,7 @@ s5
    line-height: 140%; /* 25.2px */
 
    border-radius: 160px;
-   border: 2px solid #ffc93a;
+   border: 2px solid #5567ea;
    background: #fff;
    display: inline-flex;
    padding: 14px 32px 16px 32px;
@@ -1275,16 +1278,21 @@ s5
 }
 
 .slider-five-section-vision {
-   width: 1920px;
-   height: 743px;
+   /* width: 1820px; */
+   width: 1366px;
+   height: 557px;
    overflow: hidden;
    position: relative;
    margin: 0 auto;
+
+   display: flex;
+   align-items: center;
 }
 .gold-balls-img {
    position: absolute;
-   right: 0;
-   bottom: 0;
+   right: -126px;
+   bottom: -135px;
+   width: 366px;
 }
 .find-out-more-btn {
    display: inline-flex;
