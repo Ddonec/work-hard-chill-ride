@@ -344,11 +344,10 @@
    align-items: center;
    gap: 10px;
 }
-.nav-catalog{
+.nav-catalog {
    overflow-x: auto;
-
 }
-.nav-catalog::-webkit-scrollbar{
+.nav-catalog::-webkit-scrollbar {
    display: none;
 }
 
@@ -453,7 +452,7 @@
 
 .catalog-filter-section {
    display: flex;
-   width: 100%;
+   width: 222px;
    padding: 14px;
    flex-direction: column;
    align-items: flex-start;
@@ -577,7 +576,10 @@
    justify-content: space-between;
    margin-top: 15px;
    margin-bottom: 15px;
-   width: 200px;
+   width: 100%;
+}
+.editing-view-port div {
+   text-align: center;
 }
 
 #input-max {
@@ -591,6 +593,7 @@
    border-left: none;
    width: 49%;
    padding: 7px 15px;
+   text-align: center;
 }
 #input-min {
    background: #f4f4f8;
@@ -603,6 +606,7 @@
    border-right: none;
    width: 49%;
    padding: 7px 15px;
+   text-align: center;
 }
 
 /* Добавленные стили для кружочков */

@@ -1325,7 +1325,11 @@
       border: none;
    }
    .popular-filter-btn {
+      padding: 0;
       width: unset;
+   }
+   .popular-filter-btn p {
+      padding: 0 10px;
    }
    .hide-filter-btn {
       display: none;
@@ -1591,6 +1595,9 @@
    }
    .favorite-and-switch {
       margin: 20px 0 0;
+   }
+   .discription-of-product {
+      height: 220px;
    }
 }
 

@@ -64,6 +64,46 @@
 ///////
 
 /*! nouislider - 14.6.1 - 8/17/2020 */
+
+
+
+
+
+const priceSlider = document.getElementById("price-slider");
+const priceMin = document.getElementById("price-min");
+const priceMax = document.getElementById("price-max");
+const inputMin = document.getElementById("input-min");
+const inputMax = document.getElementById("input-max");
+
+noUiSlider.create(priceSlider, {
+   start: [300, 50000],
+   connect: true,
+   range: {
+      min: 300,
+      max: 50000,
+   },
+   handles: true, // Добавлено для отображения кружочков
+});
+
+priceSlider.noUiSlider.on("update", function (values, handle) {
+   if (handle === 0) {
+      priceMin.textContent = Math.round(values[0]);
+      inputMin.value = Math.round(values[0]);
+   }
+   if (handle === 1) {
+      priceMax.textContent = Math.round(values[1]);
+      inputMax.value = Math.round(values[1]);
+   }
+});
+
+// Обновление значений ползунков при вводе в поля
+inputMin.addEventListener("change", function () {
+   priceSlider.noUiSlider.set([this.value, null]);
+});
+
+inputMax.addEventListener("change", function () {
+   priceSlider.noUiSlider.set([null, this.value]);
+});
 !(function (t) {
    "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? (module.exports = t()) : (window.noUiSlider = t());
 })(function () {
