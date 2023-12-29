@@ -316,7 +316,7 @@
 
 .main-content-catalog {
    width: 100vw;
-   max-width: 1300px;
+   max-width: 1200px;
 }
 
 .t-o-s {
@@ -413,7 +413,6 @@
 }
 .in-stock-discription {
    background: #ffc93a;
-   width: 970px;
    padding: 14px 32px 16px 32px;
    align-items: center;
    border-radius: 20px;
@@ -442,12 +441,12 @@
    border: 0.711px solid #ccccd0;
 }
 .filters-container-catalog {
-   width: 310px;
+   width: 222px;
 }
 
 .catalog-filter-section {
    display: flex;
-   width: 228px;
+   width: 100%;
    padding: 14px;
    flex-direction: column;
    align-items: flex-start;
@@ -549,6 +548,17 @@
 
    font-family: Lato, sans-serif;
    font-size: 14px;
+}
+.hide-filter-text-btn {
+   gap: 4px;
+   align-items: center;
+
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%;
 }
 #price-slider {
    width: 90%;
