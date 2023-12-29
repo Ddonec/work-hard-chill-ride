@@ -1357,6 +1357,11 @@
    .hide-filter-text-btn {
       display: flex;
    }
+   .in-stock-catalog {
+      gap: 10px;
+      justify-content: space-between;
+      row-gap: 20px;
+   }
 }
 
 @media (min-width: 701px) {
@@ -1574,7 +1579,7 @@
       padding: 0;
    }
    .card-of-product {
-      width: calc(100%);
+      width: calc(48%);
       height: 352px;
    }
    .img-of-product {
@@ -1673,6 +1678,9 @@
       font-weight: 700;
       line-height: normal;
       margin: 40px 0;
+   }
+   .card-of-product {
+      width: 100%;
    }
 }
 
@@ -1816,6 +1824,17 @@
    }
    .social-circles-footer-index {
       margin-right: 10%;
+   }
+
+   /* Catalog  */
+
+   .popular-filter-btn div {
+      background: unset;
+      padding: 0 0 0 4px;
+   }
+   .popular-filter-btn {
+      padding: 0;
+      border: unset;
    }
 }
 

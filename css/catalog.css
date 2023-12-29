@@ -326,7 +326,7 @@
 }
 .nav-catalog {
    display: flex;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
    justify-content: space-between;
    list-style: none;
    color: #333;
@@ -343,6 +343,13 @@
    justify-content: center;
    align-items: center;
    gap: 10px;
+}
+.nav-catalog{
+   overflow-x: auto;
+
+}
+.nav-catalog::-webkit-scrollbar{
+   display: none;
 }
 
 .active-category {
