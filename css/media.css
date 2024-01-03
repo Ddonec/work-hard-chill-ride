@@ -8,10 +8,10 @@
       width: 100vw;
       padding: 20px;
    }
-   .slider-five-section-vision {
+   /* .slider-five-section-vision {
       display: none;
-   }
-   #card-reserve {
+   } */
+   /* #card-reserve {
       width: 630px;
       flex-shrink: 0;
       border-radius: 20px;
@@ -27,14 +27,14 @@
       font-size: 36px;
       font-style: normal;
       font-weight: 700;
-      line-height: 120%; /* 48px */
+      line-height: 120%; 
    }
    #card-reserve span {
       font-family: Lato, sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
-      line-height: 140%; /* 33.6px */
+      line-height: 140%; 
    }
    #card-reserve button {
       margin-top: 20px;
@@ -43,7 +43,7 @@
       position: absolute;
       right: -60px;
       bottom: 0px;
-   }
+   } */
 }
 
 @media (min-width: 1701px) {
@@ -273,6 +273,9 @@
    .row-footer-2,
    .row-footer-1 {
       width: 25%;
+   }
+   .slider-five-section {
+      left: -870px;
    }
 }
 @media (max-width: 986px) {
@@ -697,9 +700,9 @@
    .slider-five-section-5 div {
       width: 47%;
    }
-   #card-reserve {
+   /* #card-reserve {
       width: calc(94% + 20px);
-   }
+   } */
 
    .input-zone-news-p-cont {
       width: 60%;

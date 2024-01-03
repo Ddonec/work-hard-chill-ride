@@ -1238,7 +1238,7 @@ s5
    flex-shrink: 0;
    border-radius: 20px;
    /* background: #e8eafb; */
-   background: #FFEFC4;
+   background: #ffefc4;
    position: relative;
    overflow: hidden;
 }
@@ -1279,14 +1279,18 @@ s5
 
 .slider-five-section-vision {
    /* width: 1820px; */
-   width: 1366px;
+   max-width: 1366px;
+   width: 100%;
    height: 557px;
-   overflow: hidden;
+   overflow-x: auto;
    position: relative;
    margin: 0 auto;
 
    display: flex;
    align-items: center;
+}
+.slider-five-section-vision::-webkit-scrollbar {
+   display: none;
 }
 .gold-balls-img {
    position: absolute;
