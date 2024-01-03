@@ -663,7 +663,7 @@
       gap: 20px;
       overflow: auto;
    }
-   .i-b-el-1 {
+   /* .i-b-el-1 {
       order: 1;
    }
 
@@ -691,15 +691,15 @@
    .i-b-el-8 {
       order: 8;
       display: none;
-   }
+   } */
 
    .slider-five-section-5 {
-      gap: 5px;
+      gap: 20px;
       row-gap: 20px;
    }
-   .slider-five-section-5 div {
+   /* .slider-five-section-5 div {
       width: 47%;
-   }
+   } */
    /* #card-reserve {
       width: calc(94% + 20px);
    } */
@@ -855,6 +855,29 @@
       width: max-content;
    }
    .parks-area-find-page-overflow-container::-webkit-scrollbar {
+      display: none;
+   }
+   /* five-section */
+   .image-bg,
+   .image-bg-2,
+   .image-bg-3,
+   .image-bg-4,
+   .image-bg-5 {
+      aspect-ratio: 1.33;
+      width: unset;
+      height: 300px;
+      background-size: cover;
+   }
+   .slider-five-section-5 {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      display: flex;
+   }
+   .slider-five-section-5::-webkit-scrollbar {
+      display: none;
+   }
+   .slider-five-section-vision {
       display: none;
    }
 }
@@ -1068,13 +1091,10 @@
       margin: auto;
       justify-content: flex-start;
    }
-   .slider-five-section-5 {
+   /* .slider-five-section-5 {
       display: none;
-   }
-   .text-5-s-2 {
-      width: 90%;
-      margin: 20px auto;
-   }
+   } */
+
    .gold-balls-img {
       scale: 0.6;
       right: -93px;
@@ -1370,6 +1390,12 @@
       justify-content: space-between;
       row-gap: 20px;
    }
+   .i-s-f-image-1,
+   .i-s-f-image-2,
+   .i-s-f-image-3,
+   .i-s-f-image-4 {
+      display: none;
+   }
 }
 
 @media (min-width: 701px) {
@@ -1603,6 +1629,9 @@
    .discription-of-product {
       height: 220px;
    }
+   .card-reserve-mobile {
+      display: block;
+   }
 }
 
 @media (max-width: 470px) {
@@ -1691,6 +1720,9 @@
       margin: 40px 0;
    }
    .card-of-product {
+      width: 100%;
+   }
+   .title-of-section-5 .title-of-section-gradient {
       width: 100%;
    }
 }
@@ -2024,5 +2056,22 @@
    }
    .absolute-peoples-container-f-s div {
       height: 230px;
+   }
+
+   .slider-five-section-5 div {
+      height: 240px;
+   }
+   .text-5-s-2 {
+      font-size: 16px;
+   }
+   .image-bg,
+   .image-bg-2,
+   .image-bg-3,
+   .image-bg-4,
+   .image-bg-5 {
+      aspect-ratio: 1.2;
+   }
+   .button-of-c-r-m {
+      font-size: 14px;
    }
 }
