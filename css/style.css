@@ -423,6 +423,8 @@ h2 {
    border-radius: 30px;
    background: #ffc93a;
    border: none;
+   z-index: 3;
+   position: relative;
 
    color: #333;
    text-align: center;
@@ -849,9 +851,16 @@ s2
    background: #f4f4f8;
    box-sizing: border-box;
    padding: 23px;
+   transition: 0.2s;
+   border: 0px solid rgba(245, 222, 179, 0);
 }
 .kids-chill > div > img {
    height: 98px;
+}
+.kids-chill > div:not(:first-child):hover {
+   border: 1px solid #ffc93a;
+   background: #ffdd6459;
+   transition: 0.2s;
 }
 
 .text-in-chill-for-kids-card {
@@ -1786,9 +1795,17 @@ s7
    height: 365px;
    display: inline-flex;
 }
+.usrful-materials-cards > div:not(:first-child):hover {
+   border: 1px solid #4559ed;
+}
+
+.usrful-materials-cards > div:not(:first-child) > .text-inside-cart-blog:hover {
+   background: #e3e7ff;
+   transition: 0.3s;
+}
 .green-samokat {
-   background-image: url(../assets/content/bg.png);
-   background-size: cover;
+   /* background-image: url(../assets/content/bg.png); */
+   /* background-size: cover; */
    width: 467px;
    border-radius: 20px;
    height: 365px;
@@ -1799,6 +1816,8 @@ s7
    font-style: normal;
    font-weight: 700;
    line-height: 120%; /* 57.6px */
+   position: relative;
+   overflow: hidden;
 }
 .green-samokat p {
    font-family: Lato, sans-serif;
@@ -1809,6 +1828,27 @@ s7
    width: 158px;
    margin-top: 14px;
 }
+
+.green-samokat::before {
+   content: "";
+   background-image: url(../assets/content/bg.png);
+   position: absolute;
+   background-size: cover;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   transition: 0.6s;
+}
+.green-samokat:hover::before {
+   transform: rotate(5deg);
+   scale: 1.1;
+   transition: 0.6s;
+}
+
 .usrful-materials-cards div:not(:first-child):not(.text-inside-cart-blog, .image-user-zone, .date-in-material-card) {
    overflow: hidden;
    width: 224px;
@@ -1835,6 +1875,7 @@ s7
    font-style: normal;
    font-weight: 300;
    line-height: 150%; /* 27px */
+   transition: 0.6s;
 }
 .text-inside-cart-blog p {
    font-family: "Lato", sans-serif;
@@ -2040,6 +2081,18 @@ s7
    display: flex;
    gap: 57px;
    width: max-content;
+}
+
+.blue-b-g.pseudo-cllass-none-styles:hover,
+.class-to-switch-season-btn:hover {
+   background: #4559ed;
+   color: white;
+   transition: 0.3s;
+}
+.class-to-switch-season-btn.blue-b-g:hover {
+   background: #ffc93a;
+   color: black;
+   transition: 0.3s;
 }
 
 #yellow-tel-numb-footer {
