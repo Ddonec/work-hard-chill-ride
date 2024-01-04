@@ -66,17 +66,12 @@
    .input-zone-1920 {
       display: none;
    }
-   .nav-shop {
-      width: calc(100vw - 65px);
-      white-space: nowrap;
-      overflow-x: hidden;
-      margin: 40px auto 0;
-   }
+
    .shop-take-rent {
       width: 100vw;
-      justify-content: space-evenly;
-      padding: 0 15px;
-      max-width: 1350px;
+      justify-content: space-between;
+      padding: 0 ;
+      max-width: 1200px;
    }
    .second-section {
       width: 100vw;
@@ -246,6 +241,12 @@
    }
    header {
       height: unset;
+   }
+   .nav-shop {
+      width: calc(100vw - 65px);
+      white-space: nowrap;
+      overflow-x: hidden;
+      margin: 40px auto 0;
    }
 }
 
