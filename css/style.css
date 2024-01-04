@@ -435,6 +435,7 @@ h2 {
 .map-area-first-section {
    position: relative;
    max-width: 1200px;
+   transition: 0.6s;
 }
 .map-map-s1 {
    border-radius: 50px;
@@ -655,6 +656,17 @@ s2
 }
 .card-of-product:hover > a > .img-of-product {
    scale: 1.1;
+}
+.card-of-product:hover {
+   border: 1px solid #4559ed;
+}
+.card-of-product:hover > .discription-of-product .add-to-cart-btn {
+   position: absolute;
+   background: #4559ed;
+   margin-bottom: 8px;
+   width: calc(100% - 24px);
+   height: 40px;
+   transition: 0.6s;
 }
 .prise-of-rent-1 {
    padding-right: 20px;
@@ -1559,6 +1571,13 @@ s6
    background-color: transparent;
    /* float: right; */
    margin: 24px 0 58px;
+   transition: all 0.6s ease-in-out;
+}
+
+.show-more-6-section-btn:hover {
+   background-color: #ffc93a;
+   transition: all 0.6s ease-in-out;
+   color: black;
 }
 .blue-n-c-2-area {
    width: 61%;
@@ -1583,7 +1602,24 @@ s6
    /* float: right; */
    margin: 4px auto 60px;
    width: calc(100% - 40px);
+   transition: all 0.6s ease-in-out;
 }
+
+.show-more-6-section-btn-2:hover {
+   background-color: #ffc93a;
+   transition: all 0.6s ease-in-out;
+   color: black;
+}
+
+.show-more-6-section-btn.border-blue:hover {
+   background-color: #4559ed;
+   color: white;
+}
+.show-more-6-section-btn-2.border-blue:hover {
+   background-color: #4559ed;
+   color: white;
+}
+
 .container-for-6-btn {
    display: flex;
    justify-content: end;
@@ -2022,6 +2058,11 @@ s7
 }
 .map-area-first-section a img:hover {
    scale: 1.3;
+   width: 100vw;
+}
+.map-area-first-section:hover {
+   max-width: 100vw;
+   transition: 0.6s;
 }
 .social-media-footer {
    margin: 10px 0 0 10px;
