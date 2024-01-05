@@ -605,7 +605,7 @@ s2
    font-weight: 500;
    line-height: 140%;
 
-   border-radius: 20px;
+   border-radius: 18px;
    border-top: 1px solid rgba(34, 34, 34, 0.1);
    background: #f4f4f8;
    z-index: 5;
@@ -613,6 +613,26 @@ s2
 
    display: flex;
    flex-direction: column;
+}
+.card-of-product::before {
+   content: "Подходит для поездок по паркам и быстрой езды по пересеченной местности";
+   position: absolute;
+   top: 50%;
+   color: white;
+   background-color: #4559ed;
+   left: 0;
+   font-family: "Lato", sans-serif;
+   font-size: 14px;
+   padding: 14px;
+   height: 50%;
+   z-index: 1;
+   transition: 0.6s;
+   border-radius: 18px 18px 50px 50px;
+}
+.card-of-product:hover::before {
+   top: 0%;
+   transition: 0.6s;
+   /* border-radius: 18px; */
 }
 .opacity-text-discription-product-card {
    opacity: 0.5;
@@ -635,6 +655,7 @@ s2
    gap: 10px;
    border-radius: 30px;
    background: var(--yellow, #ffc93a);
+   transition: 0.6s;
 }
 .price-of-product {
    margin-top: auto;
@@ -643,6 +664,19 @@ s2
    text-align: center;
    align-items: center;
    justify-content: space-between;
+   position: relative;
+   border-radius: 20px;
+}
+.price-of-product::before {
+   content: url(../assets/icon/Vector+13white.svg);
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   top: 10px;
+   left: 19px;
+   scale: 0.8;
+   opacity: 0;
+   transition: 0.6s;
 }
 .card-of-product {
    border-radius: 20px;
@@ -663,12 +697,18 @@ s2
    border: 1px solid #4559ed;
 }
 .card-of-product:hover > .discription-of-product .add-to-cart-btn {
-   position: absolute;
    background: #4559ed;
-   margin-bottom: 8px;
-   width: calc(100% - 24px);
-   height: 40px;
    transition: 0.6s;
+}
+
+.card-of-product:hover .price-of-product {
+   background: #4559ed;
+   transition: 0.6s;
+   color: white;
+}
+
+.card-of-product:hover .price-of-product::before {
+   opacity: 1;
 }
 .prise-of-rent-1 {
    padding-right: 20px;
