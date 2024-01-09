@@ -70,7 +70,7 @@
    .shop-take-rent {
       width: 100vw;
       justify-content: space-between;
-      padding: 0 ;
+      padding: 0;
       max-width: 1200px;
    }
    .second-section {
@@ -907,6 +907,10 @@
    }
 }
 @media (max-width: 700px) {
+   .mobile-viev-table-find-page {
+      display: block;
+   }
+
    .absolute-peoples-container-f-s div {
       height: 270px;
    }
