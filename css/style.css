@@ -130,7 +130,7 @@ button {
 }
 .logo-header {
    position: absolute;
-   top: 16px;
+   top: 8px;
 
    left: 50%;
    transform: translate(-50%);
@@ -2147,6 +2147,7 @@ s7
    overflow: hidden;
    border-radius: 60px;
    /* height: 570px; */
+   transition: 0.6s ease;
 }
 .map-area-first-section a img {
    transition: 0.6s ease;
@@ -2159,6 +2160,9 @@ s7
 .map-area-first-section:hover {
    max-width: 100vw;
    transition: 0.6s;
+}
+.absolute-on-map-home-page-text-comtainer {
+   pointer-events: none;
 }
 .social-media-footer {
    margin: 10px 0 0 10px;
