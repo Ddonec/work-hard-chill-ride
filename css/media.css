@@ -231,6 +231,9 @@
    .year-time-button {
       margin-left: 40px;
    }
+   .absolute-peoples-container-f-s {
+      height: 50%;
+   }
 }
 
 @media (max-width: 1299px) {
@@ -278,8 +281,11 @@
    .slider-five-section {
       left: -870px;
    }
+   .shop-take-rent {
+      column-gap: 10px;
+   }
 }
-@media (max-width: 986px) {
+@media (max-width: 965px) {
    .shop-take-rent > div:nth-last-child(-n + 4) {
       display: none;
    }
@@ -521,6 +527,11 @@
    }
    .year-time-button {
       margin-left: -20px;
+   }
+   .shop-take-rent {
+      padding: 0 20px;
+      row-gap: 20px;
+      column-gap: 10px;
    }
 }
 @media (max-width: 1100px) {
@@ -889,6 +900,12 @@
    }
    .show-more-6-section-btn-2 {
       display: none;
+   }
+}
+
+@media (max-width: 752px) {
+   .in-stock-catalog {
+      justify-content: space-evenly;
    }
 }
 @media (max-width: 720px) {
@@ -1392,7 +1409,6 @@
    }
    .in-stock-catalog {
       gap: 10px;
-      justify-content: space-between;
       row-gap: 20px;
    }
    .i-s-f-image-1,
@@ -1730,6 +1746,9 @@
    .title-of-section-5 .title-of-section-gradient {
       width: 100%;
    }
+   .absolute-peoples-container-f-s {
+      top: 20px;
+   }
 }
 
 @media (max-width: 470px) {
@@ -1861,12 +1880,11 @@
    } */
 
    .logo-header {
-      top: 20px;
       display: flex;
    }
-   .under-bike {
+   /* .under-bike {
       width: 140px;
-   }
+   } */
    .h1-news-1-page {
       font-size: 26px;
    }
