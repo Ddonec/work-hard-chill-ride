@@ -885,7 +885,7 @@ s2
    position: relative;
 }
 .kids-chill div {
-   width: 184px;
+   width: 183px;
    height: 174px;
    border-radius: 20px;
    background: #f4f4f8;
@@ -893,6 +893,9 @@ s2
    padding: 23px;
    transition: 0.2s;
    border: 0px solid rgba(245, 222, 179, 0);
+}
+.kids-chill div:nth-last-child(1) {
+   display: none;
 }
 .kids-chill > div > img {
    height: 98px;
