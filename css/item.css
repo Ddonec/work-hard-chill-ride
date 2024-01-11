@@ -602,6 +602,7 @@
    font-style: normal;
    font-weight: 700;
    line-height: normal;
+   margin: 0 auto;
 }
 .item-shadow-section-find-page {
    width: 354px;

@@ -285,6 +285,16 @@
    text-align: center;
    vertical-align: center;
 }
+
+.text-18-500-left {
+   color: #333;
+   font-family: "Montserrat", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   vertical-align: center;
+}
 .text-14-500 {
    color: #333;
    font-family: "Montserrat", sans-serif;
