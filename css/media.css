@@ -442,6 +442,9 @@
    .in-stock-catalog {
       justify-content: space-between;
    }
+   .blue-list-frahciese {
+      padding-right: 20px;
+   }
 }
 @media (max-width: 1240px) {
    .blue-bacground-section-about-us {
@@ -773,6 +776,9 @@
       order: 1;
       margin: 0 auto;
    }
+   .blue-list-frahciese {
+      padding-left: 20px;
+   }
 }
 @media (max-width: 800px) {
    .up-to-768px-hidden-text-home-page {
@@ -892,6 +898,11 @@
    .slider-five-section-vision {
       display: none;
    }
+   .buttons-fs-frahciese-page {
+      flex-direction: column;
+      margin-bottom: 112px;
+      align-items: center;
+   }
 }
 
 @media (min-width: 801px) {
@@ -921,6 +932,16 @@
    }
    .call-back-form-container-work-in-page {
       gap: 20px;
+   }
+   .blue-list-frahciese li {
+      display: none;
+   }
+   .blue-list-frahciese {
+      gap: 20px;
+      width: fit-content;
+   }
+   .burger-blue-list-franchese {
+      display: block;
    }
 }
 @media (max-width: 700px) {
@@ -990,6 +1011,20 @@
    .absolute-peoples-container-f-s {
       top: 50px;
       bottom: unset;
+   }
+   .absolute-peoples-container-f-s-frahciese {
+      height: 15%;
+      position: relative;
+   }
+   .absolute-peoples-container-f-s-frahciese div {
+      width: 40%;
+      aspect-ratio: 1/1;
+   }
+   .absolute-peoples-container-f-s-frahciese .absolute-fs-container-left-frahciese {
+      width: 35%;
+   }
+   .text-area-first-section-1920 .franchese-h1 {
+      margin-top: 30px;
    }
    .to-choice-btn {
       margin: 30px auto 40px;
@@ -1652,6 +1687,9 @@
    }
    .card-reserve-mobile {
       display: block;
+   }
+   .buttons-fs-frahciese-page {
+      margin-bottom: 50px;
    }
 }
 
