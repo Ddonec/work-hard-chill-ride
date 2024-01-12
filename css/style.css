@@ -2810,12 +2810,23 @@ input:checked + .slider:before {
    margin: 0 auto;
    display: flex;
    gap: 20px;
+   position: relative;
 }
 .feedback-overflov-pseudo-container {
    width: 100%;
    max-width: 1200px;
    overflow-x: auto;
    margin: 0 auto;
+   position: relative;
+}
+.feedback-overflov-pseudo-container::-webkit-scrollbar {
+   display: none;
+}
+.feedback-absolute-pseudo-container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   position: relative;
 }
 .feedback-container-franchise {
    border-radius: 30px;
@@ -2911,13 +2922,13 @@ input:checked + .slider:before {
    position: relative;
 }
 .data__list-fin::-webkit-scrollbar {
-   width: 4px; 
- }
- 
- .data__list-fin::-webkit-scrollbar-thumb {
-   border-radius: 20px; 
-   background-color: var(--purple-light, #5567ea); 
- }
+   width: 4px;
+}
+
+.data__list-fin::-webkit-scrollbar-thumb {
+   border-radius: 20px;
+   background-color: var(--purple-light, #5567ea);
+}
 .finmodel__data::before {
    content: "";
    position: absolute;
@@ -3120,16 +3131,16 @@ input:checked + .slider:before {
 }
 
 .google-piexel-phone-callback-form {
-   height: 300px;
+   height: 335px;
    position: absolute;
-   bottom: -62px;
-   right: -50px;
+   bottom: -42px;
+   right: -74px;
 }
 .google-piexel-screen-callback-form {
-   height: 300px;
+   height: 319px;
    position: absolute;
-   bottom: -63px;
-   right: -55px;
+   bottom: -28px;
+   right: -68px;
 }
 .data-agreement-12px {
    color: #333;
@@ -3385,4 +3396,46 @@ input:checked + .slider:before {
    position: absolute;
    top: 10px;
    right: -1px;
+}
+
+.franchise-arrows-feedback {
+   position: absolute;
+   width: 60px;
+   top: 50%;
+   right: -72px;
+   transform: translateY(-50%);
+}
+.arrows-feedback-rignt,
+.arrows-feedback-left {
+   width: 58px;
+   height: 42px;
+   border-radius: 21px;
+   border: 1.423px solid var(--yellow, #ffc93a);
+   background: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 6px 0px;
+}
+.arrows-feedback-opacity {
+   opacity: 0.5;
+}
+
+.call-back-form-container-overflow-container {
+   padding-top: 50px;
+   border-radius: 40px;
+   overflow: hidden;
+   margin-bottom: 80px;
+}
+.call-back-form-container-franchise {
+   width: 100%;
+   display: flex;
+   max-width: 1200px;
+   padding: 40px 40px 50px 40px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 24px;
+   border-radius: 40px;
+   background: #e8eafb;
+   position: relative;
 }

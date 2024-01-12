@@ -235,6 +235,11 @@
       height: 50%;
    }
 }
+@media (max-width: 1350px) {
+   .franchise-arrows-feedback {
+      display: none;
+   }
+}
 @media (max-width: 1240px) {
    .overflov-block-advantages-cards-frahciese-page {
       width: calc(100% - 20px);
@@ -983,6 +988,12 @@
    }
    .we-can-row__disc {
       width: 100%;
+   }
+   .google-piexel-screen-callback-form {
+      right: -125px;
+   }
+   .google-piexel-phone-callback-form {
+      right: -131px;
    }
 }
 
