@@ -3427,6 +3427,12 @@ input:checked + .slider:before {
    overflow: hidden;
    margin-bottom: 80px;
 }
+.call-back-form-container-overflow-container-default {
+   padding-top: 50px;
+   border-radius: 40px;
+   overflow: hidden;
+   margin-bottom: 80px;
+}
 .call-back-form-container-franchise {
    width: 100%;
    display: flex;
@@ -3438,4 +3444,131 @@ input:checked + .slider:before {
    border-radius: 40px;
    background: #e8eafb;
    position: relative;
+}
+
+.h1-rope-park-page {
+   font-size: 48px;
+}
+
+.photo-area-about-rope-park-page {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin: 40px auto 80px;
+   width: 100%;
+}
+
+.photo-area-about-rope-park-page__first {
+   width: 100%;
+   height: 540px;
+   border-radius: 32px;
+   background-size: cover;
+   background: linear-gradient(78deg, rgba(51, 51, 51, 0.6) 1.23%, rgba(51, 51, 51, 0) 75.3%), url(../assets/content/photo-area-about-rope-park-page__1.png),
+      lightgray 0px -41.505px / 100% 156.143% no-repeat;
+   overflow: hidden;
+   position: relative;
+}
+.photo-area-about-rope-park-page__second {
+   width: 100%;
+   height: 540px;
+   background: linear-gradient(78deg, rgba(51, 51, 51, 0.6) 1.23%, rgba(51, 51, 51, 0) 75.3%), url(../assets/content/photo-area-about-rope-park-page__2.png),
+      lightgray 0px -41.505px / 100% 156.143% no-repeat;
+   border-radius: 32px;
+   background-size: cover;
+   overflow: hidden;
+   position: relative;
+}
+
+.poller-park-photo__discription-area {
+   display: flex;
+   width: 542px;
+   padding: 40px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 4px;
+
+   border-radius: 0px 32px;
+   background: rgba(51, 51, 51, 0.4);
+   position: absolute;
+   bottom: 0;
+}
+.poller-park-photo__discription-area_title {
+   color: var(--white, #fff);
+   font-family: Montserrat Alternates, sans-serif;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 130%; /* 36.4px */
+}
+.poller-park-photo__discription-area_discription {
+   color: var(--white, #fff);
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 19.6px */
+}
+
+.park-characteristics {
+   width: 100%;
+   border-radius: 20px;
+   overflow: hidden;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 30px;
+}
+.park-characteristics__text {
+   background: #f4f4f8;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   padding: 20px 20px 24px 20px;
+   gap: 8px;
+}
+.park-characteristics__image1 {
+   width: 25%;
+   background-image: url(../assets/content/rope-park-options-1.png);
+   background-size: cover;
+}
+.park-characteristics__image2 {
+   width: 25%;
+   background-image: url(../assets/content/rope-park-options-2.png);
+   background-size: cover;
+}
+.park-characteristics__image3 {
+   width: 25%;
+   background-image: url(../assets/content/rope-park-options-3.png);
+   background-size: cover;
+}
+.park-characteristics__image4 {
+   width: 25%;
+   background-image: url(../assets/content/rope-park-options-4.png);
+   background-size: cover;
+}
+
+.park-characteristics__title {
+   color: var(--purple, #5567ea);
+   font-family: Montserrat Alternates, sans-serif;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 120%; /* 57.6px */
+}
+
+.park-characteristics__discription {
+   color: var(--black, #333);
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 19.6px */
+}
+.title-of-block-small-text-28-700-mons {
+   color: var(--black, #333);
+   font-family: Montserrat Alternates, sans-serif;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 130%; /* 36.4px */
 }
