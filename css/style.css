@@ -613,16 +613,6 @@ s2
 .nav-shop ul li {
    padding: 10px 24px 12px 24px;
 }
-.arrow-right-list {
-   border-radius: 35px;
-   border: 1.423px solid var(--yellow, #ffc93a);
-   padding: 11px 24px;
-   line-height: 90%;
-   position: absolute;
-   right: 0;
-   background: #fff;
-   box-shadow: 0 0px 17px 55px rgba(255, 255, 255, 1);
-}
 
 .nav-shop ul li:first-child {
    border-radius: 30px;
@@ -3812,4 +3802,53 @@ input:checked + .slider:before {
 .four-section-make-fun > div > .feedback-overflov-pseudo-container {
    margin: 0;
    width: 100%;
+}
+.h1-repair-page {
+   color: #333;
+   font-family: Montserrat Alternates, sans-serif;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   width: fit-content;
+   margin: 30px 0 40px;
+}
+#vector-repair {
+   height: 20px;
+}
+.arrow-right-list {
+   border-radius: 30px;
+   border: 1.5px solid #ffc93a;
+   padding: 10px 24px;
+   line-height: 90%;
+   background: #fff;
+   /* box-shadow: 0 0px 17px 55px rgba(255, 255, 255, 1); */
+}
+
+.mibile-version-top-content-repair-page {
+}
+.mobile-image-repair {
+   height: 240px;
+   width: 100%;
+   background-image: url(../assets/content/reзair-page-mobile-image.png);
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+}
+.mobile-content-repair__title {
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 140%; /* 25.2px */
+   margin: 24px auto 12px;
+}
+.mobile-content-repair__discription {
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%; /* 24px */
 }

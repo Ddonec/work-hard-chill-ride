@@ -1087,7 +1087,16 @@
    display: flex;
    justify-content: space-between;
 }
-
+.photo-area-about-rope-park-page {
+   max-width: 1200px;
+   height: 520px;
+   background-image: url(../assets/content/rope-park-slider-1-image.jpeg);
+   background-position: center;
+   background-size: 110%;
+   transition: 0.6s ease;
+   border-radius: 40px;
+   margin: 40px auto 160px;
+}
 
 .first-2-blocks-rope-park-page {
    display: flex;
@@ -1450,7 +1459,7 @@
    width: 100%;
    text-align: center;
    font-family: "Lato, sans-serif", sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%;
@@ -1463,19 +1472,20 @@
 }
 .nav-repair-page ul {
    display: flex;
-
+   justify-content: space-between;
    list-style: none;
-   gap: 21px;
-   display: flex;
    align-items: center;
    overflow-x: auto;
+   border-radius: 30px;
+   box-shadow: inset 0 0 0 1px rgba(85, 103, 234, 0.2);
+   width: 100%;
 }
 .nav-repair-page ul::-webkit-scrollbar {
    display: none;
 }
 
 .nav-repair-page ul li:not(:last-child) {
-   padding: 10px 24px 12px 24px;
+   padding: 11px ;
 }
 
 .nav-repair-page ul li:first-child {
@@ -1502,6 +1512,8 @@
    justify-content: space-between;
    padding: 24px 20px;
    border-bottom: 2px solid rgba(85, 103, 234, 0.2);
+   align-items: center;
+   gap: 10px;
 }
 .price-repair-page-container > div:nth-last-child(1) {
    border-bottom: none;
@@ -1510,7 +1522,7 @@
 .price-repair-page-container > div div {
    color: #333;
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%; /* 25.2px */
@@ -1519,10 +1531,11 @@
 .price-repair-page-container > div p {
    color: #333;
    font-family: Montserrat, sans-serif;
-   font-size: 24px;
+   font-size: 18px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%;
+   flex-shrink: 0;
 }
 
 .example-text-repair-page {
@@ -1551,7 +1564,7 @@
 
 .phopos-container-example-repair-page div p {
    display: flex;
-   padding: 8px 24px 10px 24px;
+   padding: 8px 20px 10px 20px;
    justify-content: center;
    align-items: center;
    height: fit-content;
@@ -1560,49 +1573,47 @@
 
    color: #333;
    font-family: Lato, sans-serif, sans-serif;
-   font-size: 18px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: 140%; /* 25.2px */
 }
 .phopos-container-example-repair-page > div:nth-child(1) {
    background-image: url(/assets/content/repair-example-1.png);
-   background-size: 200%;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 32%;
+   width: 31%;
 }
 .phopos-container-example-repair-page > div:nth-child(2) {
    background-image: url(/assets/content/repair-example-2.png);
-   background-size: 200%;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 32%;
+   width: 31%;
 }
 .phopos-container-example-repair-page > div:nth-child(3) {
    background-image: url(/assets/content/repair-example-3.png);
-   background-size: 200%;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 32%;
+   width: 31%;
 }
 .phopos-container-example-repair-page > div:nth-child(4) {
    background-image: url(/assets/content/repair-example-4.png);
-   background-size: 200%;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 49%;
+   width: 48%;
 }
 .phopos-container-example-repair-page > div:nth-child(5) {
    background-image: url(/assets/content/repair-example-5.png);
-   background-size: 200%;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 49%;
+   width: 48%;
 }
-.phopos-container-example-repair-page > div:hover {
-   background-size: 180%;
-}
+
 
 .call-back-form-container-repair-page {
    display: flex;

@@ -684,6 +684,35 @@
       flex-direction: column;
    }
 }
+@media (max-width: 990px) {
+   .phopos-container-example-repair-page {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+   }
+   .phopos-container-example-repair-page::-webkit-scrollbar {
+      display: none;
+   }
+   .phopos-container-example-repair-page div p {
+      width: max-content;
+   }
+   .phopos-container-example-repair-page > div {
+      height: 300px;
+      width: 307px;
+      flex-shrink: 0;
+   }
+
+   .phopos-container-example-repair-page > div:nth-child(1),
+   .phopos-container-example-repair-page > div:nth-child(2),
+   .phopos-container-example-repair-page > div:nth-child(3) {
+      height: 300px;
+      width: 307px;
+   }
+   .phopos-container-example-repair-page > div:nth-child(4),
+   .phopos-container-example-repair-page > div:nth-child(5) {
+      height: 300px;
+      width: 507px;
+   }
+}
 
 @media (max-width: 900px) {
    .text-area-first-section-1920 h1 {
@@ -1719,6 +1748,9 @@
    .finnodel-section > .call-back-form-container {
       transform: translatex(0);
    }
+   .price-repair-page-container > div {
+      padding: 24px 0;
+   }
 }
 @media (max-width: 670px) {
    .avalible-park-make-fun-container {
@@ -1727,6 +1759,14 @@
    .avalible-park__button {
       display: flex;
       width: 100%;
+   }
+   .nav-repair-page,
+   .text-blicks-repair-page,
+   .desctop-photo-repair-page {
+      display: none;
+   }
+   .mibile-version-top-content-repair-page {
+      display: block;
    }
 }
 
@@ -1826,6 +1866,9 @@
 
    .birthday-kid-card {
       width: 100%;
+   }
+   .h1-repair-page {
+      font-size: 36px;
    }
 }
 
@@ -2012,6 +2055,17 @@
    }
    .photo-area-about-rope-park-page > div {
       height: 360px;
+   }
+   .phopos-container-example-repair-page > div:nth-child(1),
+   .phopos-container-example-repair-page > div:nth-child(2),
+   .phopos-container-example-repair-page > div:nth-child(3) {
+      height: 415px;
+      width: 280px;
+   }
+   .phopos-container-example-repair-page > div:nth-child(4),
+   .phopos-container-example-repair-page > div:nth-child(5) {
+      height: 415px;
+      width: 380px;
    }
 }
 
@@ -2478,5 +2532,8 @@
    }
    .data__list-fin {
       padding: 20px;
+   }
+   .h1-repair-page {
+      font-size: 32px;
    }
 }
