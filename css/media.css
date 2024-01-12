@@ -235,6 +235,22 @@
       height: 50%;
    }
 }
+@media (max-width: 1240px) {
+   .overflov-block-advantages-cards-frahciese-page {
+      width: calc(100% - 20px);
+      margin-left: 20px;
+   }
+   .format-of-service-franchise-page {
+      width: calc(100% - 40px);
+   }
+   .what-we-can-do {
+      width: calc(100% - 40px);
+      margin: 0 auto;
+   }
+   .contact-cards-frabchise {
+      width: calc(100% - 40px);
+   }
+}
 
 @media (max-width: 1299px) {
    .gray-line-fake,
@@ -472,6 +488,17 @@
    .text-blicks-repair-page {
       flex-direction: column;
    }
+   .feedback-overflov-pseudo-container {
+      width: calc(100% - 20px);
+      margin-left: 20px;
+   }
+   .row-diagramm {
+      width: calc(100% - 40px);
+      margin: 0 auto;
+   }
+   .dynamic__title {
+      margin-left: 20px;
+   }
 
    /* catalog */
 
@@ -546,6 +573,11 @@
    }
    .first-2-blocks-rope-park-page > div:nth-last-child(1) {
       display: none;
+   }
+   .director__email-image {
+      top: 54px;
+      right: -20px;
+      width: 98px;
    }
 }
 @media (max-width: 1000px) {
@@ -769,6 +801,35 @@
    #input-max {
       width: 48%;
    }
+
+   .phone-hand-full-size {
+      position: absolute;
+      bottom: -76px;
+      right: -204px;
+      height: 576px;
+      transform: rotate(351deg);
+   }
+   .phone-screen-full-size {
+      position: absolute;
+      bottom: 194px;
+      right: -4px;
+      height: 290px;
+      transform: rotate(351deg);
+   }
+   .fill-for-hand-no-hide-franchise {
+      height: 500px;
+   }
+   .finmodel__main {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 40px;
+   }
+   .data__title {
+      width: 70%;
+
+      white-space: nowrap;
+      text-overflow: ellipsis;
+   }
 }
 
 @media (max-width: 976px) {
@@ -778,6 +839,10 @@
    }
    .blue-list-frahciese {
       padding-left: 20px;
+   }
+   .director-phone-card,
+   .director-email-card {
+      width: 100%;
    }
 }
 @media (max-width: 800px) {
@@ -902,6 +967,22 @@
       flex-direction: column;
       margin-bottom: 112px;
       align-items: center;
+   }
+   .format__numbers-and-lines {
+      flex-direction: column;
+   }
+   .format__numbers-and-lines > div:nth-child(even) {
+      display: none;
+   }
+   .format__numbers-and-lines > div {
+      display: flex;
+      align-items: center;
+   }
+   .we-can-row {
+      flex-direction: column;
+   }
+   .we-can-row__disc {
+      width: 100%;
    }
 }
 
@@ -1452,6 +1533,20 @@
    .i-s-f-image-4 {
       display: none;
    }
+   .format__who-is {
+      flex-direction: column;
+   }
+   .format__pictures_max-width div {
+      width: 280px;
+      height: 200px;
+   }
+   .google-piexel-phone-callback-form,
+   .google-piexel-screen-callback-form {
+      display: none;
+   }
+   .our-team-franchise {
+      margin-top: 80px;
+   }
 }
 
 @media (min-width: 701px) {
@@ -1519,6 +1614,52 @@
       transform: translateX(-20px);
       margin-bottom: 0;
       border-radius: 20px 20px 0 0;
+   }
+   .finnodel-section > .call-back-form-container {
+      transform: translatex(0);
+   }
+}
+@media (max-width: 601px) {
+   .phone-hand-full-size {
+      display: none;
+   }
+   .phone-screen-full-size {
+      display: none;
+   }
+   .column-container-in-app-banner-franchise {
+      width: 100%;
+   }
+   .apps-links-app-cart-franchise {
+      flex-wrap: wrap;
+   }
+   .fill-for-hand-no-hide-franchise {
+      height: fit-content;
+      margin-top: 80px;
+   }
+   .data__list-fin {
+      width: calc(100vw - 40px);
+   }
+   .finmodel__data::before {
+      border-radius: 0 0 15px 15px;
+   }
+   .data__procent {
+      aspect-ratio: 2;
+   }
+   .finmodel-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 0 0 0;
+   }
+   .director__name {
+      width: 70%;
+   }
+   .director__photo {
+      position: absolute;
+      top: -9px;
+      right: -45px;
+      border-radius: 50%;
+      width: 210px;
    }
 }
 
@@ -1691,6 +1832,18 @@
    .buttons-fs-frahciese-page {
       margin-bottom: 50px;
    }
+   .dynamic__title {
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .director__photo {
+      position: absolute;
+      top: -4px;
+      right: -79px;
+      border-radius: 50%;
+      width: 197px;
+   }
 }
 
 @media (max-width: 470px) {
@@ -1786,6 +1939,18 @@
    }
    .absolute-peoples-container-f-s {
       top: 20px;
+   }
+   .director__photo {
+      position: relative;
+      height: 120px;
+      width: 120px;
+      top: 0;
+      right: 0;
+   }
+   .director-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
    }
 }
 
@@ -1939,6 +2104,13 @@
    .popular-filter-btn {
       padding: 0;
       border: unset;
+   }
+   .director__email,
+   .director__phone-number {
+      font-size: 20px;
+   }
+   .director__name {
+      width: 100%;
    }
 }
 
@@ -2134,5 +2306,8 @@
    }
    .button-of-c-r-m {
       font-size: 14px;
+   }
+   .data__list-fin {
+      padding: 20px;
    }
 }
