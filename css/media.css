@@ -477,6 +477,7 @@
    .p-disc-our-history-about-page {
       width: 100%;
    }
+   .main-section-make-fun-page,
    .main-content-news-page {
       padding: 0 20px;
    }
@@ -568,6 +569,14 @@
       row-gap: 20px;
       column-gap: 10px;
    }
+
+   .birthday-kid-card {
+      width: 48%;
+   }
+   .birthday-cards-container {
+      flex-wrap: wrap;
+      row-gap: 20px;
+   }
 }
 @media (max-width: 1100px) {
    .first-2-blocks-rope-park-page {
@@ -618,6 +627,14 @@
       height: 400px;
    }
 }
+/* @media (max-width: 1088px){
+.third-section-make-fun{
+   height: 600px;
+}}
+@media (max-width: 1030px){
+   .third-section-make-fun{
+      height: 630px;
+   }} */
 @media (max-width: 1000px) {
    .text-area-first-section-1920 h1 {
       font-size: 48px;
@@ -661,6 +678,10 @@
    }
    .input-small-vacancies {
       width: 49%;
+   }
+
+   .avalible-park__title-text {
+      flex-direction: column;
    }
 }
 
@@ -1053,6 +1074,10 @@
    }
 }
 
+/* @media (max-width: 799px){
+   .third-section-make-fun{
+      height: 680px;
+   }} */
 @media (min-width: 801px) {
    .up-to-768px-hidden-text-home-page {
       display: none;
@@ -1695,6 +1720,16 @@
       transform: translatex(0);
    }
 }
+@media (max-width: 670px) {
+   .avalible-park-make-fun-container {
+      flex-direction: column;
+   }
+   .avalible-park__button {
+      display: flex;
+      width: 100%;
+   }
+}
+
 @media (max-width: 630px) {
    .park-characteristics div {
       width: 100%;
@@ -1723,6 +1758,24 @@
    }
    .park-characteristics__text4 {
       order: 7;
+   }
+
+   .first-2-blocks-make-fun {
+      color: #333;
+      font-family: Lato, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%; /* 28.8px */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .make-fun__first-text {
+      width: 100%;
+   }
+   .make-fun__second-text {
+      width: 100%;
    }
 }
 @media (max-width: 601px) {
@@ -1768,6 +1821,10 @@
       width: 210px;
    }
    .poller-park-photo__discription-area {
+      width: 100%;
+   }
+
+   .birthday-kid-card {
       width: 100%;
    }
 }
