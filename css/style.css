@@ -3462,9 +3462,9 @@ input:checked + .slider:before {
    width: 100%;
    height: 540px;
    border-radius: 32px;
-   background-size: cover;
    background: linear-gradient(78deg, rgba(51, 51, 51, 0.6) 1.23%, rgba(51, 51, 51, 0) 75.3%), url(../assets/content/photo-area-about-rope-park-page__1.png),
       lightgray 0px -41.505px / 100% 156.143% no-repeat;
+   background-size: cover;
    overflow: hidden;
    position: relative;
 }
@@ -3571,4 +3571,65 @@ input:checked + .slider:before {
    font-style: normal;
    font-weight: 700;
    line-height: 130%; /* 36.4px */
+}
+
+.photos-of-rope-park {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   row-gap: 20px;
+}
+.photos-of-rope-park__big-layout {
+   width: 39%;
+   height: 240px;
+}
+.photos-of-rope-park__small-layout {
+   width: 29%;
+   height: 240px;
+}
+
+.photos-of-rope-park__img1 {
+   border-radius: 15px;
+   background: url(../assets/content/rope-park-photo-gallery-1.png), lightgray 50% / cover no-repeat;
+   background-size: cover;
+}
+.photos-of-rope-park__img2 {
+   border-radius: 15px;
+   background: url(../assets/content/rope-park-photo-gallery-2.png), lightgray 50% / cover no-repeat;
+   background-size: cover;
+}
+.photos-of-rope-park__img3 {
+   border-radius: 15px;
+   background: url(../assets/content/rope-park-photo-gallery-3.png), lightgray 50% / cover no-repeat;
+   background-size: cover;
+}
+.photos-of-rope-park__img4 {
+   border-radius: 15px;
+   background: url(../assets/content/rope-park-photo-gallery-4.png), lightgray 50% / cover no-repeat;
+   background-size: cover;
+}
+.photos-of-rope-park__img5 {
+   border-radius: 15px;
+   background: url(../assets/content/rope-park-photo-gallery-5.png), lightgray 50% / cover no-repeat;
+   background-size: cover;
+}
+.photos-of-rope-park__img6 {
+   border-radius: 15px;
+   background: url(../assets/content/rope-park-photo-gallery-6.png), lightgray 50% / cover no-repeat;
+   background-size: cover;
+}
+
+.photos-of-rope-park-overflow {
+   margin: 30px auto 100px;
+}
+.list-of-rules-rope-park {
+   margin: 20px 0 60px 14px;
+
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 160%; /* 22.4px */
 }

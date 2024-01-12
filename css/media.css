@@ -510,7 +510,6 @@
    .main-content-catalog {
       padding: 0 20px;
    }
- 
 }
 @media (min-width: 900px) {
    .more-900-hide {
@@ -614,6 +613,9 @@
    }
    .park-characteristics__text4 {
       order: 8;
+   }
+   .photo-area-about-rope-park-page > div {
+      height: 400px;
    }
 }
 @media (max-width: 1000px) {
@@ -1025,6 +1027,29 @@
    }
    .google-piexel-phone-callback-form {
       right: -131px;
+   }
+
+   .photos-of-rope-park {
+      display: flex;
+      width: max-content;
+      flex-wrap: nowrap;
+      justify-content: start;
+      gap: 20px;
+      overflow: auto;
+   }
+   .photos-of-rope-park__big-layout {
+      width: 400px;
+      height: 240px;
+   }
+   .photos-of-rope-park__small-layout {
+      width: 260px;
+      height: 240px;
+   }
+   .photos-of-rope-park-overflow {
+      overflow-x: auto;
+   }
+   .photos-of-rope-park-overflow::-webkit-scrollbar {
+      display: none;
    }
 }
 
@@ -1927,6 +1952,9 @@
       right: -79px;
       border-radius: 50%;
       width: 197px;
+   }
+   .photo-area-about-rope-park-page > div {
+      height: 360px;
    }
 }
 
