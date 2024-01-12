@@ -3358,8 +3358,7 @@ input:checked + .slider:before {
    font-weight: 700;
    line-height: 120%; /* 33.6px */
 }
- {
-}
+
 .director__email-image {
    position: absolute;
    top: 10px;
