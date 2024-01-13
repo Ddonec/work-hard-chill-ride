@@ -3825,8 +3825,6 @@ input:checked + .slider:before {
    /* box-shadow: 0 0px 17px 55px rgba(255, 255, 255, 1); */
 }
 
-.mibile-version-top-content-repair-page {
-}
 .mobile-image-repair {
    height: 240px;
    width: 100%;
@@ -3851,4 +3849,158 @@ input:checked + .slider:before {
    font-style: normal;
    font-weight: 500;
    line-height: 150%; /* 24px */
+}
+
+.corporative-casues-container {
+   display: flex;
+   gap: 20px;
+   display: inline-flex;
+   align-items: center;
+   gap: 20px;
+}
+.main-text-in-casues-card {
+   color: #333;
+   font-family: Montserrat Alternates, sans-serif;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 120%; /* 33.6px */
+}
+.corporative-casues-container > div:not(:first-child) {
+   border-radius: 12px;
+   background: #f4f4f8;
+
+   display: flex;
+   padding: 20px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+.image-frame-corporative {
+   width: 56px;
+}
+.h4-casues-card {
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 25.2px */
+}
+.p-casues-card {
+   color: #333;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 19.6px */
+}
+
+.corparative-three-cards-container {
+   display: flex;
+   gap: 20px;
+   margin: 30px auto 60px;
+}
+.corparative-three-cards-container > div {
+   border-radius: 12px;
+   background: #f4f4f8;
+
+   display: flex;
+   padding: 20px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+}
+.assortiment-section-corporative-page {
+   margin-left: 0;
+   width: 100%;
+   display: contents;
+}
+.assiortement-overflow-container {
+   width: 100%;
+   overflow-x: auto;
+   margin: 32px auto 40px;
+}
+.assiortement-overflow-container::-webkit-scrollbar {
+   display: none;
+}
+.assortement-main-container {
+   width: max-content;
+   display: flex;
+   gap: 20px;
+}
+.assortement__card {
+   flex-shrink: 0;
+   width: 154px;
+   height: 200px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column-reverse;
+   padding: 14px;
+}
+.assortement__title {
+   color: var(--white, #fff);
+   text-align: center;
+   font-family: Lato, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 25.2px */
+}
+
+.assortement__card_1 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-1.png), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.assortement__card_2 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-2.png), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.assortement__card_3 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-3.png), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.assortement__card_4 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-4.png), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.assortement__card_5 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-5.jpeg), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.assortement__card_6 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-6.png), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.assortement__card_7 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.13%, rgba(0, 0, 0, 0.4) 90.21%), url(../assets/content/assortiment-kk-7.jpeg), lightgray -110.547px -5px / 243.567% 104.167% no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.submitt-application-btn {
+   color: #000;
+   text-align: center;
+   font-family: Lato, sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 16.8px */
+   border-radius: 20px;
+   background: #ffc93a;
+   display: inline-flex;
+   height: 40px;
+   padding: 10px 24px 12px 24px;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   flex-shrink: 0;
+   margin: 0 auto 100px;
 }

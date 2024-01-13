@@ -1485,7 +1485,7 @@
 }
 
 .nav-repair-page ul li:not(:last-child) {
-   padding: 11px ;
+   padding: 11px;
 }
 
 .nav-repair-page ul li:first-child {
@@ -1613,7 +1613,6 @@
    background-repeat: no-repeat;
    width: 48%;
 }
-
 
 .call-back-form-container-repair-page {
    display: flex;
