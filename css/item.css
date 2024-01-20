@@ -383,6 +383,7 @@
    margin: 160px auto 90px;
    position: relative;
    overflow: hidden;
+   width: 100%;
 }
 .text-sub-block-news-inside {
    display: flex;
@@ -1087,7 +1088,7 @@
    display: flex;
    justify-content: space-between;
 }
-.photo-area-about-rope-park-page {
+/* .photo-area-about-rope-park-page {
    max-width: 1200px;
    height: 520px;
    background-image: url(../assets/content/rope-park-slider-1-image.jpeg);
@@ -1096,7 +1097,7 @@
    transition: 0.6s ease;
    border-radius: 40px;
    margin: 40px auto 160px;
-}
+} */
 
 .first-2-blocks-rope-park-page {
    display: flex;
@@ -1579,35 +1580,35 @@
    line-height: 140%; /* 25.2px */
 }
 .phopos-container-example-repair-page > div:nth-child(1) {
-   background-image: url(/assets/content/repair-example-1.png);
+   background-image: url(../assets/content/repair-example-1.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    width: 31%;
 }
 .phopos-container-example-repair-page > div:nth-child(2) {
-   background-image: url(/assets/content/repair-example-2.png);
+   background-image: url(../assets/content/repair-example-2.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    width: 31%;
 }
 .phopos-container-example-repair-page > div:nth-child(3) {
-   background-image: url(/assets/content/repair-example-3.png);
+   background-image: url(../assets/content/repair-example-3.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    width: 31%;
 }
 .phopos-container-example-repair-page > div:nth-child(4) {
-   background-image: url(/assets/content/repair-example-4.png);
+   background-image: url(../assets/content/repair-example-4.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    width: 48%;
 }
 .phopos-container-example-repair-page > div:nth-child(5) {
-   background-image: url(/assets/content/repair-example-5.png);
+   background-image: url(../assets/content/repair-example-5.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

@@ -533,6 +533,10 @@
    font-weight: 500;
    line-height: normal;
 }
+.charity-title,
+.faq-title {
+   margin: 40px 0;
+}
 
 .checkbox-container_catalog {
    display: flex;
